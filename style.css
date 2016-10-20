@@ -1,0 +1,101 @@
+body {
+  background-image: url("./trees.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 90vh;
+  width: 98%;
+  border: solid #f7fff9 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+h1 {
+  color: #f7fff9;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3em;
+}
+
+.nav {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #f7fff9;
+  margin: 0 5% 0 5%;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+}
+
+p {
+  color: #f7fff9;
+  margin: 0 auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 50%;
+  margin-top: 2%;
+}
+
+.headshot {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin {
+  background-image: url("./linkedin.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0 5% 0 5%;
+  height: 6vh;
+  width: 6%;
+}
+
+.facebook {
+  background-image: url("./facebook.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0 5% 0 5%;
+  height: 6vh;
+  width: 6%;
+}
+
+.github {
+  background-image: url("./github.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0 5% 0 5%;
+  height: 6vh;
+  width: 6%;
+}
+
+img {
+  height: 26vh;
+  width: 30%;
+  border-radius: 50%;
+}
+
+.brand {
+  width: 70%;
+}
