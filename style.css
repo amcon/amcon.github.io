@@ -202,3 +202,53 @@ img {
   color: black;
   margin: 3%;
 }
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+input {
+  margin: 2%;
+}
+
+.input-box h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 0 0 5%;
+
+}
+
+#name {
+  height: 3vh;
+  width: 90%;
+  background-color: lightgrey;
+  margin-left: 4%;
+}
+
+#email {
+  height: 3vh;
+  width: 90%;
+  background-color: lightgrey;
+  margin-left: 4%;
+}
+
+#message {
+  height: 18vh;
+  width: 90%;
+  background-color: lightgrey;
+  margin-left: 4%;
+}
+
+#submit {
+  position: relative;
+  left: 44%;
+  height: 4vh;
+  width: 11%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  background-color: white;
+  border-radius: .5em;
+  border: 1px solid grey;
+}
