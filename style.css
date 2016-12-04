@@ -1,5 +1,5 @@
 body {
-  background-image: url("./trees.jpg");
+  background-image: url("./public/trees.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -66,7 +66,7 @@ p {
 }
 
 .linkedin {
-  background-image: url("./linkedin.png");
+  background-image: url("./public/linkedin.png");
   background-size: cover;
   background-position: center;
   margin: 0 5% 0 5%;
@@ -75,7 +75,7 @@ p {
 }
 
 .facebook {
-  background-image: url("./facebook.png");
+  background-image: url("./public/facebook.png");
   background-size: cover;
   background-position: center;
   margin: 0 5% 0 5%;
@@ -84,7 +84,7 @@ p {
 }
 
 .github {
-  background-image: url("./github.png");
+  background-image: url("./public/github.png");
   background-size: cover;
   background-position: center;
   margin: 0 5% 0 5%;
@@ -212,6 +212,14 @@ img {
 
 input {
   margin: 2%;
+  border: none;
+}
+
+textarea {
+  margin: 4%;
+  width: 41vw;
+  border: none;
+  background-color: lightgrey;
 }
 
 .input-box h4 {
