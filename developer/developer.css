@@ -218,6 +218,7 @@ p {
   position: relative;
   filter: grayscale(0%);
   z-index: 1;
+  opacity: .8;
 }
 
 .project-two:hover .description-box {
@@ -251,6 +252,7 @@ p {
   position: relative;
   filter: grayscale(0%);
   z-index: 1;
+  opacity: .8;
 }
 
 .project-three:hover .description-box {
