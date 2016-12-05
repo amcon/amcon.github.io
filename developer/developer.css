@@ -174,7 +174,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: grayscale(80%);
+  filter: grayscale(90%);
 }
 
 #project-box p, #project-box h2 {
@@ -211,7 +211,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: grayscale(80%);
+  filter: grayscale(90%);
 }
 
 .project-two:hover {
@@ -243,7 +243,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: grayscale(80%);
+  filter: grayscale(90%);
   z-index: 1;
 }
 
