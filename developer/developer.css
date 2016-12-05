@@ -47,8 +47,8 @@ body {
   height: 15vh;
   width: 9vw;
   position: absolute;
-  background-color: lightgrey;
-  top: 58%;
+  background-color: #949e98;
+  top: 61.8%;
   left: 15%;
   transform: rotate(45deg);
 }
@@ -62,7 +62,7 @@ h1 {
 
 p {
   color: #f7fff9;
-  margin: 0 auto;
+  margin: 0;
   font-size: 1.5em;
 }
 
@@ -70,10 +70,10 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
-  padding-top: 2%;
-  background-color: lightgrey;
+  padding-top: 5%;
+  background-color: #949e98;
 }
 
 .profile h1 {
@@ -86,10 +86,10 @@ p {
   margin: 0;
 }
 
-.profile p {
+/*.profile p {
   color: black;
   text-align: center;
-}
+}*/
 
 .profile h2 {
   color: black;
@@ -108,7 +108,7 @@ p {
 }
 
 .description-box {
-  background-color: white;
+  background-color: #162817;
   height: 14vh;
   width: 15vw;
   border-radius: 1em;
@@ -119,33 +119,76 @@ p {
   align-items: center;
 }
 
+.projects {
+  height: 35vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.technologies {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.technologies-right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.technologies-right p {
+  font-size: 1em;
+}
+
+.technologies-right h3 {
+  margin-bottom: 2%;
+}
+
+.technologies p {
+  font-size: 1em;
+}
+
+.technologies h3 {
+  margin-bottom: 2%;
+}
+
 .project-one {
   position: relative;
-  height: 36vh;
-  width: 35%;
-  background-image: url("./../public/pokemon_run.png");
-  background-size: cover;
-  background-position: center;
-  opacity: .8;
+  height: 30vh;
+  width: 60%;
+  background-color: #162817;
+  opacity: .5;
   border-radius: 1em;
   margin: 1.5%;
-  z-index: 1;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+#project-box p, #project-box h2 {
+  color: white;
+}
+
 .project-one:hover {
   position: relative;
-  background-image: none;
-  background-color: black;
-  opacity: .5;
+  background-image: url("./../public/pokemon_run.png");
+  background-size: cover;
+  background-position: center;
+  opacity: .6;
   z-index: 1;
 }
 
 .project-one:hover .description-box {
-  background-color: black;
+  background-color: #162817;
 }
 
 .project-one:hover p, .project-one:hover h2 {
@@ -155,12 +198,10 @@ p {
 }
 
 .project-two {
-  height: 36vh;
-  width: 35%;
-  background-image: url("./../public/songsterr.png");
-  background-size: cover;
-  background-position: center;
-  opacity: .8;
+  height: 30vh;
+  width: 60%;
+  background-color: #162817;
+  opacity: .5;
   border-radius: 1em;
   margin: 1.5%;
   text-align: center;
@@ -171,14 +212,15 @@ p {
 
 .project-two:hover {
   position: relative;
-  background-image: none;
-  background-color: black;
-  opacity: .5;
+  background-image: url("./../public/songsterr.png");
+  background-size: cover;
+  background-position: center;
+  opacity: .6;
   z-index: 1;
 }
 
 .project-two:hover .description-box {
-  background-color: black;
+  background-color: #162817;
 }
 
 .project-two:hover p, .project-two:hover h2 {
@@ -188,30 +230,30 @@ p {
 }
 
 .project-three {
-  height: 36vh;
-  width: 35%;
-  background-image: url("./../public/chairShare.png");
-  background-size: cover;
-  background-position: center;
-  opacity: .8;
+  height: 30vh;
+  width: 60%;
+  background-color: #162817;
+  opacity: .5;
   border-radius: 1em;
   margin: 1.5%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .project-three:hover {
   position: relative;
-  background-image: none;
-  background-color: black;
-  opacity: .5;
+  background-image: url("./../public/chairShare.png");
+  background-size: cover;
+  background-position: center;
+  opacity: .6;
   z-index: 1;
 }
 
 .project-three:hover .description-box {
-  background-color: black;
+  background-color: #162817;
 }
 
 .project-three:hover p, .project-three:hover h2 {
@@ -221,9 +263,9 @@ p {
 }
 
 .project-four {
-  height: 36vh;
-  width: 35%;
-  background-color: black;
+  height: 30vh;
+  width: 60%;
+  background-color: #162817;
   opacity: .5;
   border-radius: 1em;
   margin: 1.5%;
@@ -234,7 +276,7 @@ p {
 }
 
 .project-four:hover .description-box {
-  background-color: black;
+  background-color: #162817;
 }
 
 .project-four:hover p, .project-four:hover h2 {
