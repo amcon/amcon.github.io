@@ -164,14 +164,17 @@ p {
   position: relative;
   height: 30vh;
   width: 60%;
-  background-color: #162817;
-  opacity: .5;
+  background-image: url("./../public/pokemon_run.png");
+  background-size: cover;
+  background-position: center;
+  opacity: .8;
   border-radius: 1em;
   margin: 1.5%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: grayscale(80%);
 }
 
 #project-box p, #project-box h2 {
@@ -180,10 +183,8 @@ p {
 
 .project-one:hover {
   position: relative;
-  background-image: url("./../public/pokemon_run.png");
-  background-size: cover;
-  background-position: center;
-  opacity: .6;
+  filter: grayscale(0%);
+  opacity: .8;
   z-index: 1;
 }
 
@@ -200,22 +201,22 @@ p {
 .project-two {
   height: 30vh;
   width: 60%;
-  background-color: #162817;
-  opacity: .5;
+  background-image: url("./../public/songsterr.png");
+  background-size: cover;
+  background-position: center;
+  opacity: .6;
   border-radius: 1em;
   margin: 1.5%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: grayscale(80%);
 }
 
 .project-two:hover {
   position: relative;
-  background-image: url("./../public/songsterr.png");
-  background-size: cover;
-  background-position: center;
-  opacity: .6;
+  filter: grayscale(0%);
   z-index: 1;
 }
 
@@ -232,23 +233,23 @@ p {
 .project-three {
   height: 30vh;
   width: 60%;
-  background-color: #162817;
-  opacity: .5;
+  background-image: url("./../public/chairShare.png");
+  background-size: cover;
+  background-position: center;
+  opacity: .8;
   border-radius: 1em;
   margin: 1.5%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: grayscale(80%);
   z-index: 1;
 }
 
 .project-three:hover {
   position: relative;
-  background-image: url("./../public/chairShare.png");
-  background-size: cover;
-  background-position: center;
-  opacity: .6;
+  filter: grayscale(0%);
   z-index: 1;
 }
 
