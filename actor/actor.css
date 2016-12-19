@@ -1,0 +1,139 @@
+body {
+  background-color: #485468;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+}
+
+.header {
+  margin: 2% 0 0 0%;
+}
+
+#nav {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+}
+
+#nav:hover {
+  color: forestgreen;
+}
+
+a {
+  color: #f7fff9;
+  margin: 0 5% 0 5%;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FAFAFA;
+  background-color: #485468;
+  height: 70vh;
+  width: 101%;
+  margin-top: 2%;
+  margin-left: -1%;
+}
+
+.container p {
+  font-size: 1.5em;
+}
+
+.container h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.picture-box {
+  height: 42vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-box img {
+  height: 35vh;
+  width: 16%;
+  margin: 2%;
+  border-radius: .5em;
+}
+
+#main {
+  height: 42vh;
+  width: 20%;
+  margin: 2%;
+  border-radius: .5em;
+}
+
+.media {
+  height: 60vh;
+  width: 100%;
+  background-color: #aec4e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FAFAFA;
+}
+
+.videos {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -2%;
+}
+
+iframe {
+  border-radius: .5em;
+}
+
+.news {
+  height: 20vh;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FAFAFA;
+}
+
+.education {
+  height: 20vh;
+  width: 100%;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+#triangle-one {
+  position: absolute;
+  top: 79vh;
+  left: 20%;
+  transform: rotate(45deg);
+  height: 4vh;
+  width: 2%;
+  background-color: #aec4e8;
+}
+
+#triangle-two {
+  position: absolute;
+  top: 138.6vh;
+  left: 35%;
+  transform: rotate(45deg);
+  height: 4vh;
+  width: 2%;
+  background-color: lightgrey;
+}

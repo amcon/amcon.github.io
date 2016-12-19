@@ -174,7 +174,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: grayscale(90%);
+  filter: grayscale(70%);
 }
 
 #project-box p, #project-box h2 {
@@ -184,7 +184,7 @@ p {
 .project-one:hover {
   position: relative;
   filter: grayscale(0%);
-  opacity: .8;
+  opacity: 1;
   z-index: 1;
 }
 
@@ -211,14 +211,14 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: grayscale(90%);
+  filter: grayscale(70%);
 }
 
 .project-two:hover {
   position: relative;
   filter: grayscale(0%);
   z-index: 1;
-  opacity: .8;
+  opacity: 1;
 }
 
 .project-two:hover .description-box {
@@ -244,7 +244,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: grayscale(90%);
+  filter: grayscale(70%);
   z-index: 1;
 }
 
@@ -252,7 +252,7 @@ p {
   position: relative;
   filter: grayscale(0%);
   z-index: 1;
-  opacity: .8;
+  opacity: 1;
 }
 
 .project-three:hover .description-box {
@@ -268,14 +268,24 @@ p {
 .project-four {
   height: 30vh;
   width: 60%;
-  background-color: #162817;
-  opacity: .5;
+  background-image: url("./../public/groupit.png");
+  background-size: cover;
+  background-position: center;
+  opacity: .8;
   border-radius: 1em;
   margin: 1.5%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: grayscale(70%);
+}
+
+.project-four:hover {
+  position: relative;
+  filter: grayscale(0%);
+  z-index: 1;
+  opacity: 1;
 }
 
 .project-four:hover .description-box {
