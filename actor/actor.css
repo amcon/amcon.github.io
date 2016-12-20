@@ -126,6 +126,7 @@ a {
 
 iframe {
   border-radius: .5em;
+  border: 1px solid #FAFAFA;
 }
 
 .news {
