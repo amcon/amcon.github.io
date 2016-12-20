@@ -35,7 +35,7 @@ $(function(){
   }
 
   function email_me(){
-    $myform = $('.input-box');
+    $myform = $('#input-box');
     $myform.prop ('action','mailto:conklin.aaron@gmail.com');
     $myform.submit();
   }
