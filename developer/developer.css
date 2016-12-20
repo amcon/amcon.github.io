@@ -397,8 +397,8 @@ p {
   font-size: 1.5em;
 }
 
-.resume button:hover {
-  background-color: #a2c1a0;
+.prof_resume:hover {
+  background-color: #949e98;
 }
 
 .resume-box {

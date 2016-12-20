@@ -219,6 +219,11 @@ iframe {
   margin-top: 2%;
 }
 
+.theatre_resume:hover {
+  background-color: #949e98;
+  color: #FAFAFA;
+}
+
 #triangle-one {
   position: absolute;
   top: 79vh;

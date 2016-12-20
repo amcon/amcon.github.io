@@ -18,6 +18,10 @@ $(function(){
     window.location.href = "https://docs.google.com/document/d/11CP65LGIsMTWFA8F3Y_tHfGzwvZGNUJRFOR3RaNVD_g/edit?usp=sharing";
   }
 
+  function go_to_theatre_resume(){
+    window.location.href = "https://docs.google.com/document/d/1IBIQAYmump4WZfV_vMxC9T3Js50CdyfDgEaA9hQq2u0/edit?usp=sharing";
+  }
+
   function go_to_linkedin(){
     window.location.href = "https://www.linkedin.com/in/aacon";
   }
@@ -50,6 +54,10 @@ $(function(){
 
   $(".resume").click(function(){
     go_to_resume();
+  })
+
+  $(".theatre_resume").click(function(){
+    go_to_theatre_resume();
   })
 
   $(".linkedin").click(function(){
