@@ -213,14 +213,17 @@ textarea {
 
 #submit {
   position: relative;
-  left: 80%;
-  height: 4vh;
+  left: 81%;
+  height: 3.6vh;
   width: 14%;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1em;
-  background-color: white;
-  border-radius: .5em;
-  border: 1px solid grey;
+  font-size: 1.1em;
+  background-color: grey;
+  color: white;
+  border-radius: .3em;
+  border-style: none;
+/*  border: 1px solid grey;
+*/  text-align: center;
 }
 
 #submit:hover {
