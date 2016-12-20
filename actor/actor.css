@@ -81,11 +81,21 @@ a {
   border-radius: .5em;
 }
 
+.picture-box img:hover {
+  height: 40vh;
+  width: 28%;
+}
+
 #main {
   height: 42vh;
   width: 30%;
   margin: 2%;
   border-radius: .5em;
+}
+
+#main:hover {
+  height: 48vh;
+  width: 35%;
 }
 
 .media {
