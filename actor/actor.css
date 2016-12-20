@@ -209,13 +209,13 @@ iframe {
 }
 
 .education button {
-  height: 5vh;
-  width: 20%;
+  height: 7vh;
+  width: 18%;
   border-style: none;
   border-radius: .5em;
   border: 1px solid grey;
   background-color: #FAFAFA;
-  font-size: 1.3em;
+  font-size: 1.5em;
   margin-top: 2%;
 }
 
