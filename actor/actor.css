@@ -1,5 +1,5 @@
 body {
-  background-color: #485468;
+  background-color: #949e98;
   height: 100vh;
   width: 100%;
   font-family: 'Josefin Sans', sans-serif;
@@ -156,6 +156,10 @@ iframe {
   align-items: center;
   border-top: dotted 1px grey;
 }
+
+/*.left-pic:hover {
+  background-color: grey;
+}*/
 
 .left-pic img {
   height: 32vh;
