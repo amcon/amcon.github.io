@@ -64,16 +64,16 @@ p {
 }
 
 .headshot {
-  width: 40%;
+  width: 30%;
   display: flex;
   justify-content: center;
-  margin-left: 15%;
+  margin-left: 5%;
 }
 
 .headshot img {
   height: 45vh;
-  width: 100%;
-  border-radius: 50%;
+  width: 80%;
+  border-radius: 48%;
   opacity: .9;
   box-shadow: 0px 0px 30px 0px black;
 }
@@ -137,7 +137,7 @@ p {
 .contact-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 50vh;
   width: 100vw;
@@ -145,7 +145,7 @@ p {
 
 .forms {
   height: 50vh;
-  width: 70%;
+  width: 50%;
   background-color: white;
   border-radius: 1em;
   opacity: .8;
@@ -227,6 +227,9 @@ textarea {
 .line {
   background-color: white;
   height: 2px;
-  width: 35vw;
+  width: 25vw;
   transform: rotate(90deg);
+  position: absolute;
+  top: 55%;
+  left: 25%;
 }
