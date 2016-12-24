@@ -8,9 +8,17 @@ body {
 
 .header {
   position: absolute;
-  top: 4%;
-  left: 2%;
-  width: 50%;
+  top: 2%;
+  left: 0%;
+  width: 27%;
+  height: 4%;
+  background-color: rgba(0,0,0, .9);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
 }
 
 #nav {
@@ -38,25 +46,26 @@ a {
   background-image: url("./../public/city.png");
   background-size: cover;
   background-position: bottom;
-  height: 80vh;
-  width: 101%;
+  height: 110vh;
+  width: 100%;
   /*margin-top: 2%;
   margin-left: -1%;*/
 }
 
 .container p {
   font-size: 1.5em;
+  margin: 5%;
 }
 
 .container h1 {
   font-size: 3em;
-  margin: 0;
+  margin: 1%;
 }
 
 .title-box {
-  height: 65vh;
+  height: 90vh;
   width: 65%;
-  margin-top: 2%;
+  margin-top: 0%;
   background-color: rgba(1, 10, 4, .5);
   display: flex;
   flex-direction: column;
@@ -66,7 +75,7 @@ a {
 }
 
 .picture-box {
-  height: 42vh;
+  height: 55vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -88,19 +97,19 @@ a {
 }
 
 #main {
-  height: 42vh;
-  width: 30%;
+  height: 50vh;
+  width: 34%;
   margin: 2%;
   border-radius: .5em;
 }
 
 #main:hover {
-  height: 48vh;
-  width: 35%;
+  height: 60vh;
+  width: 40%;
 }
 
 .media {
-  height: 60vh;
+  height: 90vh;
   width: 100%;
   background-color: #949e98;
   display: flex;
@@ -111,18 +120,35 @@ a {
 }
 
 .media h1 {
-  margin-top: 3%;
+  margin: 0;
+  position: relative;
+  left: -42%;
+}
+
+#big {
+  margin-right: 5%;
 }
 
 .videos {
-  height: 60vh;
+  height: 75vh;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  margin-top: -2%;
-}
+/*  background-color: blue;
+*//*  margin-left: 7%;
+*/}
+
+.video-column {
+  height: 66.5vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+/*  background-color: green;
+*/}
 
 iframe {
   border-radius: .5em;
@@ -130,7 +156,7 @@ iframe {
 }
 
 .news {
-  height: 190vh;
+  height: 210vh;
   width: 100%;
   background-color: lightgrey;
   display: flex;
@@ -199,7 +225,7 @@ iframe {
 }
 
 .education {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   background-color: #FAFAFA;
   display: flex;
@@ -232,7 +258,7 @@ iframe {
 
 #triangle-one {
   position: absolute;
-  top: 79vh;
+  top: 108.5vh;
   left: 20%;
   transform: rotate(45deg);
   height: 4vh;
@@ -242,7 +268,7 @@ iframe {
 
 #triangle-two {
   position: absolute;
-  top: 138.6vh;
+  top: 198.6vh;
   left: 35%;
   transform: rotate(45deg);
   height: 4vh;
@@ -252,7 +278,7 @@ iframe {
 
 #triangle-three {
   position: absolute;
-  top: 328.5vh;
+  top: 408.5vh;
   left: 45%;
   transform: rotate(45deg);
   height: 4vh;
@@ -262,7 +288,7 @@ iframe {
 
 #triangle-four {
   position: absolute;
-  top: 368.5vh;
+  top: 458.5vh;
   left: 65%;
   transform: rotate(45deg);
   height: 4vh;
