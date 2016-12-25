@@ -50,8 +50,12 @@ body {
   margin-top: -3%;
 }
 
+.container p {
+  line-height: 1.5em;
+}
+
 .title {
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 
@@ -76,12 +80,13 @@ p {
   height: 100vh;
   width: 100%;
   padding-bottom: 5%;
-  background-color: #949e98;
+  /*background-color: #949e98;*/
+  background-color: rgb(69, 89, 67);
 }
 
 .profile h1 {
   color: white;
-  margin-top: -.5%;
+  margin-top: 1%;
 }
 
 .profile h3 {
@@ -94,20 +99,27 @@ p {
   text-align: center;
 }*/
 
-.profile h2 {
+/*.profile h2 {
   color: black;
   font-size: 2em;
   text-align: center;
   margin: 0;
-}
+}*/
 
 #project-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 55vh;
+  height: 80vh;
   width: 100%;
+}
+
+#line {
+  height: 1px;
+  width: 40%;
+  background-color: #FAFAFA;
+  margin-bottom: 1%;
 }
 
 .description-box {
@@ -165,13 +177,13 @@ p {
 
 .project-one {
   position: relative;
-  height: 30vh;
+  height: 37vh;
   width: 60%;
   background-image: url("./../public/pokemon_run.png");
   background-size: cover;
   background-position: center;
   opacity: .8;
-  border-radius: 1em;
+  border-radius: .3em;
   margin: 1.5%;
   text-align: center;
   display: flex;
@@ -202,13 +214,13 @@ p {
 }
 
 .project-two {
-  height: 30vh;
+  height: 37vh;
   width: 60%;
   background-image: url("./../public/songsterr.png");
   background-size: cover;
   background-position: center;
   opacity: .6;
-  border-radius: 1em;
+  border-radius: .3em;
   margin: 1.5%;
   text-align: center;
   display: flex;
@@ -235,13 +247,13 @@ p {
 }
 
 .project-three {
-  height: 30vh;
+  height: 37vh;
   width: 60%;
   background-image: url("./../public/chairShare.png");
   background-size: cover;
   background-position: center;
   opacity: .8;
-  border-radius: 1em;
+  border-radius: .3em;
   margin: 1.5%;
   text-align: center;
   display: flex;
@@ -269,13 +281,13 @@ p {
 }
 
 .project-four {
-  height: 30vh;
+  height: 37vh;
   width: 60%;
   background-image: url("./../public/groupit.png");
   background-size: cover;
   background-position: center;
   opacity: .8;
-  border-radius: 1em;
+  border-radius: .3em;
   margin: 1.5%;
   text-align: center;
   display: flex;
@@ -363,7 +375,7 @@ p {
   height: 5vh;
   width: 3vw;
   position: absolute;
-  background-color: #949e98;
+  background-color: rgb(69, 89, 67);
   top: 73.2%;
   left: 15%;
   transform: rotate(45deg);

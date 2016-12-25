@@ -25,7 +25,8 @@ body {
 h1 {
   color: #f7fff9;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 3em;
+  font-size: 3.5em;
+  margin: 0;
 }
 
 .nav {
