@@ -1,8 +1,8 @@
 body {
-  background-image: url("./public/trees.jpg");
+  background-image: url("./public/mountain.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 95vh;
   width: 98%;
   /*display: flex;
   justify-content: center;
@@ -20,10 +20,10 @@ body {
   align-items: center;
   margin: 0 auto;
   margin-top: 2%;
+  color: rgb(65, 65, 65);
 }
 
 h1 {
-  color: #f7fff9;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 3.5em;
   margin: 0;
@@ -41,92 +41,11 @@ h1 {
 }
 
 a {
-  color: #f7fff9;
+  color: rgb(5, 5, 5);
   margin: 0 5% 0 5%;
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
-}
-
-p {
-  color: #f7fff9;
-  margin: 0 auto;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5em;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
-  width: 50%;
-  margin-top: 2%;
-  opacity: .7
-}
-
-.headshot {
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  margin-left: 5%;
-}
-
-.headshot img {
-  height: 45vh;
-  width: 80%;
-  border-radius: 48%;
-  opacity: .9;
-  box-shadow: 0px 0px 30px 0px black;
-  border: .2px solid #FAFAFA;
-}
-
-.linkedin {
-  background-image: url("./public/linkedin.png");
-  background-size: cover;
-  background-position: center;
-  margin: 0 5% 0 5%;
-  height: 6vh;
-  width: 6%;
-}
-
-.linkedin:hover {
-  opacity: .8;
-}
-
-.facebook {
-  background-image: url("./public/facebook.png");
-  background-size: cover;
-  background-position: center;
-  margin: 0 5% 0 5%;
-  height: 6vh;
-  width: 6%;
-}
-
-.facebook:hover {
-  opacity: .8;
-}
-
-.github {
-  background-image: url("./public/github.png");
-  background-size: cover;
-  background-position: center;
-  margin: 0 5% 0 5%;
-  height: 6vh;
-  width: 6%;
-}
-
-.github:hover {
-  opacity: .8;
-}
-
-
-.brand {
-  width: 70%;
-}
-
-.header {
-  margin: 2% 0 -1% 0;
 }
 
 #nav {
@@ -135,111 +54,4 @@ p {
 
 #nav:hover {
   color: forestgreen;
-}
-
-.contact-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  height: 60vh;
-  width: 100vw;
-}
-
-.forms {
-  height: 50vh;
-  width: 50%;
-  background-color: white;
-  border-radius: 1em;
-  opacity: .8;
-  margin-right: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.forms h4 {
-  color: black;
-  margin-left: 4%;
-}
-
-#input-box {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-}
-
-input {
-  margin-top: -2%;
-  border: none;
-}
-
-textarea {
-  margin-top: -2.5%;
-  margin-left: 4%;
-  margin-bottom: 2%;
-  width: 90%;
-  height: 15vh;
-  border: none;
-  background-color: lightgrey;
-}
-
-.input-box h4 {
-  font-family: 'Josefin Sans', sans-serif;
-  margin: 0 0 0 5%;
-}
-
-#name {
-  height: 3vh;
-  width: 90%;
-  background-color: lightgrey;
-  margin-left: 4%;
-}
-
-#email {
-  height: 3vh;
-  width: 90%;
-  background-color: lightgrey;
-  margin-left: 4%;
-}
-
-#message {
-  height: 18vh;
-  width: 90%;
-  background-color: lightgrey;
-  margin-left: 4%;
-}
-
-#submit {
-  position: relative;
-  left: 80.5%;
-  height: 3.6vh;
-  width: 14%;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.1em;
-  line-height: 3.3vh;
-  background-color: #FAFAFA;
-  border: 1px solid grey;
-  color: black;
-  border-radius: .3em;
-/*  border-style: none;
-*/  text-align: center;
-  vertical-align: middle;
-}
-
-#submit:hover {
-  background-color: grey;
-  color: white;
-  border: 1px solid white;
-}
-
-.line {
-  background-color: white;
-  height: 2px;
-  width: 25vw;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 55%;
-  left: 25%;
 }

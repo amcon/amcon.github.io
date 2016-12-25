@@ -12,9 +12,9 @@ body {
 .header-container {
 /*  height: 60vh;
 */  width: 100vw;
-  background-image: url("./../public/trees.jpg");
+  background-image: url("./../public/mountain.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .header {

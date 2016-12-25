@@ -46,7 +46,7 @@ a {
   background-image: url("./../public/city.png");
   background-size: cover;
   background-position: bottom;
-  height: 110vh;
+  height: 100vh;
   width: 100%;
   /*margin-top: 2%;
   margin-left: -1%;*/
@@ -63,7 +63,7 @@ a {
 }
 
 .title-box {
-  height: 90vh;
+  height: 80vh;
   width: 65%;
   margin-top: 0%;
   background-color: rgba(1, 10, 4, .5);
@@ -258,7 +258,7 @@ iframe {
 
 #triangle-one {
   position: absolute;
-  top: 108.5vh;
+  top: 98.5vh;
   left: 20%;
   transform: rotate(45deg);
   height: 4vh;
@@ -268,7 +268,7 @@ iframe {
 
 #triangle-two {
   position: absolute;
-  top: 198.6vh;
+  top: 188.6vh;
   left: 35%;
   transform: rotate(45deg);
   height: 4vh;
@@ -278,7 +278,7 @@ iframe {
 
 #triangle-three {
   position: absolute;
-  top: 408.5vh;
+  top: 398.5vh;
   left: 45%;
   transform: rotate(45deg);
   height: 4vh;
@@ -288,7 +288,7 @@ iframe {
 
 #triangle-four {
   position: absolute;
-  top: 458.5vh;
+  top: 448.5vh;
   left: 65%;
   transform: rotate(45deg);
   height: 4vh;
