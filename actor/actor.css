@@ -86,10 +86,10 @@ a {
 .picture-box img {
   height: 35vh;
   width: 25%;
-  margin: 2%;
-  border-radius: .5em;
-  border: 1px solid #FAFAFA;
-}
+  margin: 1%;
+  border-radius: 12em;
+/*  border: 1px solid #FAFAFA;
+*/}
 
 .picture-box img:hover {
   height: 40vh;
@@ -99,8 +99,8 @@ a {
 #main {
   height: 50vh;
   width: 34%;
-  margin: 2%;
-  border-radius: .5em;
+  margin: 1%;
+  border-radius: 12em;
 }
 
 #main:hover {

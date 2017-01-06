@@ -11,8 +11,8 @@ body {
 }
 
 .header-container {
-/*  height: 60vh;
-*/  width: 100vw;
+  height: 544px;
+  width: 1230px;
   background-image: url("./../public/mac.jpg");
   background-size: cover;
   background-position: center;
@@ -42,8 +42,8 @@ body {
 }
 
 .container {
-  height: 80vh;
-  width: 60vw;
+  height: 544px;
+  width: 1230px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,12 +69,12 @@ body {
   align-items: center;
 /*  background-color: rgba(5, 5, 5, .5);
 */  border-radius: 1em;
-  height: 30vh;
-  width: 38%;
+  height: 220px;
+  width: 400px;
   padding: 5%;
   position: absolute;
-  top: 6%;
-  left: 20%;
+  top: 40px;
+  left: 270px;
 }
 
 .brand h1 {
@@ -82,7 +82,7 @@ body {
 }
 
 .brand p {
-  font-size: 1.28em;
+  font-size: 1.4em;
   line-height: 1em;
 }
 
@@ -231,9 +231,10 @@ p {
 
 .project-one:hover {
   position: relative;
-  filter: grayscale(0%);
+  filter: grayscale(50%);
   opacity: 1;
   z-index: 1;
+  cursor: pointer;
 }
 
 .project-one:hover .description-box {
@@ -264,7 +265,8 @@ p {
 
 .project-two:hover {
   position: relative;
-  filter: grayscale(0%);
+  filter: grayscale(70%);
+  cursor: pointer;
   z-index: 1;
   opacity: 1;
 }
@@ -298,7 +300,8 @@ p {
 
 .project-three:hover {
   position: relative;
-  filter: grayscale(0%);
+  filter: grayscale(70%);
+  cursor: pointer;
   z-index: 1;
   opacity: 1;
 }
@@ -331,7 +334,8 @@ p {
 
 .project-four:hover {
   position: relative;
-  filter: grayscale(0%);
+  filter: grayscale(70%);
+  cursor: pointer;
   z-index: 1;
   opacity: 1;
 }
@@ -530,14 +534,14 @@ textarea {
   width: 3vw;
   position: absolute;
   background-color: #f9f6de;
-  top: 85.2%;
+  top: 88.2%;
   left: 15%;
   transform: rotate(45deg);
 }
 
 #triangle-two {
   position: absolute;
-  top: 195.2%;
+  top: 199.7%;
   left: 30%;
   height: 5vh;
   width: 3vw;
@@ -547,7 +551,7 @@ textarea {
 
 #triangle-three {
   position: absolute;
-  top: 255.2%;
+  top: 261.2%;
   left: 46%;
   height: 5vh;
   width: 3vw;
@@ -558,7 +562,7 @@ textarea {
 
 #triangle-four {
   position: absolute;
-  top: 295.2%;
+  top: 302.2%;
   left: 70%;
   height: 5vh;
   width: 3vw;
@@ -569,11 +573,11 @@ textarea {
 
 #ipad-screen {
   position: absolute;
-  top: 51%;
-  left: 59%;
-  background-color: grey;
-  height: 26vh;
-  width: 10.4%;
+  top: 344px;
+  left: 726px;
+  background-color: rgba(5, 159, 223, .9);
+  height: 175px;
+  width: 130px;
   border-radius: .2em;
 }
 
@@ -585,11 +589,11 @@ textarea {
 
 #iphone-screen {
   position: absolute;
-  top: 66.3%;
-  left: 71.3%;
-  background-color: rgb(65, 65, 65);
-  height: 11.9vh;
-  width: 3.6%;
+  top: 449px;
+  left: 877px;
+  background-color: rgba(65, 65, 65, .8);
+  height: 80px;
+  width: 45.5px;
   border-radius: .2em;
 }
 
@@ -601,11 +605,12 @@ textarea {
 
 #air-screen {
   position: absolute;
-  top: 52.1%;
-  left: 77.68%;
-  background-color: rgb(25, 25, 25);
-  height: 21.7vh;
-  width: 19.8%;
+  top: 354px;
+  left: 955px;
+  background-color: salmon;
+  opacity: .9;
+  height: 145px;
+  width: 244px;
   border-radius: .2em;
 }
 
@@ -617,11 +622,11 @@ textarea {
 
 #mac-screen {
   position: absolute;
-  top: 48.72%;
-  left: 3.3%;
-  background-color: rgb(85, 85, 85);
-  height: 27vh;
-  width: 24.2%;
+  top: 330px;
+  left: 40px;
+  background-color: rgba(255, 220, 130, .9);
+  height: 182px;
+  width: 298px;
   border-radius: .2em;
 }
 
@@ -629,4 +634,78 @@ textarea {
   background-image: url("./../public/ddg.gif");
   background-size: cover;
   background-position: center;
+}
+
+#glare {
+  height: 400px;
+  width: 500px;
+  position: absolute;
+  background-image: url("./../public/glare.png");
+  top: 0;
+  left: 751px;
+  z-index: 1;
+}
+
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+
+#logo1 {
+  height: 50px;
+  width: 70px;
+  position: absolute;
+  background-image: url("./../public/logo.png");
+  background-position: center;
+  background-size: cover;
+  top: 390px;
+  left: 150px;
+  z-index: 5;
+  -webkit-animation: spin 12s infinite linear;
+}
+
+#logo2 {
+  height: 35px;
+  width: 50px;
+  position: absolute;
+  background-image: url("./../public/logo.png");
+  background-position: center;
+  background-size: cover;
+  top: 410px;
+  left: 763px;
+  z-index: 5;
+  -webkit-animation: spin 25s infinite linear;
+}
+
+#logo3 {
+  height: 25px;
+  width: 35px;
+  position: absolute;
+  background-image: url("./../public/logo.png");
+  background-position: center;
+  background-size: cover;
+  top: 472px;
+  left: 882px;
+  z-index: 5;
+  -webkit-animation: spin 18s infinite linear;
+}
+
+#logo4 {
+  height: 45px;
+  width: 60px;
+  position: absolute;
+  background-image: url("./../public/logo.png");
+  background-position: center;
+  background-size: cover;
+  top: 410px;
+  left: 1045px;
+  z-index: 5;
+  -webkit-animation: spin 15s infinite linear;
+}
+
+#about {
+  position: absolute;
+  top: 140px;
+  left: 940px;
+  font-size: 2.7em;
 }
