@@ -2,8 +2,8 @@ body {
   background-image: url("./public/mountain.JPG");
   background-size: cover;
   background-position: center;
-  height: 95vh;
-  width: 98%;
+  height: 680px;
+  width: 1251px;
   /*display: flex;
   justify-content: center;
   align-items: center;*/
@@ -11,26 +11,26 @@ body {
 }
 
 .container {
-  height: 90vh;
-  width: 98%;
+  height: 610px;
+  width: 1251px;
 /*  border: solid #f7fff9 2px;
 */  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 20px;
   color: rgb(65, 65, 65);
 }
 
 h1 {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 3.5em;
+  font-size: 50px;
   margin: 0;
 }
 
 .nav {
-  width: 30%;
+  width: 375px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,14 +42,14 @@ h1 {
 
 a {
   color: rgb(5, 5, 5);
-  margin: 0 5% 0 5%;
+  margin: 0 20px 0 20px;
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5em;
+  font-size: 25px;
 }
 
 #nav {
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
 #nav:hover {
