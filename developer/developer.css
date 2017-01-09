@@ -412,7 +412,7 @@ p {
 .resume {
   height: 280px;
   width: 1251px;
-  background-color: #f9f6de;
+  background-color: #a2c1a0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -422,7 +422,7 @@ p {
   height: 50px;
   width: 225px;
   border-radius: .8em;
-  background-color: #f9f6de;
+  background-color: #a2c1a0;
   border-style: none;
   border: 1px solid black;
   color: black;
