@@ -164,6 +164,7 @@ iframe {
   justify-content: space-around;
   align-items: center;
   color: black;
+  padding-bottom: 80px;
 }
 
 .news h1 {
@@ -279,7 +280,7 @@ iframe {
 
 #triangle-three {
   position: absolute;
-  top: 2710px;
+  top: 2790px;
   left: 600px;
   transform: rotate(45deg);
   height: 27px;
@@ -289,7 +290,7 @@ iframe {
 
 #triangle-four {
   position: absolute;
-  top: 3050px;
+  top: 3130px;
   left: 850px;
   transform: rotate(45deg);
   height: 27px;
