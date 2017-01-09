@@ -588,10 +588,10 @@ textarea {
 #iphone-screen {
   position: absolute;
   top: 447.2px;
-  left: 877px;
-  background-color: rgba(65, 65, 65, .8);
+  left: 876px;
+  background-color: lightgrey;
   height: 80px;
-  width: 45.5px;
+  width: 46.5px;
   border-radius: .2em;
 }
 
@@ -651,52 +651,52 @@ textarea {
 
 #logo1 {
   height: 50px;
-  width: 70px;
+  width: 50px;
   position: absolute;
-  background-image: url("./../public/logo.png");
+  background-image: url("./../public/linkedin.png");
   background-position: center;
   background-size: cover;
-  top: 390px;
-  left: 150px;
+  top: 400px;
+  left: 162px;
   z-index: 5;
   -webkit-animation: spin 12s infinite linear;
 }
 
 #logo2 {
-  height: 35px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   position: absolute;
-  background-image: url("./../public/logo.png");
+  background-image: url("./../public/github.png");
   background-position: center;
   background-size: cover;
   top: 410px;
-  left: 763px;
+  left: 770px;
   z-index: 5;
   -webkit-animation: spin 25s infinite linear;
 }
 
 #logo3 {
-  height: 25px;
+  height: 35px;
   width: 35px;
   position: absolute;
-  background-image: url("./../public/logo.png");
+  background-image: url("./../public/instagram.png");
   background-position: center;
   background-size: cover;
   top: 472px;
-  left: 882px;
+  left: 883px;
   z-index: 5;
   -webkit-animation: spin 18s infinite linear;
 }
 
 #logo4 {
-  height: 45px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   position: absolute;
-  background-image: url("./../public/logo.png");
+  background-image: url("./../public/facebook.png");
   background-position: center;
   background-size: cover;
   top: 410px;
-  left: 1045px;
+  left: 1053px;
   z-index: 5;
   -webkit-animation: spin 15s infinite linear;
 }

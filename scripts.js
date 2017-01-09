@@ -34,6 +34,10 @@ $(function(){
     window.location.href = "https://github.com/amcon?tab=repositories";
   }
 
+  function go_to_insta(){
+    window.location.href = "https://www.instagram.com/con_aaron/";
+  }
+
   function email_me(){
     $myform = $('#input-box');
     $myform.prop ('action','mailto:conklin.aaron@gmail.com');
@@ -60,16 +64,20 @@ $(function(){
     go_to_theatre_resume();
   })
 
-  $(".linkedin").click(function(){
+  $("#logo1").click(function(){
     go_to_linkedin();
   })
 
-  $(".facebook").click(function(){
+  $("#logo4").click(function(){
     go_to_facebook();
   })
 
-  $(".github").click(function(){
+  $("#logo2").click(function(){
     go_to_github();
+  })
+
+  $("#logo3").click(function(){
+    go_to_insta();
   })
 
   $("#submit").click(function(){
