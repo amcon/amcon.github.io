@@ -378,3 +378,9 @@ textarea {
   left: 685px;
 }
 
+#logo1, #logo3, #logo4 {
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
