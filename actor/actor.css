@@ -1,17 +1,17 @@
 body {
   background-color: #949e98;
-  height: 100vh;
-  width: 100%;
+  height: 680px;
+  width: 1251px;
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
 }
 
 .header {
   position: absolute;
-  top: 2%;
+  top: 12px;
   left: 0%;
-  width: 27%;
-  height: 4%;
+  width: 337px;
+  height: 27px;
   background-color: rgba(0,0,0, .9);
   display: flex;
   flex-direction: row;
@@ -22,7 +22,7 @@ body {
 }
 
 #nav {
-  font-size: 1.2em;
+  font-size: 18px;
   text-decoration: none;
   color: #FAFAFA;
 }
@@ -33,7 +33,7 @@ body {
 
 a {
   color: #f7fff9;
-  margin: 0 5% 0 5%;
+  margin: 0 20px 0 20px;
   text-decoration: none;
 }
 
@@ -46,25 +46,25 @@ a {
   background-image: url("./../public/city.png");
   background-size: cover;
   background-position: bottom;
-  height: 100vh;
-  width: 100%;
+  height: 680px;
+  width: 1251px;
   /*margin-top: 2%;
   margin-left: -1%;*/
 }
 
 .container p {
-  font-size: 1.5em;
-  margin: 5%;
+  font-size: 22px;
+  margin: 15px;
 }
 
 .container h1 {
-  font-size: 3em;
-  margin: 1%;
+  font-size: 45px;
+  margin: 5px;
 }
 
 .title-box {
-  height: 80vh;
-  width: 65%;
+  height: 560px;
+  width: 813px;
   margin-top: 0%;
   background-color: rgba(1, 10, 4, .5);
   display: flex;
@@ -75,8 +75,8 @@ a {
 }
 
 .picture-box {
-  height: 55vh;
-  width: 100%;
+  height: 375px;
+  width: 800px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -84,33 +84,33 @@ a {
 }
 
 .picture-box img {
-  height: 35vh;
-  width: 25%;
-  margin: 1%;
+  height: 240px;
+  width: 200px;
+  margin: 10px;
   border-radius: 12em;
 /*  border: 1px solid #FAFAFA;
 */}
 
 .picture-box img:hover {
-  height: 40vh;
-  width: 28%;
+  height: 270px;
+  width: 230px;
 }
 
 #main {
-  height: 50vh;
-  width: 34%;
-  margin: 1%;
+  height: 340px;
+  width: 280px;
+  margin: 10px;
   border-radius: 12em;
 }
 
 #main:hover {
-  height: 60vh;
-  width: 40%;
+  height: 400px;
+  width: 310px;
 }
 
 .media {
-  height: 90vh;
-  width: 100%;
+  height: 610px;
+  width: 1251px;
   background-color: #949e98;
   display: flex;
   flex-direction: column;
@@ -122,16 +122,16 @@ a {
 .media h1 {
   margin: 0;
   position: relative;
-  left: -42%;
+  left: -525px;
 }
 
 #big {
-  margin-right: 5%;
+  margin-right: 50px;
 }
 
 .videos {
-  height: 75vh;
-  width: 100%;
+  height: 510px;
+  width: 1251px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -141,8 +141,8 @@ a {
 */}
 
 .video-column {
-  height: 66.5vh;
-  width: 30%;
+  height: 452px;
+  width: 375px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -156,8 +156,8 @@ iframe {
 }
 
 .news {
-  height: 210vh;
-  width: 100%;
+  height: 1428px;
+  width: 1251px;
   background-color: lightgrey;
   display: flex;
   flex-direction: column;
@@ -167,17 +167,17 @@ iframe {
 }
 
 .news h1 {
-  margin-top: 2%;
+  margin-top: 30px;
 }
 
 .news p {
-  font-size: 1.2em;
-  line-height: 1.3em;
+  font-size: 20px;
+  line-height: 22px;
 }
 
 .left-pic {
-  height: 37vh;
-  width: 70%;
+  height: 250px;
+  width: 875px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -190,15 +190,15 @@ iframe {
 }*/
 
 .left-pic img {
-  height: 32vh;
-  width: 35%;
-  margin-right: 2%;
+  height: 215px;
+  width: 335px;
+  margin-right: 20px;
   border-radius: .5em;
 }
 
 .right-pic {
-  height: 37vh;
-  width: 70%;
+  height: 250px;
+  width: 875px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -207,16 +207,17 @@ iframe {
 }
 
 .right-pic img {
-  height: 32vh;
-  width: 35%;
-  margin-left: 2%;
+  height: 215px;
+  width: 335px;
+  margin-left: 20px;
   border-radius: .5em;
 }
 
 .text-box {
-  height: 5vh;
-  width: 100%
-  border: dotted 1px grey;
+  height: 34px;
+  width: 430px;
+  /*border-bottom: dotted 1px grey;*/
+  text-align: center;
 /*  background-color: red;
 */}
 
@@ -225,8 +226,8 @@ iframe {
 }
 
 .education {
-  height: 50vh;
-  width: 100%;
+  height: 340px;
+  width: 1251px;
   background-color: #FAFAFA;
   display: flex;
   flex-direction: column;
@@ -236,19 +237,19 @@ iframe {
 }
 
 .education p {
-  font-size: 1.2em;
+  font-size: 22px;
   margin: 0;
 }
 
 .education button {
-  height: 7vh;
-  width: 18%;
+  height: 45px;
+  width: 250px;
   border-style: none;
   border-radius: .5em;
   border: 1px solid grey;
   background-color: #FAFAFA;
-  font-size: 1.5em;
-  margin-top: 2%;
+  font-size: 22px;
+  margin-top: 20px;
 }
 
 .theatre_resume:hover {
@@ -258,47 +259,47 @@ iframe {
 
 #triangle-one {
   position: absolute;
-  top: 98.5vh;
-  left: 20%;
+  top: 670px;
+  left: 250px;
   transform: rotate(45deg);
-  height: 4vh;
-  width: 2%;
+  height: 27px;
+  width: 25px;
   background-color: #949e98;
 }
 
 #triangle-two {
   position: absolute;
-  top: 188.6vh;
-  left: 35%;
+  top: 1282.5px;
+  left: 400px;
   transform: rotate(45deg);
-  height: 4vh;
-  width: 2%;
+  height: 27px;
+  width: 25px;
   background-color: lightgrey;
 }
 
 #triangle-three {
   position: absolute;
-  top: 398.5vh;
-  left: 45%;
+  top: 2710px;
+  left: 600px;
   transform: rotate(45deg);
-  height: 4vh;
-  width: 2%;
+  height: 27px;
+  width: 25px;
   background-color: #FAFAFA;
 }
 
 #triangle-four {
   position: absolute;
-  top: 448.5vh;
-  left: 65%;
+  top: 3050px;
+  left: 850px;
   transform: rotate(45deg);
-  height: 4vh;
-  width: 2%;
+  height: 27px;
+  width: 25px;
   background-color: #a2c1a0;
 }
 
 .contact {
-  height: 70vh;
-  width: 100%;
+  height: 475px;
+  width: 1251px;
   background-color: #a2c1a0;
   display: flex;
   flex-direction: row;
@@ -309,12 +310,12 @@ iframe {
 
 .contact h1 {
   margin: 0;
-  font-size: 2.5em;
+  font-size: 40px;
 }
 
 .forms {
-  height: 55vh;
-  width: 65%;
+  height: 375px;
+  width: 810px;
   background-color: rgba(250, 250, 250, .8);
   border-radius: 1em;
 /*  opacity: .8;
@@ -326,32 +327,32 @@ iframe {
 
 .forms h4 {
   color: black;
-  margin-left: 4%;
+  margin-left: 35px;
 }
 
 #input-box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
+  width: 810px;
 }
 
 input {
-  margin-top: -2%;
+  margin-top: -15px;
   border: none;
   border-radius: .3em;
   background-color: #FAFAFA;
-  margin-left: 4%;
-  width: 90%;
-  height: 3vh;
+  margin-left: 35px;
+  width: 730px;
+  height: 20px;
 }
 
 textarea {
-  margin-top: -2%;
-  margin-left: 4%;
-  margin-bottom: 2%;
-  width: 90%;
-  height: 15vh;
+  margin-top: -15px;
+  margin-left: 35px;
+  margin-bottom: 25px;
+  width: 730px;
+  height: 100px;
   border: none;
   border-radius: .3em;
   background-color: #FAFAFA;
@@ -359,20 +360,20 @@ textarea {
 
 .input-box h4 {
   font-family: 'Josefin Sans', sans-serif;
-  margin: 0 0 0 5%;
+  margin: 0 0 0 50px;
 }
 
 .contact button {
-  height: 4vh;
-  width: 10%;
+  height: 27px;
+  width: 85px;
   border-radius: 1em;
   border-style: none;
   background-color: rgba(250, 250, 250, 1);
   border: 1px solid white;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 17px;
+  line-height: 24px;
   position: relative;
-  left: 85%;
+  left: 685px;
 }
 
