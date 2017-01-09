@@ -72,7 +72,7 @@ body {
   width: 400px;
   padding: 60px;
   position: absolute;
-  top: 40px;
+  top: 48px;
   left: 270px;
 }
 
@@ -81,8 +81,10 @@ body {
 }*/
 
 .brand p {
-  font-size: 22px;
-  line-height: 23px;
+  font-size: 23px;
+  line-height: 25px;
+  z-index: 2;
+  text-align: center;
 }
 
 h1 {
@@ -707,4 +709,17 @@ textarea {
   left: 940px;
   font-size: 40px;
   width: 200px;
+}
+
+#about-screen {
+  position: absolute;
+  top: 88.7px;
+  left: 276px;
+  background-image: url("./../public/trees.png");
+  background-position: center;
+  background-size: cover;
+  height: 286px;
+  width: 513px;
+  z-index: 1;
+  filter: grayscale(50%);
 }
