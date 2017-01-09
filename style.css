@@ -2,8 +2,8 @@ body {
   background-image: url("./public/mountain.JPG");
   background-size: cover;
   background-position: center;
-  height: 680px;
-  width: 1251px;
+  height: 100vh;
+  width: 100%;
   /*display: flex;
   justify-content: center;
   align-items: center;*/
@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-  height: 610px;
-  width: 1251px;
+  height: 100vh;
+  width: 100%;
 /*  border: solid #f7fff9 2px;
 */  display: flex;
   flex-direction: column;
