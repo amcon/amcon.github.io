@@ -1,5 +1,5 @@
 body {
-  width: 1236px;
+  width: 100%;
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
   background-color: black;
@@ -11,7 +11,7 @@ body {
 
 .header-container {
   height: 544px;
-  width: 1236px;
+  width: 1251px;
   background-image: url("./../public/mac.jpg");
   background-size: cover;
   background-position: center;
@@ -42,7 +42,7 @@ body {
 
 .container {
   height: 544px;
-  width: 1236px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,7 +104,7 @@ p {
   align-items: center;
   justify-content: center;
   height: 650px;
-  width: 1236px;
+  width: 100%;
   padding-bottom: 65px;
   /*background-color: #949e98;*/
   background-color: #f9f6de;
@@ -139,7 +139,7 @@ p {
   justify-content: center;
   align-items: center;
   height: 600px;
-  width: 1236px;
+  width: 100%;
 }
 
 #line {
@@ -359,7 +359,7 @@ p {
   align-items: center;
   margin: 0 auto;
   height: 400px;
-  width: 1236px;
+  width: 100%;
   z-index: 1;
 }
 
@@ -411,7 +411,7 @@ p {
 
 .resume {
   height: 280px;
-  width: 1236px;
+  width: 100%;
   background-color: #949e98;
   display: flex;
   justify-content: center;
@@ -450,7 +450,7 @@ p {
 
 .contact {
   height: 480px;
-  width: 1236px;
+  width: 100%;
   background-color: rgb(67, 66, 66);
   display: flex;
   flex-direction: row;
@@ -574,8 +574,8 @@ textarea {
 
 #ipad-screen {
   position: absolute;
-  top: 344px;
-  left: 728px;
+  top: 346px;
+  left: 738px;
   background-color: rgba(5, 159, 223, .9);
   height: 175px;
   width: 130px;
@@ -590,10 +590,10 @@ textarea {
 
 #iphone-screen {
   position: absolute;
-  top: 448.4px;
-  left: 881px;
+  top: 448.6px;
+  left: 891.8px;
   background-color: lightgrey;
-  height: 80.4px;
+  height: 81.8px;
   width: 46.5px;
   border-radius: .2em;
 }
@@ -607,11 +607,11 @@ textarea {
 #air-screen {
   position: absolute;
   top: 353px;
-  left: 959.5px;
+  left: 971px;
   background-color: salmon;
   opacity: .9;
-  height: 145px;
-  width: 246px;
+  height: 148px;
+  width: 248px;
   border-radius: .2em;
 }
 
@@ -624,10 +624,10 @@ textarea {
 #mac-screen {
   position: absolute;
   top: 330px;
-  left: 40px;
+  left: 42px;
   background-color: rgba(255, 220, 130, .9);
   height: 182px;
-  width: 298px;
+  width: 301px;
   border-radius: .2em;
 }
 
@@ -643,7 +643,7 @@ textarea {
   position: absolute;
   background-image: url("./../public/glare.png");
   top: 0;
-  left: 736px;
+  left: 750.5px;
   z-index: 1;
 }
 
@@ -660,7 +660,7 @@ textarea {
   background-position: center;
   background-size: cover;
   top: 400px;
-  left: 162px;
+  left: 163px;
   z-index: 5;
   -webkit-animation: spin 12s infinite linear;
 }
@@ -673,7 +673,7 @@ textarea {
   background-position: center;
   background-size: cover;
   top: 410px;
-  left: 770px;
+  left: 780px;
   z-index: 5;
   -webkit-animation: spin 25s infinite linear;
 }
@@ -686,7 +686,7 @@ textarea {
   background-position: center;
   background-size: cover;
   top: 472px;
-  left: 883px;
+  left: 896px;
   z-index: 5;
   -webkit-animation: spin 18s infinite linear;
 }
@@ -699,7 +699,7 @@ textarea {
   background-position: center;
   background-size: cover;
   top: 410px;
-  left: 1053px;
+  left: 1071px;
   z-index: 5;
   -webkit-animation: spin 15s infinite linear;
 }
