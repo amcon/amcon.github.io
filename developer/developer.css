@@ -1,8 +1,8 @@
 body {
-  width: 1230px;
+  width: 1236px;
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
-  background-color: rgb(23, 105, 87);
+  background-color: black;
 }
 
 .nav:hover {
@@ -11,7 +11,7 @@ body {
 
 .header-container {
   height: 544px;
-  width: 1230px;
+  width: 1236px;
   background-image: url("./../public/mac.jpg");
   background-size: cover;
   background-position: center;
@@ -42,7 +42,7 @@ body {
 
 .container {
   height: 544px;
-  width: 1230px;
+  width: 1236px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,7 +104,7 @@ p {
   align-items: center;
   justify-content: center;
   height: 650px;
-  width: 1251px;
+  width: 1236px;
   padding-bottom: 65px;
   /*background-color: #949e98;*/
   background-color: #f9f6de;
@@ -139,7 +139,7 @@ p {
   justify-content: center;
   align-items: center;
   height: 600px;
-  width: 1230px;
+  width: 1236px;
 }
 
 #line {
@@ -359,7 +359,7 @@ p {
   align-items: center;
   margin: 0 auto;
   height: 400px;
-  width: 1251px;
+  width: 1236px;
   z-index: 1;
 }
 
@@ -411,7 +411,7 @@ p {
 
 .resume {
   height: 280px;
-  width: 1251px;
+  width: 1236px;
   background-color: #949e98;
   display: flex;
   justify-content: center;
@@ -450,7 +450,7 @@ p {
 
 .contact {
   height: 480px;
-  width: 1251px;
+  width: 1236px;
   background-color: rgb(67, 66, 66);
   display: flex;
   flex-direction: row;
@@ -575,7 +575,7 @@ textarea {
 #ipad-screen {
   position: absolute;
   top: 344px;
-  left: 726px;
+  left: 728px;
   background-color: rgba(5, 159, 223, .9);
   height: 175px;
   width: 130px;
@@ -590,10 +590,10 @@ textarea {
 
 #iphone-screen {
   position: absolute;
-  top: 447.2px;
-  left: 876px;
+  top: 448.4px;
+  left: 881px;
   background-color: lightgrey;
-  height: 80px;
+  height: 80.4px;
   width: 46.5px;
   border-radius: .2em;
 }
@@ -606,12 +606,12 @@ textarea {
 
 #air-screen {
   position: absolute;
-  top: 352px;
-  left: 955px;
+  top: 353px;
+  left: 959.5px;
   background-color: salmon;
   opacity: .9;
   height: 145px;
-  width: 244px;
+  width: 246px;
   border-radius: .2em;
 }
 
@@ -643,7 +643,7 @@ textarea {
   position: absolute;
   background-image: url("./../public/glare.png");
   top: 0;
-  left: 751px;
+  left: 736px;
   z-index: 1;
 }
 
@@ -712,7 +712,7 @@ textarea {
   width: 200px;
 }
 
-#about-screen {
+/*#about-screen {
   position: absolute;
   top: 88.7px;
   left: 276px;
@@ -723,4 +723,4 @@ textarea {
   width: 513px;
   z-index: 1;
   filter: grayscale(50%);
-}
+}*/
