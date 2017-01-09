@@ -412,7 +412,7 @@ p {
 .resume {
   height: 280px;
   width: 1251px;
-  background-color: #a2c1a0;
+  background-color: #949e98;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -422,15 +422,16 @@ p {
   height: 50px;
   width: 225px;
   border-radius: .8em;
-  background-color: #a2c1a0;
+  background-color: #949e98;
   border-style: none;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid #FAFAFA;
+  color: #FAFAFA;
   font-size: 20px;
 }
 
 .prof_resume:hover {
   background-color: white;
+  color: black;
 }
 
 .resume-box {
@@ -444,7 +445,7 @@ p {
 }
 
 .resume-box h1 {
-  color: black;
+  color: #FAFAFA;
 }
 
 .contact {
