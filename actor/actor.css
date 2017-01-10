@@ -523,7 +523,12 @@ and (max-device-width : 736px) {
   }
 
   .header {
-    width: 100%;
+    width: 50%;
+    height: 100px;
+  }
+
+  #nav {
+    font-size: 50px;
   }
 
 }
