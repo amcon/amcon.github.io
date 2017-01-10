@@ -215,7 +215,7 @@ a {
 }
 
 .media {
-  height: 610px;
+  height: 600px;
   width: 100%;
   background-color: #949e98;
   /*display: flex;
@@ -229,7 +229,7 @@ a {
   margin: 0;
   position: relative;
   margin-left: 4%;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 #big {
