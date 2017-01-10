@@ -116,7 +116,7 @@ a {
 
 .right-top-left {
   height: 100%;
-  width: 40%;
+  width: 38%;
 }
 
 .right-top-left img {
@@ -128,7 +128,7 @@ a {
 
 .right-top-right {
   height: 100%;
-  width: 60%;
+  width: 62%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
