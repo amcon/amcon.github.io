@@ -43,7 +43,7 @@ a {
   justify-content: center;
   align-items: center;
   color: #FAFAFA;
-  background-image: url("./../public/city.png");
+  background-image: url("./../public/city.jpg");
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -261,10 +261,10 @@ iframe {
   border: 2px solid #FAFAFA;
 }
 
-#image-break-2 {
-  height: 250px;
+#image-break {
+  height: 300px;
   width: 100%;
-  background-image: url("./../public/bridge.jpg");
+  background-image: url("./../public/Beach.jpg");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -376,10 +376,10 @@ iframe {
   color: #FAFAFA;
 }
 
-#image-break {
-  height: 300px;
+#image-break-2 {
+  height: 250px;
   width: 100%;
-  background-image: url("./../public/Beach.jpg");
+  background-image: url("./../public/oklahoma.jpg");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
