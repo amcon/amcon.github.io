@@ -522,4 +522,8 @@ and (max-device-width : 736px) {
     background-color: black;
   }
 
+  .header {
+    width: 100%;
+  }
+
 }
