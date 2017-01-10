@@ -14,8 +14,12 @@ $(function(){
     window.location.href = "http://chairshare.herokuapp.com/";
   }
 
+  function go_to_groupit(){
+    window.location.href = "http://groupit-react.herokuapp.com";
+  }
+
   function go_to_resume(){
-    window.location.href = "https://docs.google.com/document/d/11CP65LGIsMTWFA8F3Y_tHfGzwvZGNUJRFOR3RaNVD_g/edit?usp=sharing";
+    window.location.href = "https://docs.google.com/document/d/1LpTiBCLK383Y_5p1KJXEKBAvt10UfUC6e6PG5cZJo_o/edit?usp=sharing";
   }
 
   function go_to_theatre_resume(){
@@ -55,6 +59,10 @@ $(function(){
   $(".project-three").click(function(){
     go_to_chairShare();
   });
+
+  $(".project-four").click(function(){
+    go_to_groupit();
+  })
 
   $(".resume").click(function(){
     go_to_resume();
