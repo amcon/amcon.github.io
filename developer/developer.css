@@ -2,7 +2,7 @@ body {
   width: 100%;
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
-  background-color: black;
+  background-color: grey;
 }
 
 .nav:hover {
@@ -11,11 +11,12 @@ body {
 
 .header-container {
   height: 544px;
-  width: 1251px;
-  background-image: url("./../public/mac.jpg");
+  width: 100%;
+  background-image: url("./../public/trees.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  margin-top: 86px;
 }
 
 .header {
@@ -42,13 +43,13 @@ body {
 
 .container {
   height: 544px;
-  width: 100%;
+  width: 80%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: -37px;
+  align-items: flex-start;
+  margin-left: 10%;
+ /* margin-top: -37px;*/
 /*  background-color: black;
 */}
 
@@ -65,15 +66,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 /*  background-color: rgba(5, 5, 5, .5);
 */  border-radius: 1em;
-  height: 220px;
-  width: 400px;
-  padding: 60px;
-  position: absolute;
+  height: 544px;
+  width: 60%;
+ /* position: absolute;
   top: 48px;
-  left: 270px;
+  left: 270px;*/
 }
 
 /*.brand h1 {
@@ -84,7 +84,41 @@ body {
   font-size: 23px;
   line-height: 25px;
   z-index: 2;
-  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 544px;
+  width: 40%;
+}
+
+.icons img {
+  height: 5%;
+  margin-top: 5%;
+}
+
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+
+#logo1 {
+  -webkit-animation: spin 25s infinite linear;
+}
+
+#logo2 {
+-webkit-animation: spin 20s infinite linear;
+}
+
+#logo3 {
+  -webkit-animation: spin 18s infinite linear;
+}
+
+#logo4 {
+  -webkit-animation: spin 23s infinite linear;
 }
 
 h1 {
@@ -107,7 +141,7 @@ p {
   width: 100%;
   padding-bottom: 65px;
   /*background-color: #949e98;*/
-  background-color: #f9f6de;
+  background-color: rgb(208, 208, 208);
   padding-bottom: 120px;
 }
 
@@ -222,7 +256,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*filter: grayscale(70%);*/
+  filter: grayscale(50%);
 }
 
 /*#project-box p, #project-box h2 {
@@ -231,7 +265,7 @@ p {
 
 .project-one:hover {
   position: relative;
-  filter: grayscale(50%);
+  filter: grayscale(90%);
   opacity: 1;
   z-index: 1;
   cursor: pointer;
@@ -260,12 +294,12 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*filter: grayscale(70%);*/
+  filter: grayscale(30%);
 }
 
 .project-two:hover {
   position: relative;
-  filter: grayscale(70%);
+  filter: grayscale(90%);
   cursor: pointer;
   z-index: 1;
   opacity: 1;
@@ -294,13 +328,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*filter: grayscale(70%);*/
+  filter: grayscale(30%);
   z-index: 1;
 }
 
 .project-three:hover {
   position: relative;
-  filter: grayscale(70%);
+  filter: grayscale(90%);
   cursor: pointer;
   z-index: 1;
   opacity: 1;
@@ -329,12 +363,12 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*filter: grayscale(70%);*/
+  filter: grayscale(30%);
 }
 
 .project-four:hover {
   position: relative;
-  filter: grayscale(70%);
+  filter: grayscale(90%);
   cursor: pointer;
   z-index: 1;
   opacity: 1;
@@ -348,6 +382,16 @@ p {
   position: relative;
   color: white;
   z-index: 1;
+}
+
+#image-break {
+  height: 250px;
+  width: 100%;
+  background-image: url("./../public/mountain.JPG");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .skills-education {
@@ -408,7 +452,6 @@ p {
   color: black;
 }
 
-
 .resume {
   height: 280px;
   width: 100%;
@@ -446,6 +489,24 @@ p {
 
 .resume-box h1 {
   color: #FAFAFA;
+}
+
+#image-break-2 {
+  height: 300px;
+  width: 100%;
+  background-image: url("./../public/city.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image-break-2 h1 {
+  color: #FAFAFA;
+  margin: 0;
+  text-align: right;
+  padding: 10%;
+  font-size: 30px;
 }
 
 .contact {
@@ -572,7 +633,7 @@ textarea {
   z-index: 2;
 }*/
 
-#ipad-screen {
+/*#ipad-screen {
   position: absolute;
   top: 346px;
   left: 738px;
@@ -710,7 +771,7 @@ textarea {
   left: 940px;
   font-size: 40px;
   width: 200px;
-}
+}*/
 
 /*#about-screen {
   position: absolute;
