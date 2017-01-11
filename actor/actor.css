@@ -43,12 +43,13 @@ a {
   justify-content: center;
   align-items: center;
   color: #FAFAFA;
-  background-image: url("./../public/city.jpg");
+  /*background-image: url("./../public/city.jpg");
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 730px;
+  background-repeat: no-repeat;*/
+  background-color: #FAFAFA;
+  height: 800px;
   width: 100%;
   /*margin-top: 2%;
   margin-left: -1%;*/
@@ -57,23 +58,25 @@ a {
 .container p {
   font-size: 22px;
   margin: 15px;
+  color: rgb(25, 25, 25);
 }
 
 .container h1 {
   font-size: 45px;
   margin-bottom: 3px;
+  color: rgb(25, 25, 25);
 }
 
 .title-box {
-  height: 630px;
-  width: 95%;
-  margin-top: 0%;
+  height: 760px;
+  width: 100%;
+  margin-top: -2%;
   text-align: center;
-  background-color: rgba(45, 45, 45, .7);
+  background-color: #FAFAFA;
 }
 
 .picture-box {
-  height: 485px;
+  height: 600px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -83,7 +86,7 @@ a {
 
 .left {
   height: 100%;
-  width: 30%;
+  width: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,12 +96,12 @@ a {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-  border: 4px solid white;
+  /*border: 4px solid white;*/
 }
 
 .right {
   height: 100%;
-  width: 60%;
+  width: 63%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -123,7 +126,7 @@ a {
   height: 96%;
   width: 90%;
   box-sizing: border-box;
-  border: 4px solid white;
+  /*border: 4px solid white;*/
 }
 
 .right-top-right {
@@ -148,7 +151,7 @@ a {
   height: 100%;
   width: 31.5%;
   box-sizing: border-box;
-  border: 4px solid white;
+  /*border: 4px solid white;*/
 }
 
 .pic-left {
@@ -163,9 +166,10 @@ a {
 
 .right-top-right-bottom img {
   height: 90%;
-  width: 101%;
+  width: 100.5%;
   box-sizing: border-box;
-  border: 4px solid white;
+  margin-left: .5%;
+  /*border: 4px solid white;*/
 }
 
 .right-bottom {
@@ -180,15 +184,15 @@ a {
 .right-bottom img {
   height: 100%;
   box-sizing: border-box;
-  border: 4px solid white;
+  /*border: 4px solid white;*/
 }
 
 #left {
-  width: 74%;
+  width: 52%;
 }
 
 #right {
-  width: 26%;
+  width: 48%;
   margin-right: -2.3%;
 }
 
@@ -202,6 +206,16 @@ a {
   height: 270px;
   width: 230px;
 }*/
+
+#image-break-3 {
+  height: 300px;
+  width: 100%;
+  background-image: url("./../public/city.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 
 #main {
   height: 340px;
@@ -312,7 +326,7 @@ iframe {
   width: 35%;
   margin-right: 20px;
   box-sizing: border-box;
-  border: 4px solid white;
+  /*border: 4px solid white;*/
 }
 
 .right-pic {
@@ -330,7 +344,7 @@ iframe {
   width: 35%;
   margin-left: 20px;
   box-sizing: border-box;
-  border: 4px solid white;
+  /*border: 4px solid white;*/
 }
 
 .text-box {
