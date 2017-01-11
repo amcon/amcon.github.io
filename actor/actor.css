@@ -696,4 +696,16 @@ and (max-device-width : 736px) {
     margin-top: 5%;
   }
 
+  .contact {
+    height: 600px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .contact h1 {
+    margin: 3%;
+    font-size: 80px;
+  }
+
 }
