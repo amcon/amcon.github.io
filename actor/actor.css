@@ -572,6 +572,7 @@ and (max-device-width : 736px) {
 
   .media {
     height: 1800px;
+    text-align: center;
   }
 
   .media h1 {
