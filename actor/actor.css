@@ -602,6 +602,19 @@ and (max-device-width : 736px) {
   }
 
   iframe {
+    height: 500px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .little {
+    height: 500px;
+    width: 100%;
+    margin: 0;
+  }
+
+  #big {
+    height: 500px;
     width: 100%;
     margin: 0;
   }
