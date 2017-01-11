@@ -627,12 +627,12 @@ and (orientation: portrait) {
     align-items: center;
     height: 1400px;
     width: 100%;
+    margin-top: 40%;
   }
 
   .brand p {
     font-size: 50px;
     line-height: 100px;
-    margin-top: 30%;
   }
 
   .icons {
