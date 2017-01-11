@@ -580,6 +580,7 @@ and (max-device-width : 736px) {
 
   .media h1 {
     font-size: 100px;
+    line-height: 120px;
   }
 
   .videos {
