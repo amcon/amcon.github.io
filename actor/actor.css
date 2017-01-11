@@ -566,8 +566,8 @@ and (max-device-width : 736px) {
 
   .right {
     height: 1000px;
-    width: 80%;
-    margin-left: -2%;
+    width: 85%;
+    margin-left: -5%;
   }
 
 }
