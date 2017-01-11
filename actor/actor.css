@@ -618,6 +618,10 @@ and (max-device-width : 736px) {
 
   .video-column {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   iframe {
@@ -628,7 +632,7 @@ and (max-device-width : 736px) {
     height: 450px;
     width: 750px;
 /*    margin-left: -70%;*/
-    margin-bottom: 20%;
+    margin-bottom: 15%;
   }
 
   #big {
