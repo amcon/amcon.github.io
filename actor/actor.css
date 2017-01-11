@@ -584,6 +584,7 @@ and (max-device-width : 736px) {
 
   .media {
     height: 1800px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -677,7 +678,7 @@ and (max-device-width : 736px) {
 
   .education h1 {
     font-size: 80px;
-    margin-top: 3%;
+    margin-top: 2%;
   }
 
   .education p {
@@ -700,13 +701,14 @@ and (max-device-width : 736px) {
     height: 800px;
     width: 100%;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .contact h1 {
     margin-top: 5%;
     margin-bottom: 3%;
     font-size: 80px;
+    margin-left: 5%;
   }
 
   .title {
