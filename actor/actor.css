@@ -574,8 +574,8 @@ and (max-device-width : 736px) {
     height: 1800px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .media h1 {
@@ -597,18 +597,16 @@ and (max-device-width : 736px) {
     justify-content: center;
     align-items: center;
     margin: 0;
-    width: 200%;
   }
 
   iframe {
     height: 500px;
-    width: 100%;
     margin: 0;
   }
 
   .little {
     height: 500px;
-    width: 100%;
+    width: 800px;
     margin: 0;
   }
 
