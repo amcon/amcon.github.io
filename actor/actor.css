@@ -598,7 +598,6 @@ and (max-device-width : 736px) {
   .media h1 {
     font-size: 90px;
     line-height: 90px;
-    margin-left: 10%;
     margin-top: 8%;
     margin-bottom: 3%;
   }
@@ -658,7 +657,7 @@ and (max-device-width : 736px) {
 
   .news h1 {
     font-size: 80px;
-    margin-top: 4%;
+    margin-top: 10%;
   }
 
   .news p {
