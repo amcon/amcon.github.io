@@ -594,6 +594,7 @@ and (max-device-width : 736px) {
   .media h1 {
     font-size: 90px;
     line-height: 120px;
+    margin-left: -40%;
   }
 
   .videos {
@@ -631,7 +632,7 @@ and (max-device-width : 736px) {
     margin-bottom: 2%;
   }
 
-  #image-break, #image-break-2 {
+  #image-break, #image-break-2, #image-break-3 {
     height: 0px;
   }
 
