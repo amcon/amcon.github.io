@@ -524,9 +524,8 @@ textarea {
 
 #logo1, #logo3, #logo4 {
   height: 60px;
-  width: 60px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 @media only screen
@@ -672,6 +671,10 @@ and (max-device-width : 736px) {
     margin-bottom: 2%;
   }
 
+  .education {
+    height: 450px;
+  }
+
   .education h1 {
     font-size: 60px;
     margin-top: 4%;
@@ -679,6 +682,17 @@ and (max-device-width : 736px) {
 
   .education p {
     font-size: 45px;
+  }
+
+  #logo1, #logo3, #logo4 {
+    height: 120px;
+  }
+
+  .education button {
+    height: 75px;
+    width: 20%;
+    font-size: 40px;
+    margin-top: 5%;
   }
 
 }
