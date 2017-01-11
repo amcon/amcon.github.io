@@ -587,8 +587,8 @@ and (max-device-width : 736px) {
     width: 900px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .media h1 {
