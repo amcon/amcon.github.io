@@ -626,7 +626,7 @@ and (orientation: portrait) {
     justify-content: center;
     align-items: center;
     height: 1400px;
-    width: 100%;
+    width: 90%;
     margin-top: 50%;
     margin-bottom: 20%;
   }
