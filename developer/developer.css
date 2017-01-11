@@ -618,6 +618,15 @@ and (orientation: portrait) {
     margin-left: 10%;
   }
 
+  .brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 1000px;
+    width: 100%;
+  }
+
   .brand p {
     font-size: 100px;
     line-height: 100px;
