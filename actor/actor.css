@@ -58,6 +58,7 @@ a {
 .container p {
   font-size: 22px;
   margin: 15px;
+  margin-bottom: 3%;
   color: rgb(25, 25, 25);
 }
 
