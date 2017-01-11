@@ -647,16 +647,18 @@ and (max-device-width : 736px) {
   }
 
   .news p {
-    font-size: 40px;
+    font-size: 38px;
     line-height: 40px;
   }
 
   .left-pic {
     height: 600px;
+    align-items: flex-start;
   }
 
   .right-pic {
     height: 600px;
+    align-items: flex-start;
   }
 
   #big-news {
