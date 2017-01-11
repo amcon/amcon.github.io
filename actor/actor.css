@@ -719,12 +719,12 @@ and (max-device-width : 736px) {
     margin-top: 5%;
     margin-bottom: 3%;
     font-size: 80px;
-    margin-left: 5%;
+    padding-left: 5%;
   }
 
   .title {
     width: 100%;
-    margin-left: 10%;
+    padding-left: 10%;
   }
 
 }
