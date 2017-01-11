@@ -627,7 +627,7 @@ and (orientation: portrait) {
     align-items: center;
     height: 1400px;
     width: 90%;
-    margin-top: 50%;
+    margin-top: 80%;
   }
 
   .brand p {
