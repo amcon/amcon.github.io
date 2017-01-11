@@ -623,7 +623,7 @@ and (max-device-width : 736px) {
   .little {
     height: 450px;
     width: 750px;
-    margin-left: -72%;
+    margin-left: -92%;
     margin-bottom: 20%;
   }
 
@@ -692,7 +692,7 @@ and (max-device-width : 736px) {
 
   .education button {
     height: 75px;
-    width: 50%;
+    width: 45%;
     font-size: 40px;
     margin-top: 5%;
   }
