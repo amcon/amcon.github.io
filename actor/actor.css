@@ -616,6 +616,10 @@ and (max-device-width : 736px) {
     margin: 0;
   }
 
+  .video-column {
+    width: 100%;
+  }
+
   iframe {
     height: 450px;
   }
