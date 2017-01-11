@@ -584,7 +584,7 @@ and (max-device-width : 736px) {
   }
 
   .media {
-    height: 2000px;
+    height: 1800px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -644,6 +644,7 @@ and (max-device-width : 736px) {
 
   .news h1 {
     font-size: 80px;
+    margin-top: 4%;
   }
 
   .news p {
@@ -669,6 +670,15 @@ and (max-device-width : 736px) {
     width: 100%;
     text-align: center;
     margin-bottom: 2%;
+  }
+
+  .education h1 {
+    font-size: 60px;
+    margin-top: 4%;
+  }
+
+  .education p {
+    font-size: 45px;
   }
 
 }
