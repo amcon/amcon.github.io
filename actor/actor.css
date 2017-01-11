@@ -595,7 +595,7 @@ and (max-device-width : 736px) {
     font-size: 90px;
     line-height: 120px;
     margin-left: -60%;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 2%;
   }
 
@@ -652,12 +652,12 @@ and (max-device-width : 736px) {
   }
 
   .left-pic {
-    height: 700px;
+    height: 650px;
 /*    flex-direction: column;
 */  }
 
   .right-pic {
-    height: 700px;
+    height: 650px;
 /*    flex-direction: column;
 */  }
 
@@ -668,6 +668,7 @@ and (max-device-width : 736px) {
   .text-box {
     width: 100%;
     text-align: center;
+    margin-bottom: 2%;
   }
 
 }
