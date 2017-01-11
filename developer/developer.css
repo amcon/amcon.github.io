@@ -668,6 +668,7 @@ and (orientation: portrait) {
 
   .resume h1 {
     font-size: 80px;
+    margin-top: -10%;
   }
 
   .resume button {
