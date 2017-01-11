@@ -589,6 +589,7 @@ and (max-device-width : 736px) {
 
   .media {
     height: 2300px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
