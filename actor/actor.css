@@ -691,7 +691,7 @@ and (max-device-width : 736px) {
 
   .education button {
     height: 75px;
-    width: 70%;
+    width: 60%;
     font-size: 40px;
     margin-top: 5%;
   }
