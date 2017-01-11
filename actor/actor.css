@@ -549,7 +549,7 @@ and (max-device-width : 736px) {
 
   .container {
     height: 1700px;
-    width: 120%;
+    width: 110%;
     background-position: center;
   }
 
