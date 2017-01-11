@@ -570,4 +570,30 @@ and (max-device-width : 736px) {
     margin-left: -1.8%;
   }
 
+  .media {
+    height: 1800px;
+  }
+
+  .media h1 {
+    font-size: 100px;
+  }
+
+  .videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  iframe {
+    width: 90%;
+  }
+
 }
