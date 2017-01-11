@@ -572,7 +572,10 @@ and (max-device-width : 736px) {
 
   .media {
     height: 1800px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .media h1 {
@@ -599,6 +602,7 @@ and (max-device-width : 736px) {
 
   iframe {
     width: 100%;
+    margin: 0;
   }
 
 }
