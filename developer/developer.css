@@ -626,7 +626,7 @@ and (orientation: portrait) {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: 1400px;
     width: 100%;
   }
