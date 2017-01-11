@@ -622,15 +622,15 @@ and (max-device-width : 736px) {
   .little {
     height: 450px;
     width: 750px;
-    margin-left: -87%;
-    margin-bottom: 6%;
+    margin-left: -72%;
+    margin-bottom: 20%;
   }
 
   #big {
     height: 450px;
     width: 750px;
     margin-left: 0%;
-    margin-bottom: 2%;
+    margin-bottom: 16%;
   }
 
   #image-break, #image-break-2, #image-break-3 {
@@ -710,6 +710,7 @@ and (max-device-width : 736px) {
 
   .title {
     width: 100%;
+    margin-left: 4%;
   }
 
 }
