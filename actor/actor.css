@@ -646,6 +646,7 @@ and (max-device-width : 736px) {
     height: 450px;
     width: 750px;
     margin-top: 3%;
+    margin-left: 0;
   }
 
   #image-break, #image-break-2, #image-break-3 {
