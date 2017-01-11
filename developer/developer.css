@@ -636,6 +636,8 @@ and (orientation: portrait) {
 
   .icons {
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .icons img {
