@@ -639,7 +639,7 @@ and (max-device-width : 736px) {
   }
 
   .news {
-    height: 2000px;
+    height: 3000px;
   }
 
   .news h1 {
@@ -652,11 +652,11 @@ and (max-device-width : 736px) {
   }
 
   .left-pic {
-    height: 400px;
+    height: 600px;
   }
 
   .right-pic {
-    height: 400px;
+    height: 600px;
   }
 
   .text-box {
