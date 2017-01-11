@@ -632,6 +632,7 @@ and (orientation: portrait) {
   .brand p {
     font-size: 50px;
     line-height: 100px;
+    margin-top: 30%;
   }
 
   .icons {
@@ -643,6 +644,10 @@ and (orientation: portrait) {
   .icons img {
     height: 50px;
     margin-right: 20%;
+  }
+
+  #logo1 {
+    margin-left: 20%;
   }
 
 }
