@@ -742,4 +742,12 @@ and (orientation: landscape) {
     height: 500px;
   }
 
+  .title {
+    text-align: center;
+  }
+
+  #image-break, #image-break-2, #image-break-3 {
+    height: 0px;
+  }
+
 }
