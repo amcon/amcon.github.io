@@ -686,11 +686,12 @@ and (max-device-width : 736px) {
 
   #logo1, #logo3, #logo4 {
     height: 120px;
+    margin-bottom: 5%;
   }
 
   .education button {
     height: 75px;
-    width: 40%;
+    width: 70%;
     font-size: 40px;
     margin-top: 5%;
   }
