@@ -663,7 +663,7 @@ and (max-device-width : 736px) {
 
   .news {
     height: 3000px;
-    margin: 110%;
+    width: 110%;
   }
 
   .news h1 {
