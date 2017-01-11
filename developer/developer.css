@@ -658,4 +658,8 @@ and (orientation: portrait) {
     margin-left: 20%;
   }
 
+  #image-break, #image-break-2 {
+    height: 0;
+  }
+
 }
