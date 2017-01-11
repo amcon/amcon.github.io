@@ -584,7 +584,7 @@ and (max-device-width : 736px) {
   }
 
   .media {
-    height: 1800px;
+    height: 2000px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -595,6 +595,8 @@ and (max-device-width : 736px) {
     font-size: 90px;
     line-height: 120px;
     margin-left: -60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 
   .videos {
@@ -641,7 +643,11 @@ and (max-device-width : 736px) {
   }
 
   .news h1 {
-    font-size: 80px
+    font-size: 80px;
+  }
+
+  .news p {
+    font-size: 40px;
   }
 
 }
