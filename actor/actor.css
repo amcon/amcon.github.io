@@ -596,8 +596,8 @@ and (max-device-width : 736px) {
 
   .media h1 {
     font-size: 90px;
-    line-height: 90px;
-    padding: 20%, 0, 10%, 5%;
+/*    line-height: 90px;
+*/    padding: 40%, 0, 40%, 5%;
   }
 
   .videos {
