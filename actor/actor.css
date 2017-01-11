@@ -659,4 +659,9 @@ and (max-device-width : 736px) {
     height: 400px;
   }
 
+  .text-box {
+    width: 100%;
+    text-align: center;
+  }
+
 }
