@@ -628,12 +628,12 @@ and (orientation: portrait) {
     height: 1400px;
     width: 90%;
     margin-top: 50%;
-    margin-bottom: 20%;
   }
 
   .brand p {
     font-size: 50px;
     line-height: 100px;
+    margin-bottom: 30%;
   }
 
   .brand h1 {
