@@ -608,12 +608,12 @@ and (max-device-width : 736px) {
     height: 500px;
     width: 850px;
     margin-left: -90%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
   }
 
   #big {
     height: 500px;
-    width: 100%;
+    width: 90%;
     margin-left: -5%;
     margin-bottom: 2%;
   }
