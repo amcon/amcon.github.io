@@ -662,6 +662,20 @@ and (orientation: portrait) {
     height: 0px;
   }
 
+  .resume {
+    height: 500px;
+  }
+
+  .resume h1 {
+    font-size: 80px;
+  }
+
+  .resume button {
+    height: 80px;
+    width: 50%;
+    font-size: 60px;
+  }
+
 }
 
 @media only screen
