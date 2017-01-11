@@ -659,6 +659,10 @@ and (max-device-width : 736px) {
     height: 600px;
   }
 
+  #big-news {
+    height: 700px;
+  }
+
   .text-box {
     width: 100%;
     text-align: center;
