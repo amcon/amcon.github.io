@@ -659,7 +659,7 @@ and (orientation: portrait) {
   }
 
   #image-break, #image-break-2 {
-    height: 0;
+    height: 0px;
   }
 
 }
