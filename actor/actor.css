@@ -583,6 +583,8 @@ and (max-device-width : 736px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    width: 90%;
   }
 
   .video-container {
@@ -590,10 +592,12 @@ and (max-device-width : 736px) {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    width: 90%;
   }
 
   iframe {
-    width: 90%;
+    width: 100%;
   }
 
 }
