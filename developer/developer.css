@@ -494,11 +494,12 @@ p {
 #image-break-2 {
   height: 300px;
   width: 100%;
-  background-image: url("./../public/city.jpg");
+  background-image: url("./../public/wood.jpg");
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: grayscale(60%);
 }
 
 #image-break-2 h1 {
