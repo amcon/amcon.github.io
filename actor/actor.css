@@ -534,7 +534,6 @@ and (max-device-width : 736px) {
 
   body {
     margin: 0;
-    width: 90%;
   }
 
   .header {
@@ -614,15 +613,16 @@ and (max-device-width : 736px) {
     margin: 0;
     width: 100%;
     height: 1600px;
+    background-color: lightblue;
   }
 
-  .video-container {
+/*  .video-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 0;
-  }
+  }*/
 
   .video-column {
     width: 100%;
@@ -631,6 +631,7 @@ and (max-device-width : 736px) {
     justify-content: center;
     align-items: center;
     height: 1000px;
+    background-color: white;
   }
 
   iframe {
