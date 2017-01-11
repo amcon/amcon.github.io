@@ -652,13 +652,23 @@ and (max-device-width : 736px) {
   }
 
   .left-pic {
-    height: 600px;
-    align-items: flex-start;
+    height: 700px;
+    flex-direction: column;
+  }
+
+  .left-pic img {
+    width: 80%;
+    height: 400px;
   }
 
   .right-pic {
-    height: 600px;
-    align-items: flex-start;
+    height: 700px;
+    flex-direction: column;
+  }
+
+  .right-pic img {
+    width: 80%;
+    height: 400px;
   }
 
   #big-news {
