@@ -598,7 +598,6 @@ and (max-device-width : 736px) {
     font-size: 90px;
     line-height: 90px;
     margin: 20%, 0, 10%, 5%;
-    margin: 0;
   }
 
   .videos {
