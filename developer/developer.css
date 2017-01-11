@@ -642,6 +642,7 @@ and (orientation: portrait) {
 
   .icons img {
     height: 50px;
+    margin-right: 5%;
   }
 
 }
