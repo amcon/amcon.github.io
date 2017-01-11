@@ -588,7 +588,7 @@ and (max-device-width : 736px) {
   }
 
   .media {
-    height: 2500px;
+    height: 2300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -631,7 +631,7 @@ and (max-device-width : 736px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1650px;
+    height: 1850px;
     background-color: white;
     margin-right: 0;
   }
