@@ -601,19 +601,18 @@ and (max-device-width : 736px) {
 
   iframe {
     height: 500px;
-    margin-bottom: 2%;
   }
 
   .little {
     height: 500px;
     width: 800px;
-    margin-left: -50%;
+    margin-left: -100%;
   }
 
   #big {
     height: 500px;
     width: 100%;
-    margin: 0;
+    margin-bottom: 2%;
   }
 
 }
