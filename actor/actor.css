@@ -563,4 +563,9 @@ and (max-device-width : 736px) {
     width: 70%;
   }
 
+  .right {
+    height: 800px;
+    width: 70%;
+  }
+
 }
