@@ -653,23 +653,13 @@ and (max-device-width : 736px) {
 
   .left-pic {
     height: 700px;
-    flex-direction: column;
-  }
-
-  .left-pic img {
-    width: 80%;
-    height: 400px;
-  }
+/*    flex-direction: column;
+*/  }
 
   .right-pic {
     height: 700px;
-    flex-direction: column;
-  }
-
-  .right-pic img {
-    width: 80%;
-    height: 400px;
-  }
+/*    flex-direction: column;
+*/  }
 
   #big-news {
     height: 700px;
