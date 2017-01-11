@@ -648,6 +648,15 @@ and (max-device-width : 736px) {
 
   .news p {
     font-size: 40px;
+    line-height: 40px;
+  }
+
+  .left-pic {
+    height: 400px;
+  }
+
+  .right-pic {
+    height: 400px;
   }
 
 }
