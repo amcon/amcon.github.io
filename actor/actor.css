@@ -601,13 +601,13 @@ and (max-device-width : 736px) {
 
   iframe {
     height: 500px;
-    margin: 0;
+    margin-bottom: 2%;
   }
 
   .little {
     height: 500px;
     width: 800px;
-    margin: 0;
+    margin-left: -50%;
   }
 
   #big {
