@@ -527,4 +527,16 @@ and (max-device-width : 736px) {
     font-size: 50px;
   }
 
+  .container {
+    height: 2000px;
+  }
+
+  .container h1 {
+    font-size: 100px;
+  }
+
+  .container p {
+    font-size: 50px;
+  }
+
 }
