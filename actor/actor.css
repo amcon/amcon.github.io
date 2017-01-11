@@ -596,8 +596,7 @@ and (max-device-width : 736px) {
 
   .media h1 {
     font-size: 90px;
-    padding-top: 4%;
-    padding-bottom: 2%;
+    margin: 20%, 0, 10%, 5%;
     margin: 0;
   }
 
