@@ -544,7 +544,7 @@ and (max-device-width : 736px) {
 
   .container {
     height: 1700px;
-    width: 736px;
+    width: 936px;
     background-position: center;
   }
 
@@ -586,7 +586,7 @@ and (max-device-width : 736px) {
 
   .media {
     height: 1800px;
-    width: 736px;
+    width: 936px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -653,7 +653,7 @@ and (max-device-width : 736px) {
 
   .news {
     height: 3000px;
-    width: 736px;
+    width: 936px;
   }
 
   .news h1 {
@@ -688,7 +688,7 @@ and (max-device-width : 736px) {
 
   .education {
     height: 520px;
-    width: 736px;
+    width: 936px;
   }
 
   .education h1 {
@@ -714,7 +714,7 @@ and (max-device-width : 736px) {
 
   .contact {
     height: 800px;
-    width: 736px;
+    width: 936px;
     flex-direction: column;
     justify-content: center;
   }
