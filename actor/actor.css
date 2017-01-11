@@ -528,7 +528,8 @@ and (max-device-width : 736px) {
   }
 
   .container {
-    height: 2000px;
+    height: 1500px;
+    background-position: center;
   }
 
   .container h1 {
@@ -537,6 +538,14 @@ and (max-device-width : 736px) {
 
   .container p {
     font-size: 50px;
+  }
+
+  .title-box {
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 }
