@@ -532,10 +532,13 @@ textarea {
 and (min-device-width : 414px)
 and (max-device-width : 736px) {
 
+  body {
+    margin: 0;
+  }
+
   .header {
     width: 50%;
     height: 100px;
-    margin-top: 5%;
   }
 
   #nav {
@@ -544,7 +547,6 @@ and (max-device-width : 736px) {
 
   .container {
     height: 1700px;
-    width: 1006px;
     background-position: center;
   }
 
@@ -586,7 +588,7 @@ and (max-device-width : 736px) {
 
   .media {
     height: 1800px;
-    width: 1006px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -653,7 +655,6 @@ and (max-device-width : 736px) {
 
   .news {
     height: 3000px;
-    width: 1006px;
   }
 
   .news h1 {
@@ -688,7 +689,6 @@ and (max-device-width : 736px) {
 
   .education {
     height: 520px;
-    width: 1006px;
   }
 
   .education h1 {
@@ -714,7 +714,7 @@ and (max-device-width : 736px) {
 
   .contact {
     height: 800px;
-    width: 1006px;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
   }
