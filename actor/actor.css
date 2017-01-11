@@ -541,7 +541,7 @@ and (max-device-width : 736px) {
   }
 
   .title-box {
-    height: 2600px;
+    height: 2500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -566,7 +566,7 @@ and (max-device-width : 736px) {
 
   .right {
     height: 900px;
-    width: 81%;
+    width: 81.5%;
     margin-left: -2%;
   }
 
