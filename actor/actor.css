@@ -606,6 +606,7 @@ and (max-device-width : 736px) {
     align-items: center;
     margin: 0;
     width: 100%;
+    height: 1600px;
   }
 
   .video-container {
