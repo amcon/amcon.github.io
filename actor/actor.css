@@ -636,4 +636,12 @@ and (max-device-width : 736px) {
     height: 0px;
   }
 
+  .news {
+    height: 2000px;
+  }
+
+  .news h1 {
+    font-size: 80px
+  }
+
 }
