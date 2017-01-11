@@ -633,12 +633,13 @@ and (orientation: portrait) {
 
   .brand p {
     font-size: 60px;
-    line-height: 70px;
+    line-height: 80px;
     margin-bottom: 30%;
   }
 
   .brand h1 {
     font-size: 80px;
+    line-height: 90px;
   }
 
   .icons {
