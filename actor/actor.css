@@ -534,6 +534,7 @@ and (max-device-width : 736px) {
 
   body {
     margin: 0;
+    width: 90%;
   }
 
   .header {
