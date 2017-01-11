@@ -575,12 +575,11 @@ and (max-device-width : 736px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .media h1 {
     font-size: 100px;
-    margin: 2%;
   }
 
   .videos {
@@ -598,7 +597,7 @@ and (max-device-width : 736px) {
     justify-content: center;
     align-items: center;
     margin: 0;
-    width: 90%;
+    width: 200%;
   }
 
   iframe {
