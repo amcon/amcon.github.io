@@ -631,7 +631,7 @@ and (max-device-width : 736px) {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 75%;
+    height: 66%;
     background-color: white;
     margin-right: 0;
   }
