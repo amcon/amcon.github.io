@@ -626,8 +626,8 @@ and (orientation: portrait) {
     justify-content: center;
     align-items: center;
     height: 1600px;
-    width: 90%;
-    margin-top: 80%;
+    width: 100%;
+    margin-top: 60%;
   }
 
   .brand p {
