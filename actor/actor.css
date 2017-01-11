@@ -618,4 +618,8 @@ and (max-device-width : 736px) {
     margin-bottom: 2%;
   }
 
+  #image-break, #image-break-2 {
+    height: 0px;
+  }
+
 }
