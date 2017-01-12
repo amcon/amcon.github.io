@@ -1125,3 +1125,270 @@ and (orientation: landscape) {
 
 }
 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: portrait) {
+
+  body {
+    height: 6200px;
+    background-color: rgb(67, 66, 66);
+  }
+
+  .header {
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    top: 50px;
+  }
+
+  .header a {
+    font-size: 50px;
+  }
+
+  .header-container {
+    height: 1700px;
+    margin: 0 auto;
+  }
+
+  .container {
+    height: 1600px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+  }
+
+  .brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1600px;
+    width: 100%;
+    margin-top: 60%;
+    text-align: center;
+  }
+
+  .brand p {
+    font-size: 60px;
+    line-height: 80px;
+    margin-bottom: 30%;
+  }
+
+  .brand h1 {
+    font-size: 80px;
+    line-height: 90px;
+  }
+
+  .icons {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons img {
+    height: 70px;
+    margin-right: 20%;
+    margin-top: 30%;
+  }
+
+  #logo1 {
+    margin-left: 20%;
+  }
+
+  #image-break, #image-break-2 {
+    height: 0px;
+  }
+
+  .profile {
+    height: 2200px;
+    padding-top: 5%;
+  }
+
+  .profile h1 {
+    font-size: 90px;
+  }
+
+  .profile h3 {
+    font-size: 40px;
+  }
+
+  .profile p {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  #project-box {
+    height: 2000px;
+  }
+
+  .projects {
+    width: 100%;
+    height: 400px;
+  }
+
+  .project-one, .project-two, .project-three, .project-four {
+    height: 400px;
+  }
+
+  .skills-education {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 1200px;
+    width: 100%;
+  }
+
+  .skill-box {
+    height: 500px;
+    width: 80%;
+  }
+
+  .skill-box h1 {
+    font-size: 90px;
+  }
+
+  .skill-box p {
+    font-size: 40px;
+  }
+
+  .education-box {
+    height: 700px;
+    width: 80%;
+  }
+
+  .education-box h1 {
+    font-size: 90px;
+  }
+
+  .education-box p {
+    font-size: 40px;
+  }
+
+  .education-box a {
+    font-size: 40px;
+  }
+
+  #student {
+    line-height: 60px;
+  }
+
+  .resume {
+    height: 400px;
+  }
+
+  .resume h1 {
+    font-size: 90px;
+    margin-top: -8%;
+  }
+
+  .resume button {
+    height: 70px;
+    width: 95%;
+    font-size: 42px;
+  }
+
+  .contact {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+  }
+
+  .contact h1 {
+    font-size: 90px;
+  }
+
+  .forms {
+    height: 450px;
+    width: 80%;
+  }
+
+  .forms h4 {
+    color: black;
+    margin-left: 4%;
+  }
+
+  #input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  input {
+    margin-top: -2%;
+    border: 1px solid black;
+    border-radius: .3em;
+    background-color: rgba(250, 250, 250, 0);
+    margin-left: 4%;
+    width: 90%;
+    height: 20px;
+  }
+
+  textarea {
+    margin-top: -2%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    width: 91%;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: .3em;
+    background-color: rgba(250, 250, 250, 0);
+  }
+
+  .input-box h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 0 0 1%;
+  }
+
+  .contact button {
+    height: 28px;
+    width: 12%;
+    border-radius: 1em;
+    border-style: none;
+    background-color: rgba(250, 250, 250, 0);
+    border: 1px solid black;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    line-height: 15px;
+    position: relative;
+    left: 83%;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: landscape) {
+
+  #image-break, #image-break-2 {
+    height: 0px;
+  }
+
+  textarea {
+    width: 91%;
+  }
+
+  .contact button {
+    height: 28px;
+    width: 15%;
+    left: 81%;
+  }
+
+  .resume button {
+    width: 50%;
+  }
+
+}
