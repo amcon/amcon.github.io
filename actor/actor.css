@@ -497,7 +497,7 @@ input {
   border-radius: .3em;
   background-color: #FAFAFA;
   margin-left: 35px;
-  width: 730px;
+  width: 90%;
   height: 20px;
 }
 
@@ -505,7 +505,7 @@ textarea {
   margin-top: -15px;
   margin-left: 35px;
   margin-bottom: 25px;
-  width: 730px;
+  width: 90%;
   height: 100px;
   border: none;
   border-radius: .3em;
