@@ -851,6 +851,10 @@ and (orientation: landscape) {
     left: 81%;
   }
 
+  .resume button {
+    width: 30%;
+  }
+
 }
 
 @media only screen
@@ -1113,6 +1117,10 @@ and (orientation: landscape) {
     height: 28px;
     width: 15%;
     left: 81%;
+  }
+
+  .resume button {
+    width: 30%;
   }
 
 }
