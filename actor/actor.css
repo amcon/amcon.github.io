@@ -538,6 +538,7 @@ and (orientation: portrait) {
 
   body {
     margin: 0;
+    background-color: rgb(67, 66, 66);
   }
 
   .header {
