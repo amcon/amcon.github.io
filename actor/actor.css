@@ -737,6 +737,10 @@ and (orientation: portrait) {
     width: 90%;
   }
 
+  input {
+    width: 90%;
+  }
+
   .title {
     width: 60%;
     margin-left: 18%;
@@ -962,6 +966,10 @@ and (orientation: portrait) {
     width: 90%;
   }
 
+  input {
+    width: 90%;
+  }
+
   .title {
     width: 60%;
     margin-left: 18%;
@@ -1181,6 +1189,10 @@ and (orientation: portrait) {
   }
 
   textarea {
+    width: 90%;
+  }
+
+  input {
     width: 90%;
   }
 
