@@ -605,7 +605,7 @@ and (orientation: portrait) {
     font-size: 90px;
     line-height: 90px;
     margin-bottom: 3%;
-    margin-left: -3%;
+    margin-left: -2%;
   }
 
   .videos {
@@ -729,7 +729,7 @@ and (orientation: portrait) {
 
   .title {
     width: 60%;
-    margin-left: 12%;
+    margin-left: 15%;
   }
 
 }
