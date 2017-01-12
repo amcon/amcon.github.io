@@ -724,12 +724,11 @@ and (orientation: portrait) {
   .contact h1 {
     margin-bottom: 20%;
     font-size: 80px;
-    padding-left: 5%;
   }
 
   .title {
     width: 60%;
-    padding-left: 10%;
+    padding-left: 12%;
   }
 
 }
