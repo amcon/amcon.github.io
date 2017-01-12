@@ -667,11 +667,11 @@ and (orientation: portrait) {
   }
 
   .profile h1 {
-    font-size: 80px;
+    font-size: 90px;
   }
 
   .profile h3 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .profile p {
