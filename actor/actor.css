@@ -727,6 +727,10 @@ and (orientation: portrait) {
     font-size: 80px;
   }
 
+  textarea {
+    width: 740px;
+  }
+
   .title {
     width: 60%;
     margin-left: 15%;
