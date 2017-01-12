@@ -1105,5 +1105,15 @@ and (orientation: landscape) {
     height: 0px;
   }
 
+  textarea {
+    width: 91%;
+  }
+
+  .contact button {
+    height: 28px;
+    width: 15%;
+    left: 81%;
+  }
+
 }
 
