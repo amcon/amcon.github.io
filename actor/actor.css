@@ -761,8 +761,8 @@ and (orientation: landscape) {
     height: 0px;
   }
 
-  .form {
-    width: 60%;
+  .forms {
+    width: 600px;
   }
 
 }
