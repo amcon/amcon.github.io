@@ -734,7 +734,7 @@ and (orientation: portrait) {
   }
 
   textarea {
-    width: 100%;
+    width: 735px;
   }
 
   .title {
@@ -761,6 +761,10 @@ and (orientation: landscape) {
     height: 0px;
   }
 
+  textarea {
+    width: 90%;
+  }
+
 }
 
 @media only screen
@@ -959,7 +963,7 @@ and (orientation: portrait) {
   }
 
   textarea {
-    width: 100%;
+    width: 735px;
   }
 
   .title {
@@ -982,6 +986,10 @@ and (orientation: landscape) {
 
   #image-break, #image-break-2, #image-break-3 {
     height: 0px;
+  }
+
+  textarea {
+    width: 90%;
   }
 }
 
@@ -1181,7 +1189,7 @@ and (orientation: portrait) {
   }
 
   textarea {
-    width: 100%;
+    width: 735px;
   }
 
   .title {
@@ -1204,5 +1212,9 @@ and (orientation: landscape) {
 
   #image-break, #image-break-2, #image-break-3 {
     height: 0px;
+  }
+
+  textarea {
+    width: 90%;
   }
 }
