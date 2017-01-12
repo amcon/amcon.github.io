@@ -393,7 +393,7 @@ p {
 
 .skills-education {
   position: relative;
-  background-color: #FAFAFA;
+  background-color: rgb(245, 245, 245);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -702,7 +702,6 @@ and (orientation: portrait) {
     margin: 0 auto;
     height: 1200px;
     width: 100%;
-    background-color: #FAFAFA;
   }
 
   .skill-box {
