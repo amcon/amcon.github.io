@@ -670,8 +670,13 @@ and (orientation: portrait) {
     font-size: 80px;
   }
 
+  .profile h3 {
+    font-size: 50px;
+  }
+
   .profile p {
     font-size: 30px;
+    line-height: 30px;
   }
 
   #project-box {
