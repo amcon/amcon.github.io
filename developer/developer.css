@@ -852,7 +852,7 @@ and (orientation: landscape) {
   }
 
   .resume button {
-    width: 30%;
+    width: 50%;
   }
 
 }
@@ -1120,7 +1120,7 @@ and (orientation: landscape) {
   }
 
   .resume button {
-    width: 30%;
+    width: 50%;
   }
 
 }
