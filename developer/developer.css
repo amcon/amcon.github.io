@@ -714,7 +714,7 @@ and (orientation: portrait) {
   }
 
   .skill-box p {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .education-box {
@@ -727,7 +727,7 @@ and (orientation: portrait) {
   }
 
   .education-box p {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .education-box a {
