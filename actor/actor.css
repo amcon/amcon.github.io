@@ -733,6 +733,10 @@ and (orientation: portrait) {
     font-size: 80px;
   }
 
+  .forms {
+    width: 80%;
+  }
+
   textarea {
     width: 735px;
   }
@@ -962,6 +966,10 @@ and (orientation: portrait) {
     font-size: 80px;
   }
 
+  .forms {
+    width: 80%;
+  }
+
   textarea {
     width: 735px;
   }
@@ -1186,6 +1194,10 @@ and (orientation: portrait) {
   .contact h1 {
     margin-bottom: 20%;
     font-size: 80px;
+  }
+
+  .forms {
+    width: 80%;
   }
 
   textarea {
