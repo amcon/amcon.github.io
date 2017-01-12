@@ -743,7 +743,7 @@ and (orientation: portrait) {
   }
 
   .resume h1 {
-    font-size: 80px;
+    font-size: 90px;
     margin-top: -8%;
   }
 
@@ -764,7 +764,7 @@ and (orientation: portrait) {
   }
 
   .contact h1 {
-    font-size: 80px;
+    font-size: 90px;
   }
 
   .forms {
