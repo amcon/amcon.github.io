@@ -841,6 +841,12 @@ and (orientation: landscape) {
     height: 0px;
   }
 
+  .contact button {
+    height: 28px;
+    width: 15%;
+    left: 81%;
+  }
+
 }
 
 @media only screen
