@@ -603,7 +603,7 @@ and (orientation: portrait) {
     height: 100px;
     width: 50%;
     position: absolute;
-    top: 70px;
+    top: 50px;
   }
 
   .header a {
