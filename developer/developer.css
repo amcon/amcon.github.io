@@ -594,6 +594,10 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: portrait) {
 
+  body {
+    height: 6200px;
+  }
+
   .header {
     height: 100px;
     width: 50%;
