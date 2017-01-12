@@ -705,7 +705,7 @@ and (orientation: portrait) {
   }
 
   .skill-box {
-    height: 550px;
+    height: 500px;
     width: 80%;
   }
 
@@ -718,7 +718,7 @@ and (orientation: portrait) {
   }
 
   .education-box {
-    height: 650px;
+    height: 700px;
     width: 80%;
   }
 
