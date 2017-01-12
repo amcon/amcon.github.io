@@ -596,14 +596,14 @@ and (orientation: portrait) {
     height: 1950px;
     width: 100%;
     margin-right: 0;
-    margin-bottom: 10%;
+    padding-top: 8%;
+    padding-bottom: 10%;
     text-align: center;
   }
 
   .media h1 {
     font-size: 90px;
     line-height: 90px;
-    margin-top: 8%;
     margin-bottom: 3%;
   }
 
