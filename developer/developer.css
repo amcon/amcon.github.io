@@ -841,6 +841,10 @@ and (orientation: landscape) {
     height: 0px;
   }
 
+  textarea {
+    width: 92%;
+  }
+
   .contact button {
     height: 28px;
     width: 15%;
