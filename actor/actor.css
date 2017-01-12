@@ -728,12 +728,12 @@ and (orientation: portrait) {
   }
 
   textarea {
-    width: 740px;
+    width: 735px;
   }
 
   .title {
     width: 60%;
-    margin-left: 15%;
+    margin-left: 18%;
   }
 
 }
