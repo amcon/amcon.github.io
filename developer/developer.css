@@ -734,6 +734,10 @@ and (orientation: portrait) {
     font-size: 40px;
   }
 
+  #student {
+    line-height: 60px;
+  }
+
   .resume {
     height: 400px;
   }
