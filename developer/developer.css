@@ -748,9 +748,9 @@ and (orientation: portrait) {
   }
 
   .resume button {
-    height: 60px;
+    height: 70px;
     width: 95%;
-    font-size: 40px;
+    font-size: 42px;
   }
 
 }
