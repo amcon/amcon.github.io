@@ -734,7 +734,7 @@ and (orientation: portrait) {
   }
 
   textarea {
-    width: 95%;
+    width: 100%;
   }
 
   .title {
@@ -959,7 +959,7 @@ and (orientation: portrait) {
   }
 
   textarea {
-    width: 95%;
+    width: 100%;
   }
 
   .title {
@@ -1181,7 +1181,7 @@ and (orientation: portrait) {
   }
 
   textarea {
-    width: 95%;
+    width: 100%;
   }
 
   .title {
