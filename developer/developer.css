@@ -693,6 +693,47 @@ and (orientation: portrait) {
     height: 400px;
   }
 
+  .skills-education {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 1200px;
+    width: 100%;
+  }
+
+  .skill-box {
+    height: 600px;
+    width: 100%;
+  }
+
+  .skill-box h1 {
+    font-size: 90px;
+  }
+
+  .skill-box p {
+    font-size: 60px;
+  }
+
+  .education-box {
+    height: 600px;
+    width: 100%;
+  }
+
+  .education-box h1 {
+    font-size: 90px;
+  }
+
+  .education-box p {
+    font-size: 60px;
+  }
+
+  .education-box a {
+    font-size: 60px;
+  }
+
   .resume {
     height: 400px;
   }
