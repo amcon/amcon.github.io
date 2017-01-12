@@ -860,6 +860,10 @@ and (orientation: landscape) {
     width: 50%;
   }
 
+  .technologies p {
+    font-size: 15px;
+  }
+
 }
 
 @media only screen
@@ -1128,6 +1132,10 @@ and (orientation: landscape) {
     width: 50%;
   }
 
+  .technologies p {
+    font-size: 15px;
+  }
+
 }
 
 @media only screen
@@ -1394,6 +1402,10 @@ and (orientation: landscape) {
 
   .resume button {
     width: 50%;
+  }
+
+  .technologies p {
+    font-size: 15px;
   }
 
 }
