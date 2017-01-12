@@ -760,6 +760,7 @@ and (orientation: portrait) {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding-top: 5%;
   }
 
   .contact h1 {
