@@ -702,6 +702,7 @@ and (orientation: portrait) {
     margin: 0 auto;
     height: 1200px;
     width: 100%;
+    background-color: #FAFAFA;
   }
 
   .skill-box {
