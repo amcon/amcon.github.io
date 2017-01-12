@@ -761,6 +761,10 @@ and (orientation: landscape) {
     height: 0px;
   }
 
+  .form {
+    width: 60%;
+  }
+
 }
 
 @media only screen
