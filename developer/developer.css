@@ -2,7 +2,7 @@ body {
   width: 100%;
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
-  background-color: grey;
+  background-color: black;
 }
 
 .nav:hover {
@@ -139,7 +139,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 650px;
+  height: 700px;
   width: 100%;
   /*background-color: #949e98;*/
   background-color: rgb(208, 208, 208);
@@ -148,8 +148,14 @@ p {
 
 .profile h1 {
   color: black;
-  margin-top: 2%;
-  font-size: 60px;
+  margin-top: 4%;
+  font-size: 70px;
+}
+
+.profile h3 {
+  margin-top: 0%;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .profile p {
@@ -182,6 +188,7 @@ p {
   height: 1px;
   width: 40%;
   background-color: black;
+  margin-top: -1%;
   margin-bottom: 2%;
 }
 
@@ -260,28 +267,22 @@ p {
   justify-content: center;
   align-items: center;
   filter: grayscale(50%);
+  overflow: hidden;
 }
 
-/*#project-box p, #project-box h2 {
+.project-one span {
   color: white;
-}*/
-
-.project-one:hover {
-  position: relative;
-  filter: grayscale(90%);
-  opacity: 1;
-  z-index: 1;
-  cursor: pointer;
+  text-align: center;
+  display: block;
+  text-decoration: none;
 }
 
-.project-one:hover .description-box {
-  background-color: #162817;
+.project-one, .first {
+  transition: 0.5s;
 }
 
-.project-one:hover p, .project-one:hover h2 {
-  position: relative;
-  color: white;
-  z-index: 1;
+.project-one:hover .first {
+  margin-left: -150%;
 }
 
 .project-two {
@@ -298,24 +299,22 @@ p {
   justify-content: center;
   align-items: center;
   filter: grayscale(30%);
+  overflow: hidden;
 }
 
-.project-two:hover {
-  position: relative;
-  filter: grayscale(90%);
-  cursor: pointer;
-  z-index: 1;
-  opacity: 1;
-}
-
-.project-two:hover .description-box {
-  background-color: #162817;
-}
-
-.project-two:hover p, .project-two:hover h2 {
-  position: relative;
+.project-two span {
   color: white;
-  z-index: 1;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.project-two, .first {
+  transition: 0.5s;
+}
+
+.project-two:hover .first {
+  margin-left: -150%;
 }
 
 .project-three {
@@ -333,24 +332,40 @@ p {
   align-items: center;
   filter: grayscale(30%);
   z-index: 1;
+  overflow: hidden;
 }
 
-.project-three:hover {
-  position: relative;
-  filter: grayscale(90%);
-  cursor: pointer;
-  z-index: 1;
-  opacity: 1;
-}
-
-.project-three:hover .description-box {
-  background-color: #162817;
-}
-
-.project-three:hover p, .project-three:hover h2 {
-  position: relative;
+.project-three span {
   color: white;
-  z-index: 1;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.project-three, .first {
+  transition: 0.5s;
+}
+
+.first {
+  margin-right: 150%;
+  height: 250px;
+  width: 110%;
+}
+
+.project-three:hover .first {
+  margin-left: -150%;
+}
+
+.second {
+  height: 250px;
+  width: 110%;
+  background-color: rgba(0, 0, 0, .5);
+  padding-top: 50%;
+}
+
+.second p {
+  color: #FAFAFA;
+  font-size: 40px;
 }
 
 .project-four {
@@ -367,24 +382,22 @@ p {
   justify-content: center;
   align-items: center;
   filter: grayscale(30%);
+  overflow: hidden;
 }
 
-.project-four:hover {
-  position: relative;
-  filter: grayscale(90%);
-  cursor: pointer;
-  z-index: 1;
-  opacity: 1;
-}
-
-.project-four:hover .description-box {
-  background-color: #162817;
-}
-
-.project-four:hover p, .project-four:hover h2 {
-  position: relative;
+.project-four span {
   color: white;
-  z-index: 1;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.project-four, .first {
+  transition: 0.5s;
+}
+
+.project-four:hover .first {
+  margin-left: -150%;
 }
 
 #image-break {
@@ -596,6 +609,25 @@ textarea {
   line-height: 15px;
   position: relative;
   left: 86%;
+}
+
+.footer {
+  height: 50px;
+  background-color: black;
+  text-align: center;
+}
+
+.footer img {
+  width: 80px;
+  height: 55px;
+  margin-top: -1.5%;
+}
+
+.footer p {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+  margin-top: -1%;
 }
 
 @media only screen

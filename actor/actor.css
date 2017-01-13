@@ -1,9 +1,15 @@
 body {
-  background-color: #949e98;
+  background-color: black;
   height: 680px;
   width: 100%;
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
+}
+
+#top {
+  display: block;
+  width: 100%;
+  background-color: white;
 }
 
 .header {
@@ -243,13 +249,13 @@ a {
   justify-content: center;
   align-items: center;*/
   color: #FAFAFA;
+  padding-top: 5%;
 }
 
 .media h1 {
   margin: 0;
   position: relative;
   margin-left: 4%;
-  margin-top: 3%;
   font-size: 50px;
 }
 
@@ -539,6 +545,25 @@ textarea {
   height: 60px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.footer {
+  height: 50px;
+  background-color: black;
+  text-align: center;
+}
+
+.footer img {
+  width: 80px;
+  height: 55px;
+  margin-top: -1.5%;
+}
+
+.footer p {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+  margin-top: -1%;
 }
 
 @media only screen

@@ -1,0 +1,44 @@
+.it span {
+  color: white;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.it, .first {
+  transition: 0.5s;
+}
+
+.it {
+  height: 180px;
+  font: normal normal 700 1em/4em Arial,sans-serif;
+  overflow: hidden;
+  width: 300px;
+  background-image: url("./../public/Beach.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+.first {
+  margin-right: 100%;
+  height: 180px;
+  width: 100%;
+}
+
+.it:hover {
+  opacity: .8;
+}
+
+.it:hover .first {
+  margin-left: -200%;
+}
+
+.second {
+  height: 180px;
+  width: 100%;
+  background-color: black;
+  opacity: .9;
+  padding-top: 2%;
+}
