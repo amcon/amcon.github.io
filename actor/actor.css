@@ -579,7 +579,21 @@ and (orientation: portrait) {
 
   body {
     margin: 0;
-    background-color: rgb(67, 66, 66);
+    background-color: black;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .footer img {
+    height: 80px;
+    width: 100px;
+    margin-top: -3%;
+  }
+
+  .footer p {
+    font-size: 20px;
   }
 
   .header {
@@ -812,7 +826,21 @@ and (max-device-width : 667px)
 and (orientation: portrait) {
   body {
     margin: 0;
-    background-color: rgb(67, 66, 66);
+    background-color: black;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .footer img {
+    height: 80px;
+    width: 100px;
+    margin-top: -3%;
+  }
+
+  .footer p {
+    font-size: 20px;
   }
 
   .header {
@@ -1042,7 +1070,21 @@ and (max-device-width : 568px)
 and (orientation: portrait) {
   body {
     margin: 0;
-    background-color: rgb(67, 66, 66);
+    background-color: black;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .footer img {
+    height: 80px;
+    width: 100px;
+    margin-top: -3%;
+  }
+
+  .footer p {
+    font-size: 20px;
   }
 
   .header {
