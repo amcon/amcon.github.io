@@ -652,6 +652,7 @@ and (orientation: portrait) {
 
   .footer img {
     height: 80px;
+    width: 100px;
   }
 
   .footer p {
@@ -936,6 +937,7 @@ and (orientation: portrait) {
 
   .footer img {
     height: 80px;
+    width: 100px;
   }
 
   .footer p {
@@ -1220,6 +1222,7 @@ and (orientation: portrait) {
 
   .footer img {
     height: 80px;
+    width: 100px;
   }
 
   .footer p {
