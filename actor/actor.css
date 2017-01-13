@@ -637,12 +637,12 @@ and (orientation: portrait) {
   }*/
 
   .video-column {
-    width: 75%;
+    width: 76%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 32%;
+    height: 42%;
     margin-right: 0;
   }
 
@@ -652,7 +652,7 @@ and (orientation: portrait) {
 
   .little {
     height: 250px;
-    width: 370px;
+    width: 360px;
     margin: 0;
   }
 
@@ -870,12 +870,12 @@ and (orientation: portrait) {
   }*/
 
   .video-column {
-    width: 75%;
+    width: 76%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 32%;
+    height: 42%;
     margin-right: 0;
   }
 
@@ -885,7 +885,7 @@ and (orientation: portrait) {
 
   .little {
     height: 250px;
-    width: 370px;
+    width: 360px;
     margin: 0;
   }
 
@@ -1100,12 +1100,12 @@ and (orientation: portrait) {
   }*/
 
   .video-column {
-    width: 75%;
+    width: 76%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 32%;
+    height: 42%;
     margin-right: 0;
   }
 
@@ -1115,7 +1115,7 @@ and (orientation: portrait) {
 
   .little {
     height: 250px;
-    width: 370px;
+    width: 360px;
     margin: 0;
   }
 
