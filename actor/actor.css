@@ -603,7 +603,7 @@ and (orientation: portrait) {
   }
 
   .media {
-    height: 1650px;
+    height: 1050px;
     width: 100%;
     margin-right: 0;
     padding-top: 6%;
@@ -642,7 +642,7 @@ and (orientation: portrait) {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 42%;
+    height: 22%;
     margin-right: 0;
   }
 
@@ -836,7 +836,7 @@ and (orientation: portrait) {
   }
 
   .media {
-    height: 1650px;
+    height: 1050px;
     width: 100%;
     margin-right: 0;
     padding-top: 6%;
@@ -875,7 +875,7 @@ and (orientation: portrait) {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 42%;
+    height: 22%;
     margin-right: 0;
   }
 
@@ -1066,7 +1066,7 @@ and (orientation: portrait) {
   }
 
   .media {
-    height: 1650px;
+    height: 1050px;
     width: 100%;
     margin-right: 0;
     padding-top: 6%;
@@ -1105,7 +1105,7 @@ and (orientation: portrait) {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 42%;
+    height: 22%;
     margin-right: 0;
   }
 
