@@ -623,6 +623,12 @@ textarea {
   margin-top: -1.5%;
 }
 
+.footer img:hover {
+  height: 70px;
+  width: 100px;
+  margin-top: -2.5%;
+}
+
 .footer p {
   color: white;
   font-size: 14px;
