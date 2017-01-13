@@ -119,6 +119,10 @@ body {
   -webkit-animation: spin 23s infinite linear;
 }
 
+#logo1:hover, #logo2:hover, #logo3:hover, #logo4:hover {
+  height: 10%;
+}
+
 h1 {
   font-size: 45px;
   margin-bottom: 1%;

@@ -85,6 +85,10 @@ a {
   align-items: center;
 }
 
+.picture-box img:hover {
+  filter: grayscale(100%);
+}
+
 .left {
   height: 100%;
   width: 33%;
@@ -599,7 +603,7 @@ and (orientation: portrait) {
   }
 
   .media {
-    height: 1950px;
+    height: 1650px;
     width: 100%;
     margin-right: 0;
     padding-top: 6%;
@@ -635,7 +639,7 @@ and (orientation: portrait) {
   .video-column {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 62%;
@@ -647,8 +651,8 @@ and (orientation: portrait) {
   }
 
   .little {
-    height: 450px;
-    width: 750px;
+    height: 250px;
+    width: 350px;
     margin: 0;
   }
 
@@ -832,7 +836,7 @@ and (orientation: portrait) {
   }
 
   .media {
-    height: 1950px;
+    height: 1650px;
     width: 100%;
     margin-right: 0;
     padding-top: 6%;
@@ -868,7 +872,7 @@ and (orientation: portrait) {
   .video-column {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 62%;
@@ -880,8 +884,8 @@ and (orientation: portrait) {
   }
 
   .little {
-    height: 450px;
-    width: 750px;
+    height: 250px;
+    width: 350px;
     margin: 0;
   }
 
@@ -1062,7 +1066,7 @@ and (orientation: portrait) {
   }
 
   .media {
-    height: 1950px;
+    height: 1650px;
     width: 100%;
     margin-right: 0;
     padding-top: 6%;
@@ -1098,7 +1102,7 @@ and (orientation: portrait) {
   .video-column {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 62%;
@@ -1110,8 +1114,8 @@ and (orientation: portrait) {
   }
 
   .little {
-    height: 450px;
-    width: 750px;
+    height: 250px;
+    width: 350px;
     margin: 0;
   }
 
