@@ -643,7 +643,19 @@ and (orientation: portrait) {
 
   body {
     height: 6200px;
-    background-color: rgb(67, 66, 66);
+    background-color: black;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .footer img {
+    height: 80px;
+  }
+
+  .footer p {
+    font-size: 20px;
   }
 
   .header {
@@ -915,7 +927,19 @@ and (orientation: portrait) {
 
   body {
     height: 6200px;
-    background-color: rgb(67, 66, 66);
+    background-color: black;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .footer img {
+    height: 80px;
+  }
+
+  .footer p {
+    font-size: 20px;
   }
 
   .header {
@@ -1187,7 +1211,19 @@ and (orientation: portrait) {
 
   body {
     height: 6200px;
-    background-color: rgb(67, 66, 66);
+    background-color: black;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .footer img {
+    height: 80px;
+  }
+
+  .footer p {
+    font-size: 20px;
   }
 
   .header {
