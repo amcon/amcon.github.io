@@ -144,12 +144,17 @@ a {
   height: 100%;
   width: 62%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
-.right-top-right-top {
+.right-top-right img {
+  width: 48.5%;
+  height: 96%;
+}
+
+/*.right-top-right-top {
   height: 56%;
   width: 100%;
   display: flex;
@@ -163,7 +168,7 @@ a {
   width: 31.5%;
   box-sizing: border-box;
   /*border: 4px solid white;*/
-}
+}*/
 
 .pic-left {
   margin-right: 3%;
