@@ -260,7 +260,7 @@ p {
   background-size: cover;
   background-position: center;
   /*opacity: .8;*/
-  border-radius: .3em;
+  /*border-radius: .3em;*/
   margin: 3%;
   text-align: center;
   display: flex;
@@ -292,7 +292,7 @@ p {
   background-size: cover;
   background-position: center;
   /*opacity: .6;*/
-  border-radius: .3em;
+  /*border-radius: .3em;*/
   margin: 3%;
   text-align: center;
   display: flex;
@@ -324,7 +324,7 @@ p {
   background-size: cover;
   background-position: center;
   /*opacity: .8;*/
-  border-radius: .3em;
+  /*border-radius: .3em;*/
   margin: 3%;
   text-align: center;
   display: flex;
@@ -375,7 +375,7 @@ p {
   background-size: cover;
   background-position: center;
   /*opacity: .8;*/
-  border-radius: .3em;
+  /*border-radius: .3em;*/
   margin: 3%;
   text-align: center;
   display: flex;
