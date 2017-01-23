@@ -629,6 +629,11 @@ and (orientation: portrait) {
     background-color: black;
   }
 
+  .scroll {
+    height: 0px;
+    z-index: -1;
+  }
+
   .footer {
     height: 100px;
   }
@@ -853,6 +858,11 @@ and (orientation: landscape) {
     height: 500px;
   }
 
+  .scroll {
+    height: 0px;
+    z-index: -1;
+  }
+
   .title {
     text-align: center;
   }
@@ -874,6 +884,11 @@ and (orientation: portrait) {
   body {
     margin: 0;
     background-color: black;
+  }
+
+  .scroll {
+    height: 0px;
+    z-index: -1;
   }
 
   .footer {
@@ -1098,6 +1113,11 @@ and (orientation: landscape) {
     height: 500px;
   }
 
+  .scroll {
+    height: 0px;
+    z-index: -1;
+  }
+
   .title {
     text-align: center;
   }
@@ -1118,6 +1138,11 @@ and (orientation: portrait) {
   body {
     margin: 0;
     background-color: black;
+  }
+
+  .scroll {
+    height: 0px;
+    z-index: -1;
   }
 
   .footer {
@@ -1340,6 +1365,11 @@ and (max-device-width : 568px)
 and (orientation: landscape) {
   .picture-box {
     height: 500px;
+  }
+
+  .scroll {
+    height: 0px;
+    z-index: -1;
   }
 
   .title {

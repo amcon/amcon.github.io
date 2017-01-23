@@ -676,6 +676,15 @@ and (orientation: portrait) {
     background-color: black;
   }
 
+  .scroll {
+    height: 0px;
+    z-index: -1;
+  }
+
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four {
+  height: 0px;
+}
+
   .footer {
     height: 100px;
   }
@@ -936,6 +945,15 @@ and (orientation: landscape) {
     width: 91%;
   }
 
+  .scroll {
+    height: 0px;
+    z-index: -1;
+  }
+
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four {
+  height: 0px;
+}
+
   .contact button {
     height: 28px;
     width: 15%;
@@ -961,6 +979,15 @@ and (orientation: portrait) {
     height: 6200px;
     background-color: black;
   }
+
+  .scroll {
+    height: 0px;
+    z-index: -1;
+  }
+
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four {
+  height: 0px;
+}
 
   .footer {
     height: 100px;
@@ -1222,6 +1249,15 @@ and (orientation: landscape) {
     width: 91%;
   }
 
+  .scroll {
+    height: 0px;
+    z-index: -1;
+  }
+
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four {
+  height: 0px;
+}
+
   .contact button {
     height: 28px;
     width: 15%;
@@ -1247,6 +1283,15 @@ and (orientation: portrait) {
     height: 6200px;
     background-color: black;
   }
+
+  .scroll {
+    height: 0px;
+    z-index: -1;
+  }
+
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four {
+  height: 0px;
+}
 
   .footer {
     height: 100px;
@@ -1507,6 +1552,15 @@ and (orientation: landscape) {
   textarea {
     width: 91%;
   }
+
+  .scroll {
+    height: 0px;
+    z-index: -1;
+  }
+
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four {
+  height: 0px;
+}
 
   .contact button {
     height: 28px;
