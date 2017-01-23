@@ -634,6 +634,10 @@ and (orientation: portrait) {
     z-index: -1;
   }
 
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four, #scroll-five {
+  height: 0px;
+}
+
   .footer {
     height: 100px;
   }
@@ -863,6 +867,10 @@ and (orientation: landscape) {
     z-index: -1;
   }
 
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four, #scroll-five {
+  height: 0px;
+}
+
   .title {
     text-align: center;
   }
@@ -890,6 +898,10 @@ and (orientation: portrait) {
     height: 0px;
     z-index: -1;
   }
+
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four, #scroll-five {
+  height: 0px;
+}
 
   .footer {
     height: 100px;
@@ -1118,6 +1130,10 @@ and (orientation: landscape) {
     z-index: -1;
   }
 
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four, #scroll-five {
+  height: 0px;
+}
+
   .title {
     text-align: center;
   }
@@ -1144,6 +1160,10 @@ and (orientation: portrait) {
     height: 0px;
     z-index: -1;
   }
+
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four, #scroll-five {
+  height: 0px;
+}
 
   .footer {
     height: 100px;
@@ -1371,6 +1391,10 @@ and (orientation: landscape) {
     height: 0px;
     z-index: -1;
   }
+
+  #scroll-one, #scroll-two, #scroll-three, #scroll-four, #scroll-five {
+  height: 0px;
+}
 
   .title {
     text-align: center;
