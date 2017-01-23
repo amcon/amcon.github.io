@@ -607,6 +607,18 @@ textarea {
   margin-top: -1%;
 }
 
+#med {
+  display: block;
+  width: 100%;
+  background-color: darkgrey;
+}
+
+#ed {
+  display: block;
+  width: 100%;
+  background-color: #FAFAFA;
+}
+
 @media only screen
 and (min-device-width : 414px)
 and (max-device-width : 736px)
