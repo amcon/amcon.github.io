@@ -780,6 +780,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
+    background-color: darkgrey;
   }
 
   .container {
@@ -1017,6 +1018,10 @@ and (orientation: landscape) {
     z-index: -1;
   }
 
+  .header-container {
+    background-color: darkgrey;
+  }
+
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
   height: 0px;
 }
@@ -1084,6 +1089,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
+    background-color: darkgrey;
   }
 
   .container {
@@ -1321,6 +1327,10 @@ and (orientation: landscape) {
     z-index: -1;
   }
 
+  .header-container {
+    background-color: darkgrey;
+  }
+
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
   height: 0px;
 }
@@ -1388,6 +1398,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
+    background-color: darkgrey;
   }
 
   .container {
@@ -1623,6 +1634,10 @@ and (orientation: landscape) {
   .scroll {
     height: 0px;
     z-index: -1;
+  }
+
+  .header-container {
+    background-color: darkgrey;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
