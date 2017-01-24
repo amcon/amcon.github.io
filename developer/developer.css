@@ -780,7 +780,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
-    background-color: darkgrey;
+    opacity: 1;
   }
 
   .container {
@@ -1019,7 +1019,7 @@ and (orientation: landscape) {
   }
 
   .header-container {
-    background-color: darkgrey;
+    opacity: 1;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
@@ -1089,7 +1089,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
-    background-color: darkgrey;
+    opacity: 1;
   }
 
   .container {
@@ -1328,7 +1328,7 @@ and (orientation: landscape) {
   }
 
   .header-container {
-    background-color: darkgrey;
+    opacity: 1;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
@@ -1398,7 +1398,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
-    background-color: darkgrey;
+    opacity: 1;
   }
 
   .container {
@@ -1637,7 +1637,7 @@ and (orientation: landscape) {
   }
 
   .header-container {
-    background-color: darkgrey;
+    opacity: 1;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
