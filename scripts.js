@@ -53,20 +53,20 @@ $(function(){
       let scrollPos = document.querySelector("body").scrollTop;
       console.log(scrollPos);
       if ($(".profile")) {
-        if (scrollPos <= 543) {
+        if (scrollPos <= 443) {
           $("#scroll-one").css('background-color', 'black');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $(".p").css('color', 'white');
-        } else if (scrollPos > 543 && scrollPos <= 1595) {
+        } else if (scrollPos > 443 && scrollPos <= 1495) {
           // console.log("i fire")
           $("#scroll-two").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $(".p").css('color', 'black');
-        } else if (scrollPos > 1595 && scrollPos <= 2400) {
+        } else if (scrollPos > 1495 && scrollPos <= 2300) {
           // console.log("i fire");
           $("#scroll-three").css('background-color', 'black');
           $(".p").css('color', 'black');
@@ -78,7 +78,7 @@ $(function(){
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
-          $(".p").css('color', 'black');
+          $(".p").css('color', 'white');
         }
       }
     })

@@ -1,17 +1,19 @@
 body {
-  background-image: url("./public/mountain.JPG");
-  background-size: cover;
-  background-position: center;
   width: 100%;
-  /*display: flex;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
+  background-color: black;
 }
 
-.container {
-  height: 100vh;
+.container1 {
+  background-image: url("./public/web_dev.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
   width: 100%;
 /*  border: solid #f7fff9 2px;
 */  display: flex;
@@ -19,14 +21,45 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-top: 20px;
   color: white;
+  margin-bottom: 5vh;
+  transition: 0.5s;
 }
+
+.container1:hover {
+  margin-bottom: -10vh;
+  height: 60vh;
+}
+
+.container2 {
+  background-image: url("./public/oklahoma.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+  margin-top: 5vh;
+  transition: 0.5s;
+}
+
+.container2:hover {
+  margin-top: -10vh;
+  height: 60vh;
+}
+
 
 h1 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 50px;
   margin: 0;
+  position: absolute;
+  top: 47%;
+  left: 40%;
 }
 
 .nav {
@@ -39,12 +72,22 @@ h1 {
   color: forestgreen;
 }
 
-a {
+#wd {
   color: white;
-  margin: 0 20px 0 20px;
-  text-decoration: none;
+  margin-top: -20%;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 25px;
+  font-size: 35px;
+}
+
+#a {
+  color: white;
+  margin-top: 8%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+}
+
+a {
+  text-decoration: none;
 }
 
 #nav {
