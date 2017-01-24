@@ -52,19 +52,21 @@ $(function(){
     $(window).scroll(function(){
       let scrollPos = document.querySelector("body").scrollTop;
       if ($(".media")) {
-        if (scrollPos <= 1100) {
+        if (scrollPos <= 1097) {
           $("#scroll-one").css('background-color', 'black');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
-        } else if (scrollPos > 1100 && scrollPos <= 2000) {
+          $(".p").css('color', 'black');
+        } else if (scrollPos > 1097 && scrollPos <= 2000) {
           // console.log("i fire")
           $("#scroll-two").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
+          $(".p").css('color', 'white');
         } else if (scrollPos > 2000 && scrollPos <= 3860) {
           // console.log("i fire");
           $("#scroll-three").css('background-color', 'black');
@@ -72,18 +74,21 @@ $(function(){
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
+          $(".p").css('color', 'black');
         } else if (scrollPos > 3860 && scrollPos <= 4040) {
           $("#scroll-four").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
+          $(".p").css('color', 'black');
         } else {
           $("#scroll-five").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
+          $(".p").css('color', 'black');
         }
       }
     })

@@ -58,15 +58,18 @@ $(function(){
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
+          $(".p").css('color', 'white');
         } else if (scrollPos > 543 && scrollPos <= 1595) {
           // console.log("i fire")
           $("#scroll-two").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
+          $(".p").css('color', 'black');
         } else if (scrollPos > 1595 && scrollPos <= 2400) {
           // console.log("i fire");
           $("#scroll-three").css('background-color', 'black');
+          $(".p").css('color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
@@ -75,6 +78,7 @@ $(function(){
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
+          $(".p").css('color', 'black');
         }
       }
     })
