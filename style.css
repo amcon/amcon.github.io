@@ -124,6 +124,10 @@ and (orientation: landscape) {
     font-size: 25px;
   }
 
+  p {
+    font-size: 22px;
+  }
+
 }
 
 @media only screen
@@ -146,6 +150,10 @@ and (orientation: landscape) {
   h1 {
     margin-left: 40%;
     font-size: 25px;
+  }
+
+  p {
+    font-size: 22px;
   }
 
 }
@@ -170,6 +178,10 @@ and (orientation: landscape) {
   h1 {
     margin-left: 40%;
     font-size: 25px;
+  }
+
+  p {
+    font-size: 22px;
   }
 
 }
