@@ -120,7 +120,7 @@ and (max-device-width : 736px)
 and (orientation: landscape) {
 
   h1 {
-    margin-left: 30%;
+    margin-left: 40%;
     font-size: 25px;
   }
 
@@ -144,7 +144,7 @@ and (max-device-width : 667px)
 and (orientation: landscape) {
 
   h1 {
-    margin-left: 30%;
+    margin-left: 40%;
     font-size: 25px;
   }
 
@@ -168,7 +168,7 @@ and (max-device-width : 568px)
 and (orientation: landscape) {
 
   h1 {
-    margin-left: 30%;
+    margin-left: 40%;
     font-size: 25px;
   }
 
