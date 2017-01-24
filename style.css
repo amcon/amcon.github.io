@@ -120,12 +120,12 @@ and (max-device-width : 736px)
 and (orientation: landscape) {
 
   h1 {
-    margin-left: 40%;
+    margin-left: 36%;
     font-size: 28px;
   }
 
-  p {
-    font-size: 20px;
+  #wd, #a {
+    font-size: 22px;
   }
 
 }
@@ -148,12 +148,12 @@ and (max-device-width : 667px)
 and (orientation: landscape) {
 
   h1 {
-    margin-left: 40%;
+    margin-left: 36%;
     font-size: 28px;
   }
 
-  p {
-    font-size: 20px;
+  #wd, #a {
+    font-size: 22px;
   }
 
 }
@@ -176,12 +176,12 @@ and (max-device-width : 568px)
 and (orientation: landscape) {
 
   h1 {
-    margin-left: 40%;
+    margin-left: 36%;
     font-size: 28px;
   }
 
-  p {
-    font-size: 20px;
+  #wd, #a {
+    font-size: 22px;
   }
 
 }
