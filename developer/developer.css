@@ -733,6 +733,22 @@ textarea {
   font-family: arial;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen
 and (min-device-width : 414px)
 and (max-device-width : 736px)
@@ -780,7 +796,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
-    opacity: 1;
+    opacity: 0;
   }
 
   .container {
@@ -1019,7 +1035,7 @@ and (orientation: landscape) {
   }
 
   .header-container {
-    opacity: 1;
+    opacity: 0;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
@@ -1089,7 +1105,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
-    opacity: 1;
+    opacity: 0;
   }
 
   .container {
@@ -1328,7 +1344,7 @@ and (orientation: landscape) {
   }
 
   .header-container {
-    opacity: 1;
+    opacity: 0;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
@@ -1398,7 +1414,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
-    opacity: 1;
+    opacity: 0;
   }
 
   .container {
@@ -1637,7 +1653,7 @@ and (orientation: landscape) {
   }
 
   .header-container {
-    opacity: 1;
+    opacity: 0;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
