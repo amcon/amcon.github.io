@@ -1032,6 +1032,7 @@ and (orientation: landscape) {
 
   .header-container {
     background-image: url("./../public/grey.jpg");
+    padding-top: 5%;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
@@ -1341,6 +1342,7 @@ and (orientation: landscape) {
 
   .header-container {
     background-image: url("./../public/grey.jpg");
+    padding-top: 5%;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
@@ -1650,6 +1652,7 @@ and (orientation: landscape) {
 
   .header-container {
     background-image: url("./../public/grey.jpg");
+    padding-top: 5%;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
