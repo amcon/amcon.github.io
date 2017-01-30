@@ -62,6 +62,10 @@ $(function(){
           $("#scroll-four").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
           $(".p").css('color', 'black');
+          $("#back-to-top").css({
+            height: '0px',
+            width: '0px'
+          });
         } else if (scrollPos > 1097 && scrollPos <= 1439) {
           $("#scroll-two").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
@@ -69,6 +73,10 @@ $(function(){
           $("#scroll-four").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
           $(".p").css('color', 'black');
+          $("#back-to-top").css({
+            height: '0px',
+            width: '0px'
+          });
         } else if (scrollPos > 1439 && scrollPos <= 2339) {
           // console.log("i fire");
           $("#scroll-three").css('background-color', 'black');
@@ -77,6 +85,10 @@ $(function(){
           $("#scroll-four").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
           $(".p").css('color', 'white');
+          $("#back-to-top").css({
+            height: '50px',
+            width: '50px'
+          });
         } else if (scrollPos > 2339 && scrollPos <= 3680) {
           $("#scroll-four").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');

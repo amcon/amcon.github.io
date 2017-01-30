@@ -59,6 +59,10 @@ $(function(){
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $(".p").css('color', 'white');
+          $("#back-to-top").css({
+            height: '0px',
+            width: '0px'
+          });
         } else if (scrollPos > 443 && scrollPos <= 1495) {
           // console.log("i fire")
           $("#scroll-two").css('background-color', 'black');
@@ -66,6 +70,10 @@ $(function(){
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $(".p").css('color', 'black');
+          $("#back-to-top").css({
+            height: '0px',
+            width: '0px'
+          });
         } else if (scrollPos > 1495 && scrollPos <= 1960) {
           // console.log("i fire");
           $("#scroll-three").css('background-color', 'black');
@@ -73,12 +81,20 @@ $(function(){
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
+          $("#back-to-top").css({
+            height: '50px',
+            width: '50px'
+          });
         } else {
           $("#scroll-four").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $(".p").css('color', 'white');
+          $("#back-to-top").css({
+            height: '50px',
+            width: '50px'
+          });
         }
       }
     })

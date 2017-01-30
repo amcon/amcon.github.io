@@ -764,19 +764,17 @@ textarea {
 }
 
 #back-to-top{
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 2500px;
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  top: 85.5%;
   left: 94%;
   z-index: 2;
+  transition: 0.5s;
 }
 
 #back-to-top:hover {
-  height: 60px;
-  width: 60px;
-  top: 2498px;
-  left: 93.5%;
+  cursor: pointer;
 }
 
 .footer h1 {

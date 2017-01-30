@@ -714,19 +714,17 @@ textarea {
 }
 
 #back-to-top{
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 4200px;
-  left: 92.5%;
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  top: 85.5%;
+  left: 94%;
   z-index: 2;
+  transition: 0.5s;
 }
 
 #back-to-top:hover {
-  height: 60px;
-  width: 60px;
-  top: 4198px;
-  left: 92%;
+  cursor: pointer;
 }
 
 .footer p {
