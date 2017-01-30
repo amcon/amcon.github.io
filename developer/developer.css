@@ -140,7 +140,7 @@ a {
   width: 80%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: flex-start;
   margin-left: 10%;
  }
@@ -775,7 +775,7 @@ textarea {
 #back-to-top:hover {
   height: 60px;
   width: 60px;
-  top: 2490px;
+  top: 2498px;
   left: 93.5%;
 }
 
@@ -790,7 +790,25 @@ textarea {
   width: 50px;
 }
 
+.footer img:hover {
+  cursor: pointer;
+}
 
+.footer #logo1 {
+  -webkit-animation: 0;
+}
+
+.footer #logo2 {
+-webkit-animation: 0;
+}
+
+.footer #logo3 {
+  -webkit-animation: 0;
+}
+
+.footer #logo4 {
+  -webkit-animation: 0;
+}
 
 
 

@@ -725,7 +725,7 @@ textarea {
 #back-to-top:hover {
   height: 60px;
   width: 60px;
-  top: 4190px;
+  top: 4198px;
   left: 92%;
 }
 
@@ -745,6 +745,10 @@ textarea {
 .footer img {
   height: 50px;
   width: 50px;
+}
+
+.footer img:hover {
+  cursor: pointer;
 }
 
 #med {

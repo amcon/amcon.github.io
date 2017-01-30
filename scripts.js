@@ -126,6 +126,22 @@ $(function(){
     go_to_insta();
   })
 
+  $("#icon1").click(function(){
+    go_to_linkedin();
+  })
+
+  $("#icon4").click(function(){
+    go_to_facebook();
+  })
+
+  $("#icon2").click(function(){
+    go_to_github();
+  })
+
+  $("#icon3").click(function(){
+    go_to_insta();
+  })
+
   $("#email").click(function(){
     email_me();
   })
