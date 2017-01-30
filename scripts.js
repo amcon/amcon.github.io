@@ -66,7 +66,7 @@ $(function(){
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $(".p").css('color', 'black');
-        } else if (scrollPos > 1495 && scrollPos <= 2300) {
+        } else if (scrollPos > 1495 && scrollPos <= 1960) {
           // console.log("i fire");
           $("#scroll-three").css('background-color', 'black');
           $(".p").css('color', 'black');
@@ -126,7 +126,7 @@ $(function(){
     go_to_insta();
   })
 
-  $("#submit").click(function(){
+  $("#email").click(function(){
     email_me();
   })
 })

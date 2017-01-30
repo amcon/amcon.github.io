@@ -42,16 +42,19 @@ $(function(){
     window.location.href = "https://www.instagram.com/con_aaron/";
   }
 
-  function email_me(){
-    $myform = $('#input-box');
-    $myform.prop ('action','mailto:conklin.aaron@gmail.com');
-    $myform.submit();
+  function right_pic(){
+    $("#h1").css('margin-left', '-200%');
+  }
+
+  function left_pic(){
+    $("#h1").css('margin-left', '0%');
   }
 
   function scrolling(){
     $(window).scroll(function(){
       let scrollPos = document.querySelector("body").scrollTop;
       if ($(".media")) {
+        console.log(scrollPos);
         if (scrollPos <= 1097) {
           $("#scroll-one").css('background-color', 'black');
           $("#scroll-two").css('background-color', 'transparent');
@@ -59,23 +62,22 @@ $(function(){
           $("#scroll-four").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
           $(".p").css('color', 'black');
-        } else if (scrollPos > 1097 && scrollPos <= 2000) {
-          // console.log("i fire")
+        } else if (scrollPos > 1097 && scrollPos <= 1439) {
           $("#scroll-two").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
-          $(".p").css('color', 'white');
-        } else if (scrollPos > 2000 && scrollPos <= 3860) {
+          $(".p").css('color', 'black');
+        } else if (scrollPos > 1439 && scrollPos <= 2339) {
           // console.log("i fire");
           $("#scroll-three").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
-          $(".p").css('color', 'black');
-        } else if (scrollPos > 3860 && scrollPos <= 4040) {
+          $(".p").css('color', 'white');
+        } else if (scrollPos > 2339 && scrollPos <= 3680) {
           $("#scroll-four").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
@@ -95,6 +97,14 @@ $(function(){
   }
 
   scrolling();
+
+  $("#right-arrow").click(function() {
+    right_pic();
+  })
+
+  $("#left-arrow").click(function() {
+    left_pic();
+  })
 
   $(".project-one").click(function() {
   go_to_pokemon();
@@ -136,7 +146,29 @@ $(function(){
     go_to_insta();
   })
 
-  $("#submit").click(function(){
-    email_me();
+  $("#submit").click(function() {
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var message = $("#message").val();
+    // var contact = $("#contact").val();
+    $("#returnmessage").empty(); // To empty previous error/success message.
+    // Checking for blank fields.
+      if (name == '' || email == '' || message == '') {
+      alert("Please Fill Required Fields");
+      } else {
+      // Returns successful data submission message when the entered information is stored in database.
+      $.post("contact_form.php", {
+      name1: name,
+      email1: email,
+      message1: message,
+      // contact1: contact
+      }, function(data) {
+      $("#returnmessage").append(data); // Append returned message to message paragraph.
+      if (data == "Your message has been received, We will contact you soon.") {
+      $("#input-box")[0].reset(); // To reset form fields on success.
+      }
+      });
+      }
+    });
+
   })
-})
