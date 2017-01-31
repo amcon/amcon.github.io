@@ -813,6 +813,9 @@ and (orientation: portrait) {
     margin-left: -5%;
   }
 
+  #email {
+    margin-left: -3%;
+  }
 
   .footer p {
     font-size: 20px;
@@ -1123,6 +1126,9 @@ and (orientation: portrait) {
     margin-left: -5%;
   }
 
+  #email {
+    margin-left: -3%;
+  }
 
   .footer p {
     font-size: 20px;
@@ -1431,6 +1437,9 @@ and (orientation: portrait) {
     margin-left: -5%;
   }
 
+  #email {
+    margin-left: -3%;
+  }
 
   .footer p {
     font-size: 20px;
