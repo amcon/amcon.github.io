@@ -821,7 +821,7 @@ and (orientation: portrait) {
 #hamburger {
   position: absolute;
   top: 12px;
-  left: 800px;
+  left: 780px;
   height: 150px;
   width: 200px;
   z-index: 5;
@@ -1141,7 +1141,7 @@ and (orientation: landscape) {
 #hamburger {
   position: absolute;
   top: 12px;
-  left: 800px;
+  left: 780px;
   height: 150px;
   width: 200px;
   z-index: 5;
@@ -1228,7 +1228,7 @@ and (orientation: portrait) {
 #hamburger {
   position: absolute;
   top: 12px;
-  left: 800px;
+  left: 780px;
   height: 150px;
   width: 200px;
   z-index: 5;
@@ -1546,7 +1546,7 @@ and (orientation: landscape) {
 #hamburger {
   position: absolute;
   top: 12px;
-  left: 800px;
+  left: 780px;
   height: 150px;
   width: 200px;
   z-index: 5;
@@ -1633,7 +1633,7 @@ and (orientation: portrait) {
 #hamburger {
   position: absolute;
   top: 12px;
-  left: 800px;
+  left: 780px;
   height: 150px;
   width: 200px;
   z-index: 5;
@@ -1951,7 +1951,7 @@ and (orientation: landscape) {
 #hamburger {
   position: absolute;
   top: 12px;
-  left: 800px;
+  left: 780px;
   height: 150px;
   width: 200px;
   z-index: 5;
