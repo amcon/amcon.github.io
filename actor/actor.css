@@ -803,8 +803,8 @@ and (orientation: portrait) {
     margin-top: -.1%;
   }
 
-  #email {
-    margin-right: 7%;
+  #logo3, #logo4 {
+    margin-left: -1%;
   }
 
   .footer p {
@@ -1098,8 +1098,8 @@ and (orientation: portrait) {
     margin-top: -.1%;
   }
 
-  #email {
-    margin-right: 7%;
+  #logo3, #logo4 {
+    margin-left: -1%;
   }
 
   .footer p {
@@ -1390,8 +1390,8 @@ and (orientation: portrait) {
     margin-top: -.1%;
   }
 
-  #email {
-    margin-right: 7%;
+  #logo3, #logo4 {
+    margin-left: -1%;
   }
 
   .footer p {
