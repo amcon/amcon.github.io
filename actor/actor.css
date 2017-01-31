@@ -194,7 +194,7 @@ a {
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  background-image: url("./../public/headshot_simple.JPG");
+  background-image: url("./../public/headshot_simple.jpg");
   background-position: center;
   background-size: cover;
 }
