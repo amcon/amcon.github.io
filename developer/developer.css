@@ -846,9 +846,15 @@ and (orientation: portrait) {
     margin-top: -3%;
   }
 
-  #back-to-top {
-    height: 0;
-  }
+#back-to-top{
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  top: 65.5%;
+  left: 94%;
+  z-index: 2;
+  transition: 0.5s;
+}
 
   .footer p {
     font-size: 20px;
@@ -868,7 +874,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
-    background-image: url("./../public/grey.jpg");
+    background-attachment: none;
   }
 
   .container {
@@ -1160,9 +1166,15 @@ and (orientation: portrait) {
     margin-top: -3%;
   }
 
-  #back-to-top {
-    height: 0;
-  }
+#back-to-top{
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  top: 65.5%;
+  left: 94%;
+  z-index: 2;
+  transition: 0.5s;
+}
 
   .footer p {
     font-size: 20px;
@@ -1182,7 +1194,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
-    background-image: url("./../public/grey.jpg");
+    background-attachment: none;
   }
 
   .container {
@@ -1474,9 +1486,15 @@ and (orientation: portrait) {
     margin-top: -3%;
   }
 
-  #back-to-top {
-    height: 0;
-  }
+#back-to-top{
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  top: 65.5%;
+  left: 94%;
+  z-index: 2;
+  transition: 0.5s;
+}
 
   .footer p {
     font-size: 20px;
@@ -1496,7 +1514,7 @@ and (orientation: portrait) {
   .header-container {
     height: 1700px;
     margin: 0 auto;
-    background-image: url("./../public/grey.jpg");
+    background-attachment: none;
   }
 
   .container {
