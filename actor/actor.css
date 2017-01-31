@@ -848,7 +848,7 @@ and (orientation: portrait) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 120px;
+  font-size: 0px;
   transition: 0.5s;
 }
 
@@ -1168,7 +1168,7 @@ and (orientation: landscape) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 120px;
+  font-size: 0px;
   transition: 0.5s;
 }
 
@@ -1255,7 +1255,7 @@ and (orientation: portrait) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 120px;
+  font-size: 0px;
   transition: 0.5s;
 }
 
@@ -1573,7 +1573,7 @@ and (orientation: landscape) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 120px;
+  font-size: 0px;
   transition: 0.5s;
 }
 
@@ -1660,7 +1660,7 @@ and (orientation: portrait) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 120px;
+  font-size: 0px;
   transition: 0.5s;
 }
 
@@ -1978,7 +1978,7 @@ and (orientation: landscape) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 120px;
+  font-size: 0px;
   transition: 0.5s;
 }
 

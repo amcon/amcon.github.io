@@ -163,7 +163,7 @@ $(function(){
   $("#hamburger").click(function(){
     if (counter === 0) {
       $(".hamburger-menu").css('height', '800px');
-      $(".ham-text").css("font-size", "40px");
+      $(".ham-text").css("font-size", "80px");
       $("#hamburger").css("top", "812px");
       $(".header").css("top", "812px");
       counter = 1;
