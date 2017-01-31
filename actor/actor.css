@@ -824,10 +824,7 @@ and (orientation: portrait) {
   height: 150px;
   width: 180px;
   z-index: 5;
-}
-
-#dark {
-  background-color: black;
+  transition: 0.5s;
 }
 
 .ham-box {
@@ -836,6 +833,8 @@ and (orientation: portrait) {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
 }
 
 .ham-box:hover {
@@ -1141,10 +1140,7 @@ and (orientation: landscape) {
   height: 150px;
   width: 180px;
   z-index: 5;
-}
-
-#dark {
-  background-color: black;
+  transition: 0.5s;
 }
 
 .ham-box {
@@ -1153,6 +1149,8 @@ and (orientation: landscape) {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
 }
 
 .ham-box:hover {
@@ -1225,10 +1223,7 @@ and (orientation: portrait) {
   height: 150px;
   width: 180px;
   z-index: 5;
-}
-
-#dark {
-  background-color: black;
+  transition: 0.5s;
 }
 
 .ham-box {
@@ -1237,6 +1232,8 @@ and (orientation: portrait) {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
 }
 
 .ham-box:hover {
@@ -1540,10 +1537,7 @@ and (orientation: landscape) {
   height: 150px;
   width: 180px;
   z-index: 5;
-}
-
-#dark {
-  background-color: black;
+  transition: 0.5s;
 }
 
 .ham-box {
@@ -1552,6 +1546,8 @@ and (orientation: landscape) {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
 }
 
 .ham-box:hover {
@@ -1624,10 +1620,7 @@ and (orientation: portrait) {
   height: 150px;
   width: 180px;
   z-index: 5;
-}
-
-#dark {
-  background-color: black;
+  transition: 0.5s;
 }
 
 .ham-box {
@@ -1636,6 +1629,8 @@ and (orientation: portrait) {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
 }
 
 .ham-box:hover {
@@ -1939,10 +1934,7 @@ and (orientation: landscape) {
   height: 150px;
   width: 180px;
   z-index: 5;
-}
-
-#dark {
-  background-color: black;
+  transition: 0.5s;
 }
 
 .ham-box {
@@ -1951,6 +1943,8 @@ and (orientation: landscape) {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
 }
 
 .ham-box:hover {
