@@ -804,7 +804,7 @@ and (orientation: portrait) {
   }
 
   #email {
-    margin-right: 1%;
+    margin-right: 10%;
   }
 
   .footer p {
@@ -857,6 +857,17 @@ and (orientation: portrait) {
     width: 70%;
     margin-bottom: 2%;
   }
+
+  #left-arrow {
+  font-size: 80px;
+  top: 800px;
+  left: 20%;
+  }
+
+#right-arrow {
+  top: 800px;
+  left: 70%;
+}
 
   .right {
     height: 0px;
@@ -1076,7 +1087,7 @@ and (orientation: portrait) {
   }
 
   #email {
-    margin-right: 1%;
+    margin-right: 10%;
   }
 
   .footer p {
@@ -1129,6 +1140,17 @@ and (orientation: portrait) {
     width: 70%;
     margin-bottom: 2%;
   }
+
+  #left-arrow {
+  font-size: 80px;
+  top: 800px;
+  left: 20%;
+  }
+
+#right-arrow {
+  top: 800px;
+  left: 70%;
+}
 
   .right {
     height: 0px;
@@ -1345,7 +1367,7 @@ and (orientation: portrait) {
   }
 
   #email {
-    margin-right: 1%;
+    margin-right: 10%;
   }
 
   .footer p {
@@ -1398,6 +1420,17 @@ and (orientation: portrait) {
     width: 70%;
     margin-bottom: 2%;
   }
+
+  #left-arrow {
+  font-size: 80px;
+  top: 800px;
+  left: 20%;
+  }
+
+#right-arrow {
+  top: 800px;
+  left: 70%;
+}
 
   .right {
     height: 0px;
