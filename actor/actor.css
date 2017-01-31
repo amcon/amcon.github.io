@@ -761,6 +761,13 @@ textarea {
   background-color: #FAFAFA;
 }
 
+
+
+
+
+
+
+
 @media only screen
 and (min-device-width : 414px)
 and (max-device-width : 736px)
@@ -781,12 +788,12 @@ and (orientation: portrait) {
 }
 
   .footer {
-    height: 100px;
+    height: 150px;
   }
 
   .footer img {
     height: 80px;
-    width: 100px;
+    width: 80px;
     margin-top: -3%;
   }
 
@@ -955,11 +962,6 @@ and (orientation: portrait) {
 
   .education p {
     font-size: 45px;
-  }
-
-  #logo1, #logo3, #logo4 {
-    height: 120px;
-    margin-top: -8%;
   }
 
   .education button {
@@ -1046,12 +1048,12 @@ and (orientation: portrait) {
 }
 
   .footer {
-    height: 100px;
+    height: 150px;
   }
 
   .footer img {
     height: 80px;
-    width: 100px;
+    width: 80px;
     margin-top: -3%;
   }
 
@@ -1220,11 +1222,6 @@ and (orientation: portrait) {
 
   .education p {
     font-size: 45px;
-  }
-
-  #logo1, #logo3, #logo4 {
-    height: 120px;
-    margin-top: -8%;
   }
 
   .education button {
@@ -1308,12 +1305,12 @@ and (orientation: portrait) {
 }
 
   .footer {
-    height: 100px;
+    height: 150px;
   }
 
   .footer img {
     height: 80px;
-    width: 100px;
+    width: 80px;
     margin-top: -3%;
   }
 
@@ -1482,11 +1479,6 @@ and (orientation: portrait) {
 
   .education p {
     font-size: 45px;
-  }
-
-  #logo1, #logo3, #logo4 {
-    height: 120px;
-    margin-top: -8%;
   }
 
   .education button {
