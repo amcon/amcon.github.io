@@ -803,8 +803,9 @@ and (orientation: portrait) {
     margin-top: -.1%;
   }
 
-  #logo3, #logo4 {
-    margin-left: 0%;
+  #logo1, #logo3, #logo4 {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .footer p {
@@ -1098,8 +1099,9 @@ and (orientation: portrait) {
     margin-top: -.1%;
   }
 
-  #logo3, #logo4 {
-    margin-left: 0%;
+  #logo1, #logo3, #logo4 {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .footer p {
@@ -1390,8 +1392,9 @@ and (orientation: portrait) {
     margin-top: -.1%;
   }
 
-  #logo3, #logo4 {
-    margin-left: 0%;
+  #logo1, #logo3, #logo4 {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .footer p {
