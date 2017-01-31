@@ -6,6 +6,31 @@ body {
   margin: 0;
 }
 
+.hamburger-menu {
+  height: 0;
+}
+
+#hamburger {
+height: 0;
+}
+
+/*.ham-box {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ham-box:hover {
+  background-color: darkgrey;
+}
+
+.hamburger-menu a {
+  text-decoration: none;
+  font-size: 40px;
+  transition: 0.5s;
+}*/
 
 .scroll {
   position: fixed;
