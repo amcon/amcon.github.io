@@ -158,6 +158,20 @@ $(function(){
     go_to_insta();
   })
 
+  let counter=0;
+
+  $("#hamburger").click(function(){
+    if (counter === 0) {
+      $(".hamburger-menu").css('height', '500px');
+      $(".ham-text").css("font-size", "40px");
+      counter = 1;
+    } else if (counter === 1) {
+      $(".hamburger-menu").css('height', '0px');
+      $(".ham-text").css("font-size", "0px");
+      counter = 0;
+    }
+  })
+
   $("#submit").click(function() {
     var name = $("#name").val();
     var email = $("#email").val();
