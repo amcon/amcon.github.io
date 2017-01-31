@@ -822,7 +822,7 @@ and (orientation: portrait) {
   top: 10px;
   left: 650px;
   height: 150px;
-  width: 250px;
+  width: 150px;
   z-index: 5;
 }
 
@@ -1135,7 +1135,7 @@ and (orientation: landscape) {
   top: 10px;
   left: 650px;
   height: 150px;
-  width: 250px;
+  width: 150px;
   z-index: 5;
 }
 
@@ -1215,7 +1215,7 @@ and (orientation: portrait) {
   top: 10px;
   left: 650px;
   height: 150px;
-  width: 250px;
+  width: 150px;
   z-index: 5;
 }
 
@@ -1526,7 +1526,7 @@ and (orientation: landscape) {
   top: 10px;
   left: 650px;
   height: 150px;
-  width: 250px;
+  width: 150px;
   z-index: 5;
 }
 
@@ -1606,7 +1606,7 @@ and (orientation: portrait) {
   top: 10px;
   left: 650px;
   height: 150px;
-  width: 250px;
+  width: 150px;
   z-index: 5;
 }
 
@@ -1917,7 +1917,7 @@ and (orientation: landscape) {
   top: 10px;
   left: 650px;
   height: 150px;
-  width: 250px;
+  width: 150px;
   z-index: 5;
 }
 
