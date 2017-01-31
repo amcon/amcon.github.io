@@ -804,7 +804,7 @@ and (orientation: portrait) {
   }
 
   #email {
-    margin-right: 5%;
+    margin-right: 7%;
   }
 
   .footer p {
@@ -866,7 +866,7 @@ and (orientation: portrait) {
 
 #right-arrow {
   top: 1000px;
-  left: 60%;
+  left: 75%;
   font-size: 80px;
 }
 
@@ -878,7 +878,7 @@ and (orientation: portrait) {
 
   #right-arrow:hover {
     top: 1000px;
-    left: 60%;
+    left: 75%;
     font-size: 80px;
   }
   .right {
@@ -1099,7 +1099,7 @@ and (orientation: portrait) {
   }
 
   #email {
-    margin-right: 5%;
+    margin-right: 7%;
   }
 
   .footer p {
@@ -1161,7 +1161,7 @@ and (orientation: portrait) {
 
 #right-arrow {
   top: 1000px;
-  left: 60%;
+  left: 75%;
   font-size: 80px;
 }
 
@@ -1173,7 +1173,7 @@ and (orientation: portrait) {
 
   #right-arrow:hover {
     top: 1000px;
-    left: 60%;
+    left: 75%;
     font-size: 80px;
   }
   .right {
@@ -1391,7 +1391,7 @@ and (orientation: portrait) {
   }
 
   #email {
-    margin-right: 5%;
+    margin-right: 7%;
   }
 
   .footer p {
@@ -1453,7 +1453,7 @@ and (orientation: portrait) {
 
 #right-arrow {
   top: 1000px;
-  left: 60%;
+  left: 75%;
   font-size: 80px;
 }
 
@@ -1465,7 +1465,7 @@ and (orientation: portrait) {
 
   #right-arrow:hover {
     top: 1000px;
-    left: 60%;
+    left: 75%;
     font-size: 80px;
   }
   .right {
