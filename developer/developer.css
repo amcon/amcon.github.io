@@ -823,7 +823,7 @@ and (max-device-width : 736px)
 and (orientation: portrait) {
 
   body {
-    height: 6200px;
+    height: 5800px;
     background-color: black;
   }
 
@@ -1146,7 +1146,7 @@ and (max-device-width : 667px)
 and (orientation: portrait) {
 
   body {
-    height: 6200px;
+    height: 5800px;
     background-color: black;
   }
 
@@ -1469,7 +1469,7 @@ and (max-device-width : 568px)
 and (orientation: portrait) {
 
   body {
-    height: 6200px;
+    height: 5800px;
     background-color: black;
   }
 
