@@ -838,6 +838,10 @@ and (orientation: portrait) {
   border-bottom: 1px solid black;
 }
 
+#dark {
+  border: none;
+}
+
 .ham-box:hover {
   background-color: darkgrey;
 }
@@ -1154,6 +1158,10 @@ and (orientation: landscape) {
   border-bottom: 1px solid black;
 }
 
+#dark {
+  border: none;
+}
+
 .ham-box:hover {
   background-color: darkgrey;
 }
@@ -1235,6 +1243,10 @@ and (orientation: portrait) {
   align-items: center;
   box-sizing: border-box;
   border-bottom: 1px solid black;
+}
+
+#dark {
+  border: none;
 }
 
 .ham-box:hover {
@@ -1551,6 +1563,10 @@ and (orientation: landscape) {
   border-bottom: 1px solid black;
 }
 
+#dark {
+  border: none;
+}
+
 .ham-box:hover {
   background-color: darkgrey;
 }
@@ -1632,6 +1648,10 @@ and (orientation: portrait) {
   align-items: center;
   box-sizing: border-box;
   border-bottom: 1px solid black;
+}
+
+#dark {
+  border: none;
 }
 
 .ham-box:hover {
@@ -1946,6 +1966,10 @@ and (orientation: landscape) {
   align-items: center;
   box-sizing: border-box;
   border-bottom: 1px solid black;
+}
+
+#dark {
+  border: none;
 }
 
 .ham-box:hover {
