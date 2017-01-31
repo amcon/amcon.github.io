@@ -109,7 +109,7 @@ $(function(){
       $(".hamburger-menu").css('height', '800px');
       $(".ham-text").css("font-size", "80px");
       $("#hamburger").css("top", "820px");
-      $(".header").css("top", "820px");
+      $(".header").css("top", "830px");
       $("#left-arrow").css('top', '1800px');
       $("#right-arrow").css('top', '1800px');
       counter = 1;
@@ -117,7 +117,7 @@ $(function(){
       $(".hamburger-menu").css('height', '0px');
       $(".ham-text").css("font-size", "0px");
       $("#hamburger").css("top", "20px");
-      $(".header").css("top", "20px");
+      $(".header").css("top", "30px");
       $("#left-arrow").css('top', '1000px');
       $("#right-arrow").css('top', '1000px');
       counter = 0;
