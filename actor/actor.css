@@ -249,6 +249,7 @@ a {
   top: 480px;
   left: 2%;
   font-weight: bold;
+  transition: 0.5s;
 }
 
 #right-arrow {
@@ -258,6 +259,7 @@ a {
   top: 480px;
   left: 30%;
   font-weight: bold;
+  transition: 0.5s;
 }
 
 #left-arrow:hover, #right-arrow:hover {
