@@ -838,6 +838,7 @@ and (orientation: portrait) {
 
   .footer {
     height: 150px;
+    margin-bottom: 0;
   }
 
   .footer img {
@@ -875,6 +876,7 @@ and (orientation: portrait) {
     height: 1700px;
     margin: 0 auto;
     background-attachment: none;
+    background-size: 100%;
   }
 
   .container {
@@ -1158,6 +1160,7 @@ and (orientation: portrait) {
 
   .footer {
     height: 150px;
+    margin-bottom: 0;
   }
 
   .footer img {
@@ -1195,6 +1198,7 @@ and (orientation: portrait) {
     height: 1700px;
     margin: 0 auto;
     background-attachment: none;
+    background-size: 100%;
   }
 
   .container {
@@ -1478,6 +1482,7 @@ and (orientation: portrait) {
 
   .footer {
     height: 150px;
+    margin-bottom: 0;
   }
 
   .footer img {
@@ -1515,6 +1520,7 @@ and (orientation: portrait) {
     height: 1700px;
     margin: 0 auto;
     background-attachment: none;
+    background-size: 100%;
   }
 
   .container {
