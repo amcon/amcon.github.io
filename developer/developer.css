@@ -837,12 +837,12 @@ and (orientation: portrait) {
 }
 
   .footer {
-    height: 100px;
+    height: 150px;
   }
 
   .footer img {
-    height: 80px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     margin-top: -3%;
   }
 
@@ -1147,12 +1147,12 @@ and (orientation: portrait) {
 }
 
   .footer {
-    height: 100px;
+    height: 150px;
   }
 
   .footer img {
-    height: 80px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     margin-top: -3%;
   }
 
@@ -1457,12 +1457,12 @@ and (orientation: portrait) {
 }
 
   .footer {
-    height: 100px;
+    height: 150px;
   }
 
   .footer img {
-    height: 80px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     margin-top: -3%;
   }
 
