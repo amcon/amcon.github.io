@@ -819,10 +819,10 @@ and (orientation: portrait) {
 
 #hamburger {
   position: absolute;
-/*  top: 5%;
-*/  left: 88%;
   height: 50px;
-  margin-top: -28%;
+  /*top: 5%;
+  left: 88%;
+  margin-top: -28%;*/
 }
 
 .ham-box {
