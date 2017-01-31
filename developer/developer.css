@@ -1120,6 +1120,7 @@ and (orientation: landscape) {
   }
 
   .header-container {
+    background-image: url("./../public/web_dev_landscape.jpg");
     background-attachment: none;
     background-size: 100%;
     padding-top: 5%;
@@ -1448,6 +1449,7 @@ and (orientation: landscape) {
   }
 
   .header-container {
+    background-image: url("./../public/web_dev_landscape.jpg");
     background-attachment: none;
     background-size: 100%;
     padding-top: 5%;
@@ -1776,6 +1778,7 @@ and (orientation: landscape) {
   }
 
   .header-container {
+    background-image: url("./../public/web_dev_landscape.jpg");
     background-attachment: none;
     background-size: 100%;
     padding-top: 5%;
