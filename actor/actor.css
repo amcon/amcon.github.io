@@ -835,7 +835,7 @@ and (orientation: portrait) {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 #dark {
@@ -848,7 +848,7 @@ and (orientation: portrait) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 90px;
   transition: 0.5s;
 }
 
@@ -1155,7 +1155,7 @@ and (orientation: landscape) {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 #dark {
@@ -1168,7 +1168,7 @@ and (orientation: landscape) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 90px;
   transition: 0.5s;
 }
 
@@ -1242,7 +1242,7 @@ and (orientation: portrait) {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 #dark {
@@ -1255,7 +1255,7 @@ and (orientation: portrait) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 90px;
   transition: 0.5s;
 }
 
@@ -1560,7 +1560,7 @@ and (orientation: landscape) {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 #dark {
@@ -1573,7 +1573,7 @@ and (orientation: landscape) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 90px;
   transition: 0.5s;
 }
 
@@ -1647,7 +1647,7 @@ and (orientation: portrait) {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 #dark {
@@ -1660,7 +1660,7 @@ and (orientation: portrait) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 90px;
   transition: 0.5s;
 }
 
@@ -1965,7 +1965,7 @@ and (orientation: landscape) {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 #dark {
@@ -1978,7 +1978,7 @@ and (orientation: landscape) {
 
 .hamburger-menu a {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 90px;
   transition: 0.5s;
 }
 
