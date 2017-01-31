@@ -813,6 +813,10 @@ and (orientation: portrait) {
     margin-left: -2%;
   }
 
+  #back-to-top {
+    height: 0;
+  }
+
   .footer p {
     font-size: 20px;
   }
@@ -1122,6 +1126,10 @@ and (orientation: portrait) {
     margin-left: -2%;
   }
 
+  #back-to-top {
+    height: 0;
+  }
+
   .footer p {
     font-size: 20px;
   }
@@ -1427,6 +1435,10 @@ and (orientation: portrait) {
 
   #logo1 {
     margin-left: -2%;
+  }
+
+  #back-to-top {
+    height: 0;
   }
 
   .footer p {

@@ -846,6 +846,10 @@ and (orientation: portrait) {
     margin-top: -3%;
   }
 
+  #back-to-top {
+    height: 0;
+  }
+
   .footer p {
     font-size: 20px;
   }
@@ -1156,6 +1160,10 @@ and (orientation: portrait) {
     margin-top: -3%;
   }
 
+  #back-to-top {
+    height: 0;
+  }
+
   .footer p {
     font-size: 20px;
   }
@@ -1464,6 +1472,10 @@ and (orientation: portrait) {
     height: 60px;
     width: 60px;
     margin-top: -3%;
+  }
+
+  #back-to-top {
+    height: 0;
   }
 
   .footer p {
