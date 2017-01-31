@@ -1033,6 +1033,11 @@ and (orientation: portrait) {
     height: 400px;
   }
 
+  .technologies, .technologies-right {
+    width: 30%;
+  }
+
+
   .skills-education {
     position: relative;
     display: flex;
@@ -1413,6 +1418,10 @@ and (orientation: portrait) {
     height: 400px;
   }
 
+  .technologies, .technologies-right {
+    width: 30%;
+  }
+
   .skills-education {
     position: relative;
     display: flex;
@@ -1791,6 +1800,10 @@ and (orientation: portrait) {
 
   .project-one, .project-two, .project-three, .project-four {
     height: 400px;
+  }
+
+  .technologies, .technologies-right {
+    width: 30%;
   }
 
   .skills-education {
