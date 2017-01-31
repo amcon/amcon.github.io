@@ -819,11 +819,11 @@ and (orientation: portrait) {
 }
 
 #hamburger {
-  position: absolute;
-  top: 10px;
+  position: fixed;
+  top: 12px;
   left: 800px;
   height: 150px;
-  width: 180px;
+  width: 200px;
   z-index: 5;
   transition: 0.5s;
 }
@@ -1139,11 +1139,11 @@ and (orientation: landscape) {
 }
 
 #hamburger {
-  position: absolute;
-  top: 10px;
+  position: fixed;
+  top: 12px;
   left: 800px;
   height: 150px;
-  width: 180px;
+  width: 200px;
   z-index: 5;
   transition: 0.5s;
 }
@@ -1226,11 +1226,11 @@ and (orientation: portrait) {
 }
 
 #hamburger {
-  position: absolute;
-  top: 10px;
+  position: fixed;
+  top: 12px;
   left: 800px;
   height: 150px;
-  width: 180px;
+  width: 200px;
   z-index: 5;
   transition: 0.5s;
 }
@@ -1544,11 +1544,11 @@ and (orientation: landscape) {
 }
 
 #hamburger {
-  position: absolute;
-  top: 10px;
+  position: fixed;
+  top: 12px;
   left: 800px;
   height: 150px;
-  width: 180px;
+  width: 200px;
   z-index: 5;
   transition: 0.5s;
 }
@@ -1631,11 +1631,11 @@ and (orientation: portrait) {
 }
 
 #hamburger {
-  position: absolute;
-  top: 10px;
+  position: fixed;
+  top: 12px;
   left: 800px;
   height: 150px;
-  width: 180px;
+  width: 200px;
   z-index: 5;
   transition: 0.5s;
 }
@@ -1949,11 +1949,11 @@ and (orientation: landscape) {
 }
 
 #hamburger {
-  position: absolute;
-  top: 10px;
+  position: fixed;
+  top: 12px;
   left: 800px;
   height: 150px;
-  width: 180px;
+  width: 200px;
   z-index: 5;
   transition: 0.5s;
 }
