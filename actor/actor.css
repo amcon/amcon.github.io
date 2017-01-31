@@ -820,6 +820,8 @@ and (orientation: portrait) {
 #hamburger {
   position: absolute;
   height: 50px;
+  top: 10px;
+  left: 10px;
   /*top: 5%;
   left: 88%;
   margin-top: -28%;*/
