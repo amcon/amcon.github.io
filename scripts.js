@@ -23,7 +23,7 @@ $(function(){
   }
 
   function go_to_theatre_resume(){
-    window.location.href = "https://docs.google.com/document/d/1IBIQAYmump4WZfV_vMxC9T3Js50CdyfDgEaA9hQq2u0/edit?usp=sharing";
+    window.location.href = "https://drive.google.com/file/d/0BxXL_tKJrq97UGtDNEdIMmkwbEk/view?usp=sharing";
   }
 
   function go_to_linkedin(){
