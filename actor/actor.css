@@ -801,11 +801,12 @@ and (orientation: portrait) {
     height: 80px;
     width: 80px;
     margin-top: -.1%;
-  }
-
-  #logo1, #logo3, #logo4 {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  #email {
+    margin-right: -1%;
   }
 
   .footer p {
@@ -1097,11 +1098,12 @@ and (orientation: portrait) {
     height: 80px;
     width: 80px;
     margin-top: -.1%;
-  }
-
-  #logo1, #logo3, #logo4 {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  #email {
+    margin-right: -1%;
   }
 
   .footer p {
@@ -1390,11 +1392,12 @@ and (orientation: portrait) {
     height: 80px;
     width: 80px;
     margin-top: -.1%;
-  }
-
-  #logo1, #logo3, #logo4 {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  #email {
+    margin-right: -1%;
   }
 
   .footer p {
