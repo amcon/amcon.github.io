@@ -5,6 +5,10 @@ body {
   background-color: black;
 }
 
+a {
+  text-decoration: none;
+}
+
 .hamburger-menu {
   height: 0;
 }
@@ -13,8 +17,8 @@ body {
 height: 0;
 }
 
-a {
-  text-decoration: none;
+.ham-text {
+  font-size: 0;
 }
 
 .scroll {
@@ -150,6 +154,8 @@ a {
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: 10%;
+  z-index: 1;
+  position: relative;
  }
 
 .container p {
@@ -834,6 +840,10 @@ and (orientation: portrait) {
     background-color: black;
   }
 
+  a {
+    text-decoration: none;
+  }
+
 .hamburger-menu {
   height: 0px;
   width: 100%;
@@ -1210,6 +1220,10 @@ and (orientation: portrait) {
     background-color: black;
   }
 
+  a {
+    text-decoration: none;
+  }
+
 .hamburger-menu {
   height: 0px;
   width: 100%;
@@ -1584,6 +1598,10 @@ and (orientation: portrait) {
   body {
     height: 5600px;
     background-color: black;
+  }
+
+  a {
+    text-decoration: none;
   }
 
 .hamburger-menu {
