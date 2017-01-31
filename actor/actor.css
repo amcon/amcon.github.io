@@ -953,6 +953,7 @@ and (orientation: portrait) {
 
   .education {
     height: 520px;
+    background-color: lightgrey;
   }
 
   .education h1 {
@@ -969,6 +970,7 @@ and (orientation: portrait) {
     width: 45%;
     font-size: 40px;
     margin-top: 5%;
+    background-color: lightgrey;
   }
 
   .contact {
@@ -1213,6 +1215,7 @@ and (orientation: portrait) {
 
   .education {
     height: 520px;
+    background-color: lightgrey;
   }
 
   .education h1 {
@@ -1229,6 +1232,7 @@ and (orientation: portrait) {
     width: 45%;
     font-size: 40px;
     margin-top: 5%;
+    background-color: lightgrey;
   }
 
   .contact {
@@ -1470,6 +1474,7 @@ and (orientation: portrait) {
 
   .education {
     height: 520px;
+    background-color: lightgrey;
   }
 
   .education h1 {
@@ -1486,6 +1491,7 @@ and (orientation: portrait) {
     width: 45%;
     font-size: 40px;
     margin-top: 5%;
+    background-color: lightgrey;
   }
 
   .contact {
