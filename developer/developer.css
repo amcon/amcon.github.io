@@ -828,7 +828,7 @@ and (orientation: portrait) {
   }
 
   #icon1, #icon2, #icon3, #icon4 {
-    margin-top: .7%;
+    margin-top: .5%;
   }
 
   .scroll {
@@ -885,7 +885,7 @@ and (orientation: portrait) {
   }
 
   .container {
-    height: 1600px;
+    height: 1500px;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -899,9 +899,9 @@ and (orientation: portrait) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1600px;
+    height: 1500px;
     width: 100%;
-    margin-top: 60%;
+    margin-top: 20%;
     text-align: center;
   }
 
@@ -1156,7 +1156,7 @@ and (orientation: portrait) {
   }
 
   #icon1, #icon2, #icon3, #icon4 {
-    margin-top: .7%;
+    margin-top: .5%;
   }
 
   .scroll {
@@ -1213,7 +1213,7 @@ and (orientation: portrait) {
   }
 
   .container {
-    height: 1600px;
+    height: 1500px;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -1227,9 +1227,9 @@ and (orientation: portrait) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1600px;
+    height: 1500px;
     width: 100%;
-    margin-top: 60%;
+    margin-top: 20%;
     text-align: center;
   }
 
@@ -1484,7 +1484,7 @@ and (orientation: portrait) {
   }
 
   #icon1, #icon2, #icon3, #icon4 {
-    margin-top: .7%;
+    margin-top: .5%;
   }
 
   .scroll {
@@ -1541,7 +1541,7 @@ and (orientation: portrait) {
   }
 
   .container {
-    height: 1600px;
+    height: 1500px;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -1555,9 +1555,9 @@ and (orientation: portrait) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1600px;
+    height: 1500px;
     width: 100%;
-    margin-top: 60%;
+    margin-top: 20%;
     text-align: center;
   }
 
