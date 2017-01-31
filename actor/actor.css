@@ -1064,6 +1064,10 @@ and (orientation: landscape) {
     width: 91%;
   }
 
+  .education {
+    background-color: lightgrey;
+  }
+
 }
 
 @media only screen
@@ -1358,6 +1362,10 @@ and (orientation: landscape) {
   textarea {
     width: 91%;
   }
+
+  .education {
+    background-color: lightgrey;
+  }
 }
 
 @media only screen
@@ -1651,5 +1659,9 @@ and (orientation: landscape) {
 
   textarea {
     width: 91%;
+  }
+
+  .education {
+    background-color: lightgrey;
   }
 }
