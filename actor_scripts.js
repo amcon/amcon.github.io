@@ -164,10 +164,12 @@ $(function(){
     if (counter === 0) {
       $(".hamburger-menu").css('height', '500px');
       $(".ham-text").css("font-size", "40px");
+      $("#hamburger").css("top", "510px")
       counter = 1;
     } else if (counter === 1) {
       $(".hamburger-menu").css('height', '0px');
       $(".ham-text").css("font-size", "0px");
+      $("#hamburger").css("top", "10px")
       counter = 0;
     }
   })
