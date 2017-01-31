@@ -164,13 +164,13 @@ $(function(){
     if (counter === 0) {
       $(".hamburger-menu").css('height', '800px');
       $(".ham-text").css("font-size", "40px");
-      $("#hamburger").css("top", "510px");
-      $(".header").css("top", "512px");
+      $("#hamburger").css("top", "812px");
+      $(".header").css("top", "812px");
       counter = 1;
     } else if (counter === 1) {
       $(".hamburger-menu").css('height', '0px');
       $(".ham-text").css("font-size", "0px");
-      $("#hamburger").css("top", "10px");
+      $("#hamburger").css("top", "12px");
       $(".header").css("top", "12px");
       counter = 0;
     }
