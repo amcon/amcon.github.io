@@ -818,7 +818,7 @@ and (orientation: portrait) {
 }
 
 #hamburger {
-  position: absolute;
+  position: relative;
   height: 50px;
   top: 10px;
   left: 10px;
