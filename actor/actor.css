@@ -800,7 +800,7 @@ and (orientation: portrait) {
   #logo1, #logo3, #logo4 {
     height: 80px;
     width: 80px;
-    margin-top: .1%;
+    margin-top: 0;
   }
 
   .footer p {
@@ -1068,7 +1068,7 @@ and (orientation: portrait) {
   #logo1, #logo3, #logo4 {
     height: 80px;
     width: 80px;
-    margin-top: .1%;
+    margin-top: 0;
   }
 
   .footer p {
@@ -1333,7 +1333,7 @@ and (orientation: portrait) {
   #logo1, #logo3, #logo4 {
     height: 80px;
     width: 80px;
-    margin-top: .1%;
+    margin-top: 0;
   }
 
   .footer p {
