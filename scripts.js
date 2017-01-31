@@ -108,16 +108,16 @@ $(function(){
     if (counter === 0) {
       $(".hamburger-menu").css('height', '800px');
       $(".ham-text").css("font-size", "80px");
-      $("#hamburger").css("top", "812px");
-      $(".header").css("top", "812px");
+      $("#hamburger").css("top", "820px");
+      $(".header").css("top", "820px");
       $("#left-arrow").css('top', '1800px');
       $("#right-arrow").css('top', '1800px');
       counter = 1;
     } else if (counter === 1) {
       $(".hamburger-menu").css('height', '0px');
       $(".ham-text").css("font-size", "0px");
-      $("#hamburger").css("top", "12px");
-      $(".header").css("top", "12px");
+      $("#hamburger").css("top", "20px");
+      $(".header").css("top", "20px");
       $("#left-arrow").css('top', '1000px');
       $("#right-arrow").css('top', '1000px');
       counter = 0;

@@ -124,7 +124,6 @@ height: 0;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0.5s;
 }
 
 .header {
@@ -139,6 +138,7 @@ height: 0;
   top: 20px;
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
+  transition: 0.5s;
 }
 
 .header a {
@@ -861,7 +861,7 @@ and (orientation: portrait) {
 
 #hamburger {
   position: absolute;
-  top: 12px;
+  top: 20px;
   left: 780px;
   height: 150px;
   width: 200px;
@@ -1241,7 +1241,7 @@ and (orientation: portrait) {
 
 #hamburger {
   position: absolute;
-  top: 12px;
+  top: 20px;
   left: 780px;
   height: 150px;
   width: 200px;
@@ -1621,7 +1621,7 @@ and (orientation: portrait) {
 
 #hamburger {
   position: absolute;
-  top: 12px;
+  top: 20px;
   left: 780px;
   height: 150px;
   width: 200px;
