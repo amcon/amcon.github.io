@@ -866,7 +866,7 @@ and (orientation: portrait) {
 
 #right-arrow {
   top: 1000px;
-  left: 75%;
+  left: 72%;
   font-size: 80px;
 }
 
@@ -878,7 +878,7 @@ and (orientation: portrait) {
 
   #right-arrow:hover {
     top: 1000px;
-    left: 75%;
+    left: 72%;
     font-size: 80px;
   }
   .right {
@@ -1161,7 +1161,7 @@ and (orientation: portrait) {
 
 #right-arrow {
   top: 1000px;
-  left: 75%;
+  left: 72%;
   font-size: 80px;
 }
 
@@ -1173,7 +1173,7 @@ and (orientation: portrait) {
 
   #right-arrow:hover {
     top: 1000px;
-    left: 75%;
+    left: 72%;
     font-size: 80px;
   }
   .right {
@@ -1453,7 +1453,7 @@ and (orientation: portrait) {
 
 #right-arrow {
   top: 1000px;
-  left: 75%;
+  left: 72%;
   font-size: 80px;
 }
 
@@ -1465,7 +1465,7 @@ and (orientation: portrait) {
 
   #right-arrow:hover {
     top: 1000px;
-    left: 75%;
+    left: 72%;
     font-size: 80px;
   }
   .right {
