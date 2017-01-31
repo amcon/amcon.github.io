@@ -818,13 +818,11 @@ and (orientation: portrait) {
 }
 
 #hamburger {
-  position: relative;
+  position: absolute;
+/*  top: 5%;
+*/  left: 90px;
   height: 50px;
-  top: 10px;
-  left: 10px;
-  /*top: 5%;
-  left: 88%;
-  margin-top: -28%;*/
+  width: 80px;
 }
 
 .ham-box {
@@ -1134,9 +1132,9 @@ and (orientation: landscape) {
 #hamburger {
   position: absolute;
 /*  top: 5%;
-*/  left: 88%;
+*/  left: 90px;
   height: 50px;
-  margin-top: -28%;
+  width: 80px;
 }
 
 .ham-box {
@@ -1213,9 +1211,9 @@ and (orientation: portrait) {
 #hamburger {
   position: absolute;
 /*  top: 5%;
-*/  left: 88%;
+*/  left: 90px;
   height: 50px;
-  margin-top: -28%;
+  width: 80px;
 }
 
 .ham-box {
@@ -1523,9 +1521,9 @@ and (orientation: landscape) {
 #hamburger {
   position: absolute;
 /*  top: 5%;
-*/  left: 88%;
+*/  left: 90px;
   height: 50px;
-  margin-top: -28%;
+  width: 80px;
 }
 
 .ham-box {
@@ -1602,9 +1600,9 @@ and (orientation: portrait) {
 #hamburger {
   position: absolute;
 /*  top: 5%;
-*/  left: 88%;
+*/  left: 90px;
   height: 50px;
-  margin-top: -28%;
+  width: 80px;
 }
 
 .ham-box {
@@ -1912,9 +1910,9 @@ and (orientation: landscape) {
 #hamburger {
   position: absolute;
 /*  top: 5%;
-*/  left: 88%;
+*/  left: 90px;
   height: 50px;
-  margin-top: -28%;
+  width: 80px;
 }
 
 .ham-box {
