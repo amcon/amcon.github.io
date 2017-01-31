@@ -828,7 +828,7 @@ and (orientation: portrait) {
   }
 
   #icon1, #icon2, #icon3, #icon4 {
-    margin-top: .5%;
+    margin-top: .3%;
   }
 
   .scroll {
@@ -855,7 +855,7 @@ and (orientation: portrait) {
   position: fixed;
   width: 0px;
   height: 0px;
-  top: 65.5%;
+  top: 85.5%;
   left: 94%;
   z-index: 2;
   transition: 0.5s;
@@ -901,7 +901,7 @@ and (orientation: portrait) {
     align-items: center;
     height: 1500px;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 30%;
     text-align: center;
   }
 
@@ -1156,7 +1156,7 @@ and (orientation: portrait) {
   }
 
   #icon1, #icon2, #icon3, #icon4 {
-    margin-top: .5%;
+    margin-top: .3%;
   }
 
   .scroll {
@@ -1183,7 +1183,7 @@ and (orientation: portrait) {
   position: fixed;
   width: 0px;
   height: 0px;
-  top: 65.5%;
+  top: 85.5%;
   left: 94%;
   z-index: 2;
   transition: 0.5s;
@@ -1229,7 +1229,7 @@ and (orientation: portrait) {
     align-items: center;
     height: 1500px;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 30%;
     text-align: center;
   }
 
@@ -1484,7 +1484,7 @@ and (orientation: portrait) {
   }
 
   #icon1, #icon2, #icon3, #icon4 {
-    margin-top: .5%;
+    margin-top: .3%;
   }
 
   .scroll {
@@ -1511,7 +1511,7 @@ and (orientation: portrait) {
   position: fixed;
   width: 0px;
   height: 0px;
-  top: 65.5%;
+  top: 85.5%;
   left: 94%;
   z-index: 2;
   transition: 0.5s;
@@ -1557,7 +1557,7 @@ and (orientation: portrait) {
     align-items: center;
     height: 1500px;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 30%;
     text-align: center;
   }
 
