@@ -823,7 +823,7 @@ and (max-device-width : 736px)
 and (orientation: portrait) {
 
   body {
-    height: 5800px;
+    height: 5600px;
     background-color: black;
   }
 
@@ -877,7 +877,7 @@ and (orientation: portrait) {
   }
 
   .header-container {
-    height: 1700px;
+    height: 1500px;
     margin: 0 auto;
     background-image: url("./../public/web_dev_portrait.jpg");
     background-attachment: none;
@@ -1151,7 +1151,7 @@ and (max-device-width : 667px)
 and (orientation: portrait) {
 
   body {
-    height: 5800px;
+    height: 5600px;
     background-color: black;
   }
 
@@ -1205,7 +1205,7 @@ and (orientation: portrait) {
   }
 
   .header-container {
-    height: 1700px;
+    height: 1500px;
     margin: 0 auto;
     background-image: url("./../public/web_dev_portrait.jpg");
     background-attachment: none;
@@ -1479,7 +1479,7 @@ and (max-device-width : 568px)
 and (orientation: portrait) {
 
   body {
-    height: 5800px;
+    height: 5600px;
     background-color: black;
   }
 
@@ -1533,7 +1533,7 @@ and (orientation: portrait) {
   }
 
   .header-container {
-    height: 1700px;
+    height: 1500px;
     margin: 0 auto;
     background-image: url("./../public/web_dev_portrait.jpg");
     background-attachment: none;
