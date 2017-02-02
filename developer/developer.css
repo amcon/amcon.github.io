@@ -1016,13 +1016,17 @@ and (orientation: portrait) {
   }
 
   .project-one, .project-two, .project-three, .project-four {
-    width: 100%;
+    width: 95%;
     margin: 0;
-    height: 100%;
+    height: 95%;
   }
 
   .project-one, .project-three {
     margin-left: -40%;
+  }
+
+  .projects {
+    padding-bottom: 0;
   }
 
   .skills-education {
@@ -1387,13 +1391,17 @@ and (orientation: portrait) {
   }
 
   .project-one, .project-two, .project-three, .project-four {
-    width: 100%;
+    width: 95%;
     margin: 0;
-    height: 100%;
+    height: 95%;
   }
 
   .project-one, .project-three {
     margin-left: -40%;
+  }
+
+  .projects {
+    padding-bottom: 0;
   }
 
   .skills-education {
@@ -1758,13 +1766,17 @@ and (orientation: portrait) {
   }
 
   .project-one, .project-two, .project-three, .project-four {
-    width: 100%;
+    width: 95%;
     margin: 0;
-    height: 100%;
+    height: 95%;
   }
 
   .project-one, .project-three {
     margin-left: -40%;
+  }
+
+  .projects {
+    padding-bottom: 0;
   }
 
   .skills-education {
