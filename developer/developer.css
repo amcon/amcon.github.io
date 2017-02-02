@@ -1051,7 +1051,7 @@ and (orientation: portrait) {
 
   .second p {
     font-size: 60px;
-    font-weight: 900;
+    font-weight: bold;
     margin-top: -5%;
     font-family: arial;
   }
@@ -1473,7 +1473,7 @@ and (orientation: portrait) {
 
   .second p {
     font-size: 60px;
-    font-weight: 900;
+    font-weight: bold;
     margin-top: -5%;
     font-family: arial;
   }
@@ -1895,7 +1895,7 @@ and (orientation: portrait) {
 
   .second p {
     font-size: 60px;
-    font-weight: 900;
+    font-weight: bold;
     margin-top: -5%;
     font-family: arial;
   }
