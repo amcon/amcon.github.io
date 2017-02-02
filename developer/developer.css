@@ -1049,6 +1049,11 @@ and (orientation: portrait) {
     margin-left: -250%;
   }
 
+  .second p {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
   .projects {
     padding-bottom: 0;
   }
@@ -1448,6 +1453,11 @@ and (orientation: portrait) {
     margin-left: -250%;
   }
 
+  .second p {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
   .projects {
     padding-bottom: 0;
   }
@@ -1845,6 +1855,11 @@ and (orientation: portrait) {
 
   .first {
     margin-left: -250%;
+  }
+
+  .second p {
+    font-size: 40px;
+    font-weight: bold;
   }
 
   .projects {
