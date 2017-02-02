@@ -181,7 +181,10 @@ $(function(){
   });
 
   $(".ham-text").click(function(){
-    $(".hamburger-menu").css('height', '0px');
+    $(".hamburger-menu").css({
+      height: '0px',
+      transition: '0'
+    });
     $(".ham-text").css("font-size", "0px");
     $("#hamburger").css("top", "12px");
     $(".header").css("top", "12px");

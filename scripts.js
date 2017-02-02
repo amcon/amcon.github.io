@@ -125,7 +125,10 @@ $(function(){
   });
 
   $(".ham-text").click(function(){
-    $(".hamburger-menu").css('height', '0px');
+    $(".hamburger-menu").css({
+      height: '0px',
+      transition: '0'
+    });
     $(".ham-text").css("font-size", "0px");
     $("#hamburger").css("top", "20px");
     $(".header").css("top", "30px");
