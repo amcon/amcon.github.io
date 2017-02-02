@@ -1002,8 +1002,18 @@ and (orientation: portrait) {
     height: 0px;
   }
 
+  .technologies, .technolies-right {
+    height: 0;
+    width: 0;
+  }
 
+  .technologies p, .technologies h3 {
+    font-size: 0;
+  }
 
+  .technologies-right p, .technologies-right h3 {
+    font-size: 0;
+  }
 
   .skills-education {
     position: relative;
@@ -1353,8 +1363,18 @@ and (orientation: portrait) {
   #image-break, #image-break-2 {
     height: 0px;
   }
+  .technologies, .technolies-right {
+    height: 0;
+    width: 0;
+  }
 
+  .technologies p, .technologies h3 {
+    font-size: 0;
+  }
 
+  .technologies-right p, .technologies-right h3 {
+    font-size: 0;
+  }
 
   .skills-education {
     position: relative;
@@ -1704,8 +1724,18 @@ and (orientation: portrait) {
   #image-break, #image-break-2 {
     height: 0px;
   }
+  .technologies, .technolies-right {
+    height: 0;
+    width: 0;
+  }
 
+  .technologies p, .technologies h3 {
+    font-size: 0;
+  }
 
+  .technologies-right p, .technologies-right h3 {
+    font-size: 0;
+  }
 
   .skills-education {
     position: relative;
