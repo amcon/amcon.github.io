@@ -1037,7 +1037,8 @@ and (orientation: portrait) {
   }
 
   .profile h1 {
-    font-size: 100px;
+    font-size: 110px;
+    margin-top: -10%;
   }
 
   .projects {
@@ -1427,7 +1428,8 @@ and (orientation: portrait) {
   }
 
   .profile h1 {
-    font-size: 100px;
+    font-size: 110px;
+    margin-top: -10%;
   }
 
   .projects {
@@ -1817,7 +1819,8 @@ and (orientation: portrait) {
   }
 
   .profile h1 {
-    font-size: 100px;
+    font-size: 110px;
+    margin-top: -10%;
   }
 
   .projects {
