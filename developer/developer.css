@@ -1018,6 +1018,7 @@ and (orientation: portrait) {
   .project-one, .project-two, .project-three, .project-four {
     width: 100%;
     margin: 0;
+    height: 100%;
   }
 
   .skills-education {
@@ -1384,6 +1385,7 @@ and (orientation: portrait) {
   .project-one, .project-two, .project-three, .project-four {
     width: 100%;
     margin: 0;
+    height: 100%;
   }
 
   .skills-education {
@@ -1750,6 +1752,7 @@ and (orientation: portrait) {
   .project-one, .project-two, .project-three, .project-four {
     width: 100%;
     margin: 0;
+    height: 100%;
   }
 
   .skills-education {
