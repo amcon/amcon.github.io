@@ -746,8 +746,8 @@ textarea {
   position: fixed;
   width: 0px;
   height: 0px;
-  top: 85.5%;
-  left: 94%;
+  top: 70.5%;
+  left: 93.5%;
   z-index: 2;
   transition: 0.5s;
 }

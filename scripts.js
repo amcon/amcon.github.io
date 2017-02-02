@@ -82,8 +82,8 @@ $(function(){
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $("#back-to-top").css({
-            height: '50px',
-            width: '50px'
+            height: '75px',
+            width: '75px'
           });
         } else {
           $("#scroll-four").css('background-color', 'black');
@@ -92,8 +92,8 @@ $(function(){
           $("#scroll-three").css('background-color', 'transparent');
           $(".p").css('color', 'white');
           $("#back-to-top").css({
-            height: '50px',
-            width: '50px'
+            height: '75px',
+            width: '75px'
           });
         }
       }
@@ -130,7 +130,7 @@ $(function(){
       transition: '0'
     });
     $(".ham-text").css({
-      font-size: "0px",
+      'font-size': "0px",
       transition: '0'
     });
     $("#hamburger").css({
