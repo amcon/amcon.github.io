@@ -180,6 +180,10 @@ $(function(){
     }
   })
 
+  $("#ham-text").click(function(){
+    counter = 1;
+  })
+
   $("#submit").click(function() {
     var name = $("#name").val();
     var email = $("#email").val();

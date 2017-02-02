@@ -656,7 +656,7 @@ p {
   width: 100%;
   background-image: url("./../public/trees.jpg");
   background-attachment: fixed;
-  background-position: top;
+  background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(60%);
