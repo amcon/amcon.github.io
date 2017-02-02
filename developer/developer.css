@@ -1022,6 +1022,14 @@ and (orientation: portrait) {
   }
 
 
+  .profile {
+    height: 1000px;
+  }
+
+  .project-box {
+    height: 800px;
+  }
+
   .projects {
     padding-bottom: 0;
   }
@@ -1394,6 +1402,14 @@ and (orientation: portrait) {
   }
 
 
+  .profile {
+    height: 1000px;
+  }
+
+  .project-box {
+    height: 800px;
+  }
+
   .projects {
     padding-bottom: 0;
   }
@@ -1765,6 +1781,14 @@ and (orientation: portrait) {
     height: 94%;
   }
 
+
+  .profile {
+    height: 1000px;
+  }
+
+  .project-box {
+    height: 800px;
+  }
 
   .projects {
     padding-bottom: 0;
