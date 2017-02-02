@@ -124,6 +124,15 @@ $(function(){
     }
   })
 
+  $(".ham-text").click(function(){
+    $(".hamburger-menu").css('height', '0px');
+    $(".ham-text").css("font-size", "0px");
+    $("#hamburger").css("top", "12px");
+    $(".header").css("top", "12px");
+    $("#left-arrow").css('top', '1000px');
+    $("#right-arrow").css('top', '1000px');
+  })
+
   $(".project-one").click(function() {
   go_to_pokemon();
   });
