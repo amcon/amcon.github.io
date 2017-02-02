@@ -1025,7 +1025,7 @@ and (orientation: portrait) {
   }
 
   .projects {
-    width: 100%;
+    width: 50%;
     height: 400px;
   }
 
@@ -1034,7 +1034,8 @@ and (orientation: portrait) {
   }
 
   .technologies, .technologies-right {
-    width: 27%;
+    width: 0;
+    height: 0;
   }
 
 
