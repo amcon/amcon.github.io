@@ -747,7 +747,7 @@ textarea {
   width: 0px;
   height: 0px;
   top: 70.5%;
-  left: 89.5%;
+  left: 93.5%;
   z-index: 2;
   transition: 0.5s;
 }
@@ -805,6 +805,10 @@ and (orientation: portrait) {
   body {
     margin: 0;
     background-color: black;
+  }
+
+  #back-to-top {
+    left: 80%;
   }
 
   .hamburger-menu {
@@ -1214,6 +1218,10 @@ and (orientation: portrait) {
     background-color: black;
   }
 
+  #back-to-top {
+    left: 80%;
+  }
+
   .hamburger-menu {
   height: 0px;
   width: 100%;
@@ -1617,6 +1625,10 @@ and (orientation: portrait) {
   body {
     margin: 0;
     background-color: black;
+  }
+
+  #back-to-top {
+    left: 80%;
   }
 
   .hamburger-menu {
