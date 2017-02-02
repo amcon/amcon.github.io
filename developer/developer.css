@@ -1038,10 +1038,6 @@ and (orientation: portrait) {
     font-size: 100px;
   }
 
-  .profile h3 {
-    font-size: 50px;
-  }
-
   .projects {
     padding-bottom: 0;
   }
@@ -1430,10 +1426,6 @@ and (orientation: portrait) {
     font-size: 100px;
   }
 
-  .profile h3 {
-    font-size: 50px;
-  }
-
   .projects {
     padding-bottom: 0;
   }
@@ -1820,10 +1812,6 @@ and (orientation: portrait) {
 
   .profile h1 {
     font-size: 100px;
-  }
-
-  .profile h3 {
-    font-size: 50px;
   }
 
   .projects {
