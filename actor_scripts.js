@@ -187,6 +187,7 @@ $(function(){
     $(".header").css("top", "12px");
     $("#left-arrow").css('top', '1000px');
     $("#right-arrow").css('top', '1000px');
+    counter = 0;
   })
 
   $("#submit").click(function() {

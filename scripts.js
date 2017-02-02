@@ -127,10 +127,11 @@ $(function(){
   $(".ham-text").click(function(){
     $(".hamburger-menu").css('height', '0px');
     $(".ham-text").css("font-size", "0px");
-    $("#hamburger").css("top", "12px");
-    $(".header").css("top", "12px");
+    $("#hamburger").css("top", "20px");
+    $(".header").css("top", "30px");
     $("#left-arrow").css('top', '1000px');
     $("#right-arrow").css('top', '1000px');
+    counter = 0;
   })
 
   $(".project-one").click(function() {
