@@ -1038,6 +1038,14 @@ and (orientation: portrait) {
     height: 0;
   }
 
+  .technologies p, .technologies h3{
+    font-size: 0;
+  }
+
+  .technologies-right p, .technologies-right h3{
+    font-size: 0;
+  }
+
 
   .skills-education {
     position: relative;
