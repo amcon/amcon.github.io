@@ -1052,7 +1052,7 @@ and (orientation: portrait) {
   .second p {
     font-size: 60px;
     margin-top: -5%;
-    font-family: arial;
+    font-family: 'Fjalla One', sans-serif;
   }
 
   #p1s {
@@ -1473,7 +1473,7 @@ and (orientation: portrait) {
   .second p {
     font-size: 60px;
     margin-top: -5%;
-    font-family: arial;
+    font-family: 'Fjalla One', sans-serif;
   }
 
   #p1s {
@@ -1894,7 +1894,7 @@ and (orientation: portrait) {
   .second p {
     font-size: 60px;
     margin-top: -5%;
-    font-family: arial;
+    font-family: 'Fjalla One', sans-serif;
   }
 
   #p1s {
