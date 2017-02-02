@@ -129,7 +129,10 @@ $(function(){
       height: '0px',
       transition: '0'
     });
-    $(".ham-text").css("font-size", "0px");
+    $(".ham-text").css({
+      font-size: "0px",
+      transition: '0'
+    });
     $("#hamburger").css({
       top: "20px",
       transition: '0'

@@ -185,9 +185,18 @@ $(function(){
       height: '0px',
       transition: '0'
     });
-    $(".ham-text").css("font-size", "0px");
-    $("#hamburger").css("top", "12px");
-    $(".header").css("top", "12px");
+    $(".ham-text").css({
+      font-size: "0px",
+      transition: '0'
+    });
+    $("#hamburger").css({
+      top: "12px",
+      transition: '0'
+    });
+    $(".header").css({
+      top: "12px",
+      transition: '0'
+    });
     $("#left-arrow").css('top', '1000px');
     $("#right-arrow").css('top', '1000px');
     counter = 0;
