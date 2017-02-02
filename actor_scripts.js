@@ -180,7 +180,7 @@ $(function(){
     }
   })
 
-  $("#ham-text").click(function(){
+  $(".ham-text").click(function(){
     $(".hamburger-menu").css('height', '0px');
     $(".ham-text").css("font-size", "0px");
     $("#hamburger").css("top", "12px");
