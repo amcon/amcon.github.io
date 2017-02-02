@@ -1045,6 +1045,10 @@ and (orientation: portrait) {
     font-size: 40px;
   }
 
+  .first {
+    margin-left: -250%;
+  }
+
   .projects {
     padding-bottom: 0;
   }
@@ -1440,6 +1444,10 @@ and (orientation: portrait) {
     font-size: 40px;
   }
 
+  .first {
+    margin-left: -250%;
+  }
+
   .projects {
     padding-bottom: 0;
   }
@@ -1833,6 +1841,10 @@ and (orientation: portrait) {
 
   #prof-h3 {
     font-size: 40px;
+  }
+
+  .first {
+    margin-left: -250%;
   }
 
   .projects {
