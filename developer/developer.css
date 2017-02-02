@@ -1021,6 +1021,10 @@ and (orientation: portrait) {
     height: 100%;
   }
 
+  .project-one, .project-three {
+    margin-left: -20%;
+  }
+
   .skills-education {
     position: relative;
     display: flex;
@@ -1388,6 +1392,10 @@ and (orientation: portrait) {
     height: 100%;
   }
 
+  .project-one, .project-three {
+    margin-left: -20%;
+  }
+
   .skills-education {
     position: relative;
     display: flex;
@@ -1753,6 +1761,10 @@ and (orientation: portrait) {
     width: 100%;
     margin: 0;
     height: 100%;
+  }
+
+  .project-one, .project-three {
+    margin-left: -20%;
   }
 
   .skills-education {
