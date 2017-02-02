@@ -1055,6 +1055,21 @@ and (orientation: portrait) {
     margin-top: -5%;
   }
 
+  #p1s {
+  background-color: rgba(71, 158, 190, .2);
+}
+
+#p2s {
+  background-color: rgba(102, 193, 152, .2);
+}
+
+#p3s {
+  background-color: rgba(225, 157, 149, .2);
+}
+
+#p4s {
+  background-color: rgba(58, 69, 86, .5);
+}
 
   .projects {
     padding-bottom: 0;
@@ -1461,6 +1476,21 @@ and (orientation: portrait) {
     margin-top: -5%;
   }
 
+  #p1s {
+  background-color: rgba(71, 158, 190, .2);
+}
+
+#p2s {
+  background-color: rgba(102, 193, 152, .2);
+}
+
+#p3s {
+  background-color: rgba(225, 157, 149, .2);
+}
+
+#p4s {
+  background-color: rgba(58, 69, 86, .5);
+}
 
   .projects {
     padding-bottom: 0;
@@ -1867,6 +1897,21 @@ and (orientation: portrait) {
     margin-top: -5%;
   }
 
+  #p1s {
+  background-color: rgba(71, 158, 190, .2);
+}
+
+#p2s {
+  background-color: rgba(102, 193, 152, .2);
+}
+
+#p3s {
+  background-color: rgba(225, 157, 149, .2);
+}
+
+#p4s {
+  background-color: rgba(58, 69, 86, .5);
+}
 
   .projects {
     padding-bottom: 0;
