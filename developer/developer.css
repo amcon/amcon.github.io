@@ -864,10 +864,6 @@ and (orientation: portrait) {
     text-decoration: none;
   }
 
-  #back-to-top {
-    left: 87%;
-  }
-
 .hamburger-menu {
   height: 0px;
   width: 100%;
@@ -1289,10 +1285,6 @@ and (orientation: portrait) {
     text-decoration: none;
   }
 
-  #back-to-top {
-    left: 87%;
-  }
-
 .hamburger-menu {
   height: 0px;
   width: 100%;
@@ -1711,10 +1703,6 @@ and (orientation: portrait) {
 
   a {
     text-decoration: none;
-  }
-
-  #back-to-top {
-    left: 87%;
   }
 
 .hamburger-menu {
