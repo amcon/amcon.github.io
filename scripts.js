@@ -130,8 +130,14 @@ $(function(){
       transition: '0'
     });
     $(".ham-text").css("font-size", "0px");
-    $("#hamburger").css("top", "20px");
-    $(".header").css("top", "30px");
+    $("#hamburger").css({
+      top: "20px",
+      transition: '0'
+    });
+    $(".header").css({
+      top: "30px",
+      transition: '0'
+    });
     $("#left-arrow").css('top', '1000px');
     $("#right-arrow").css('top', '1000px');
     counter = 0;
