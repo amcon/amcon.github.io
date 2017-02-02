@@ -1023,7 +1023,8 @@ and (orientation: portrait) {
 
 
   .profile {
-    height: 1500px;
+    height: 1200px;
+    padding-bottom: 10%;
   }
 
   .project-box {
@@ -1411,7 +1412,8 @@ and (orientation: portrait) {
 
 
   .profile {
-    height: 1500px;
+    height: 1200px;
+    padding-bottom: 10%;
   }
 
   .project-box {
@@ -1799,7 +1801,8 @@ and (orientation: portrait) {
 
 
   .profile {
-    height: 1500px;
+    height: 1200px;
+    padding-bottom: 10%;
   }
 
   .project-box {
