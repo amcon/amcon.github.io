@@ -1021,11 +1021,11 @@ and (orientation: portrait) {
   }*/
 
   #project-box {
-    height: 800px;
+    height: 850px;
   }
 
   .projects {
-    width: 50%;
+    width: 40%;
     height: 400px;
   }
 
@@ -1035,18 +1035,21 @@ and (orientation: portrait) {
   }
 
   .technologies, .technologies-right {
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
   }
 
   .technologies p, .technologies h3{
-    font-size: 0;
+    font-size: 0px;
   }
 
   .technologies-right p, .technologies-right h3{
-    font-size: 0;
+    font-size: 0px;
   }
 
+  .projects h3, .projects p {
+    font-size: 0px;
+  }
 
   .skills-education {
     position: relative;
