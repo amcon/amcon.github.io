@@ -1015,13 +1015,13 @@ and (orientation: portrait) {
     font-size: 40px;
   }
 
-  .profile p {
+  /*.profile p {
     font-size: 28px;
     line-height: 28px;
-  }
+  }*/
 
   #project-box {
-    height: 2000px;
+    height: 800px;
   }
 
   .projects {
@@ -1031,6 +1031,7 @@ and (orientation: portrait) {
 
   .project-one, .project-two, .project-three, .project-four {
     height: 400px;
+    width: 100%;
   }
 
   .technologies, .technologies-right {
