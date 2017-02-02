@@ -1031,6 +1031,18 @@ and (orientation: portrait) {
   }
 
   .projects {
+    height: 400px;
+  }
+
+  .profile h1 {
+    font-size: 100px;
+  }
+
+  .profile h3 {
+    font-size: 50px;
+  }
+
+  .projects {
     padding-bottom: 0;
   }
 
@@ -1411,6 +1423,18 @@ and (orientation: portrait) {
   }
 
   .projects {
+    height: 400px;
+  }
+
+  .profile h1 {
+    font-size: 100px;
+  }
+
+  .profile h3 {
+    font-size: 50px;
+  }
+
+  .projects {
     padding-bottom: 0;
   }
 
@@ -1788,6 +1812,18 @@ and (orientation: portrait) {
 
   .project-box {
     height: 800px;
+  }
+
+  .projects {
+    height: 400px;
+  }
+
+  .profile h1 {
+    font-size: 100px;
+  }
+
+  .profile h3 {
+    font-size: 50px;
   }
 
   .projects {
