@@ -178,7 +178,7 @@ $(function(){
       $("#right-arrow").css('top', '1000px');
       counter = 0;
     }
-  })
+  });
 
   $(".ham-text").click(function(){
     $(".hamburger-menu").css('height', '0px');
@@ -188,7 +188,7 @@ $(function(){
     $("#left-arrow").css('top', '1000px');
     $("#right-arrow").css('top', '1000px');
     counter = 0;
-  })
+  });
 
   $("#submit").click(function() {
     var name = $("#name").val();
