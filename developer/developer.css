@@ -832,13 +832,31 @@ textarea {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen
 and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: portrait) {
 
   body {
-    height: 5600px;
     background-color: black;
   }
 
@@ -1260,7 +1278,6 @@ and (max-device-width : 667px)
 and (orientation: portrait) {
 
   body {
-    height: 5600px;
     background-color: black;
   }
 
@@ -1681,7 +1698,6 @@ and (max-device-width : 568px)
 and (orientation: portrait) {
 
   body {
-    height: 5600px;
     background-color: black;
   }
 
