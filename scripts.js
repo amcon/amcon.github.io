@@ -122,7 +122,7 @@ $(function(){
       $("#right-arrow").css('top', '1000px');
       counter = 0;
     }
-  })
+  });
 
   $(".ham-text").click(function(){
     $(".hamburger-menu").css('height', '0px');
@@ -132,7 +132,7 @@ $(function(){
     $("#left-arrow").css('top', '1000px');
     $("#right-arrow").css('top', '1000px');
     counter = 0;
-  })
+  });
 
   $(".project-one").click(function() {
   go_to_pokemon();
