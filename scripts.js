@@ -48,7 +48,7 @@ $(function(){
     $myform.submit();
   }
 
-  let mq = window.matchMedia( "(max-width: 736px)" );
+  let mq = window.matchMedia( "(min-width: 736px)" );
 
   function scrolling(){
     $(window).scroll(function(){
@@ -90,8 +90,8 @@ $(function(){
             });
           } else {
             $("#back-to-top").css({
-              height: '50px',
-              width: '50px'
+              height: '60px',
+              width: '60px'
             })
           }
         } else {
@@ -107,8 +107,8 @@ $(function(){
             });
           } else {
             $("#back-to-top").css({
-              height: '50px',
-              width: '50px'
+              height: '60px',
+              width: '60px'
             })
           }
         }
