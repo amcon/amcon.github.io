@@ -86,7 +86,9 @@ $(function(){
           if (mq.matches) {
             $("#back-to-top").css({
               height: '100px',
-              width: '100px'
+              width: '100px',
+              top: '90vh',
+              left: '87%'
             });
           } else {
             $("#back-to-top").css({
@@ -103,7 +105,9 @@ $(function(){
           if (mq.matches) {
             $("#back-to-top").css({
               height: '100px',
-              width: '100px'
+              width: '100px',
+              top: '90vh',
+              left: '87%'
             });
           } else {
             $("#back-to-top").css({

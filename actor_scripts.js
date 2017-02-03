@@ -92,7 +92,7 @@ $(function(){
               height: '100px',
               width: '100px',
               top: '90vh',
-              left: '85%'
+              left: '87%'
             });
           } else {
             $("#back-to-top").css({
@@ -112,7 +112,7 @@ $(function(){
               height: '100px',
               width: '100px',
               top: '90vh',
-              left: '85%'
+              left: '87%'
             });
           } else {
             $("#back-to-top").css({
@@ -132,7 +132,7 @@ $(function(){
               height: '100px',
               width: '100px',
               top: '90vh',
-              left: '85%'
+              left: '87%'
             });
           } else {
             $("#back-to-top").css({
