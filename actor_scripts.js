@@ -50,6 +50,8 @@ $(function(){
     $("#h1").css('margin-left', '0%');
   }
 
+  let mq = window.matchMedia( "(min-width: 414px, max-width: 736px)" );
+
   function scrolling(){
     $(window).scroll(function(){
       let scrollPos = document.querySelector("body").scrollTop;
@@ -85,10 +87,17 @@ $(function(){
           $("#scroll-four").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
           $(".p").css('color', 'white');
-          $("#back-to-top").css({
-            height: '75px',
-            width: '75px'
-          });
+          if (mq.matches) {
+            $("#back-to-top").css({
+              height: '100px',
+              width: '100px'
+            });
+          } else {
+            $("#back-to-top").css({
+              height: '50px',
+              width: '50px'
+            })
+          }
         } else if (scrollPos > 2339 && scrollPos <= 3680) {
           $("#scroll-four").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
@@ -96,10 +105,17 @@ $(function(){
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
           $(".p").css('color', 'black');
-          $("#back-to-top").css({
-            height: '75px',
-            width: '75px'
-          });
+          if (mq.matches) {
+            $("#back-to-top").css({
+              height: '100px',
+              width: '100px'
+            });
+          } else {
+            $("#back-to-top").css({
+              height: '50px',
+              width: '50px'
+            })
+          }
         } else {
           $("#scroll-five").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
@@ -107,10 +123,17 @@ $(function(){
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $(".p").css('color', 'black');
-          $("#back-to-top").css({
-            height: '75px',
-            width: '75px'
-          });
+          if (mq.matches) {
+            $("#back-to-top").css({
+              height: '100px',
+              width: '100px'
+            });
+          } else {
+            $("#back-to-top").css({
+              height: '50px',
+              width: '50px'
+            })
+          }
         }
       }
     })
