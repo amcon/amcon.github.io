@@ -48,7 +48,7 @@ $(function(){
     $myform.submit();
   }
 
-  let mq = window.matchMedia( "(min-width: 414px, max-width: 736px)" );
+  let mq = window.matchMedia( "(max-width: 736px)" );
 
   function scrolling(){
     $(window).scroll(function(){
