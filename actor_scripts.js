@@ -91,8 +91,9 @@ $(function(){
             $("#back-to-top").css({
               height: '100px',
               width: '100px',
-              top: '90vh',
-              left: '87%'
+              top: '89vh',
+              left: '89%',
+              'z-index': '10'
             });
           } else {
             $("#back-to-top").css({
@@ -111,8 +112,9 @@ $(function(){
             $("#back-to-top").css({
               height: '100px',
               width: '100px',
-              top: '90vh',
-              left: '87%'
+              top: '89vh',
+              left: '89%',
+              'z-index': '10'
             });
           } else {
             $("#back-to-top").css({
@@ -131,8 +133,9 @@ $(function(){
             $("#back-to-top").css({
               height: '100px',
               width: '100px',
-              top: '90vh',
-              left: '87%'
+              top: '89vh',
+              left: '89%',
+              'z-index': '10'
             });
           } else {
             $("#back-to-top").css({
