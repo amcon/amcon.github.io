@@ -1307,12 +1307,12 @@ and (orientation: landscape) {
   }
 
   #right-arrow {
-    left: 30%;
+    left: 32%;
   }
 
   #right-arrow:hover {
     top: 380px;
-    left: 30%;
+    left: 32%;
     font-size: 40px;
   }
 
@@ -1758,12 +1758,12 @@ and (orientation: landscape) {
   }
 
   #right-arrow {
-    left: 30%;
+    left: 32%;
   }
 
   #right-arrow:hover {
     top: 380px;
-    left: 30%;
+    left: 32%;
     font-size: 40px;
   }
 
@@ -2209,12 +2209,12 @@ and (orientation: landscape) {
   }
 
   #right-arrow {
-    left: 30%;
+    left: 32%;
   }
 
   #right-arrow:hover {
     top: 380px;
-    left: 30%;
+    left: 32%;
     font-size: 40px;
   }
 
