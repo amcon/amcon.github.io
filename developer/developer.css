@@ -1032,14 +1032,14 @@ and (orientation: portrait) {
 
   #image-break-2 {
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: 100%;
   }
 
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: center;
   }
 
@@ -1261,14 +1261,14 @@ and (orientation: landscape) {
 
   #image-break-2 {
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: 100%;
   }
 
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: center;
   }
 
@@ -1480,14 +1480,14 @@ and (orientation: portrait) {
 
   #image-break-2 {
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: 100%;
   }
 
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: center;
   }
   .technologies, .technologies-right {
@@ -1708,14 +1708,14 @@ and (orientation: landscape) {
 
   #image-break-2 {
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: 100%;
   }
 
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: center;
   }
 
@@ -1927,14 +1927,14 @@ and (orientation: portrait) {
 
   #image-break-2 {
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: 100%;
   }
 
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: center;
   }
   .technologies, .technologies-right {
@@ -2155,14 +2155,14 @@ and (orientation: landscape) {
 
   #image-break-2 {
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: 100%;
   }
 
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: contain;
+    background-size: 600px 800px;
     background-position: center;
   }
 
