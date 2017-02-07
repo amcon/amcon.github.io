@@ -55,7 +55,7 @@ $(function(){
       let scrollPos = document.querySelector("body").scrollTop;
       console.log(scrollPos);
       if ($(".profile")) {
-        if (scrollPos <= 443) {
+        if (scrollPos <= 599) {
           $("#scroll-one").css('background-color', 'black');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
@@ -65,7 +65,7 @@ $(function(){
             height: '0px',
             width: '0px'
           });
-        } else if (scrollPos > 443 && scrollPos <= 1495) {
+        } else if (scrollPos > 599 && scrollPos <= 1925) {
           // console.log("i fire")
           $("#scroll-two").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
@@ -76,7 +76,7 @@ $(function(){
             height: '0px',
             width: '0px'
           });
-        } else if (scrollPos > 1495 && scrollPos <= 1960) {
+        } else if (scrollPos > 1925 && scrollPos <= 2290) {
           // console.log("i fire");
           $("#scroll-three").css('background-color', 'black');
           $(".p").css('color', 'black');

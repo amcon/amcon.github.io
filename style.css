@@ -27,6 +27,7 @@ body {
   transition: 0.5s;
   box-sizing: border-box;
   border-bottom: 3px solid black;
+  filter: grayscale(60%);
 }
 
 .container1:hover {
@@ -50,6 +51,7 @@ body {
   transition: 0.5s;
   box-sizing: border-box;
   border-top: 3px solid black;
+  filter: grayscale(60%);
 }
 
 .container2:hover {
