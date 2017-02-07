@@ -2182,13 +2182,13 @@ and (orientation: landscape) {
     background-color: lightgrey;
   }
 
-  #left-arrow, #right-arrow {
+  /*#left-arrow, #right-arrow {
     top: 140px;
   }
 
   #right-arrow {
     left: 30%;
-  }
+  }*/
 
   .container {
     padding-top: 5%;
