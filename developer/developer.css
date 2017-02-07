@@ -668,7 +668,7 @@ p {
   font-size: 40px;
   line-height: 120px;
   color: white;
-  margin-left: 8%;
+  margin-left: 10%;
 }
 
 #image-break-2 h1 {
@@ -1027,7 +1027,7 @@ and (orientation: portrait) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 200%;
+    background-position: 2%;
   }
 
   .technologies, .technologies-right {
@@ -1244,7 +1244,7 @@ and (orientation: landscape) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 200%;
+    background-position: 2%;
   }
 
   textarea {
@@ -1450,7 +1450,7 @@ and (orientation: portrait) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 200%;
+    background-position: 2%;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -1666,7 +1666,7 @@ and (orientation: landscape) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 200%;
+    background-position: 2%;
   }
 
   textarea {
@@ -1872,7 +1872,7 @@ and (orientation: portrait) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 200%;
+    background-position: 2%;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -2088,7 +2088,7 @@ and (orientation: landscape) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 200%;
+    background-position: 2%;
   }
 
   textarea {
