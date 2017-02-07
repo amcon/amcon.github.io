@@ -1115,6 +1115,7 @@ and (orientation: portrait) {
 
   #image-break, #image-break-2, #image-break-3 {
     height: 0px;
+    padding: 0;
   }
 
   #image-break h3, #image-break-2 h3, #image-break-3 h3 {
@@ -1276,6 +1277,7 @@ and (orientation: landscape) {
 
   #image-break, #image-break-2, #image-break-3 {
     height: 0px;
+    padding: 0;
   }
 
   #image-break h3, #image-break-2 h3, #image-break-3 h3 {
@@ -1539,6 +1541,7 @@ and (orientation: portrait) {
 
   #image-break, #image-break-2, #image-break-3 {
     height: 0px;
+    padding: 0;
   }
 
   #image-break h3, #image-break-2 h3, #image-break-3 h3 {
@@ -1698,6 +1701,7 @@ and (orientation: landscape) {
 
   #image-break, #image-break-2, #image-break-3 {
     height: 0px;
+    padding: 0;
   }
 
   #image-break h3, #image-break-2 h3, #image-break-3 h3 {
@@ -1961,6 +1965,7 @@ and (orientation: portrait) {
 
   #image-break, #image-break-2, #image-break-3 {
     height: 0px;
+    padding: 0;
   }
 
   #image-break h3, #image-break-2 h3, #image-break-3 h3 {
@@ -2120,6 +2125,7 @@ and (orientation: landscape) {
 
   #image-break, #image-break-2, #image-break-3 {
     height: 0px;
+    padding: 0;
   }
 
   #image-break h3, #image-break-2 h3, #image-break-3 h3 {
