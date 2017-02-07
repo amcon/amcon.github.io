@@ -1303,7 +1303,7 @@ and (orientation: landscape) {
   }
 
   #left-arrow, #right-arrow {
-    top: 340px;
+    top: 360px;
   }
 
   #right-arrow {
@@ -1311,12 +1311,14 @@ and (orientation: landscape) {
   }
 
   #right-arrow:hover {
-    top: 340px;
+    top: 360px;
     left: 28%;
+    font-size: 40px;
   }
 
   #left-arrow:hover {
-    top: 340px;
+    top: 360px;
+    font-size: 40px;
   }
 
   .container {
@@ -1752,7 +1754,7 @@ and (orientation: landscape) {
   }
 
   #left-arrow, #right-arrow {
-    top: 340px;
+    top: 360px;
   }
 
   #right-arrow {
@@ -1760,12 +1762,14 @@ and (orientation: landscape) {
   }
 
   #right-arrow:hover {
-    top: 340px;
+    top: 360px;
     left: 28%;
+    font-size: 40px;
   }
 
   #left-arrow:hover {
-    top: 340px;
+    top: 360px;
+    font-size: 40px;
   }
 
   .container {
@@ -2201,7 +2205,7 @@ and (orientation: landscape) {
   }
 
   #left-arrow, #right-arrow {
-    top: 340px;
+    top: 360px;
   }
 
   #right-arrow {
@@ -2209,12 +2213,14 @@ and (orientation: landscape) {
   }
 
   #right-arrow:hover {
-    top: 340px;
+    top: 360px;
     left: 28%;
+    font-size: 40px;
   }
 
   #left-arrow:hover {
-    top: 340px;
+    top: 360px;
+    font-size: 40px;
   }
 
   .container {
