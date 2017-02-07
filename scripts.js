@@ -85,10 +85,8 @@ $(function(){
           $("#scroll-four").css('background-color', 'transparent');
           if (mq.matches) {
             $("#back-to-top").css({
-              height: '100px',
-              width: '100px',
-              top: '90vh',
-              left: '87%'
+              height: '60px',
+              width: '60px'
             });
           } else {
             $("#back-to-top").css({
@@ -104,10 +102,8 @@ $(function(){
           $(".p").css('color', 'white');
           if (mq.matches) {
             $("#back-to-top").css({
-              height: '100px',
-              width: '100px',
-              top: '90vh',
-              left: '87%'
+              height: '60px',
+              width: '60px'
             });
           } else {
             $("#back-to-top").css({

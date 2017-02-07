@@ -89,11 +89,8 @@ $(function(){
           $(".p").css('color', 'white');
           if (mq.matches) {
             $("#back-to-top").css({
-              height: '100px',
-              width: '100px',
-              top: '89vh',
-              left: '89%',
-              'z-index': '10'
+              height: '60px',
+              width: '60px'
             });
           } else {
             $("#back-to-top").css({
@@ -110,11 +107,8 @@ $(function(){
           $(".p").css('color', 'black');
           if (mq.matches) {
             $("#back-to-top").css({
-              height: '100px',
-              width: '100px',
-              top: '89vh',
-              left: '89%',
-              'z-index': '10'
+              height: '60px',
+              width: '60px'
             });
           } else {
             $("#back-to-top").css({
@@ -131,11 +125,8 @@ $(function(){
           $(".p").css('color', 'black');
           if (mq.matches) {
             $("#back-to-top").css({
-              height: '100px',
-              width: '100px',
-              top: '89vh',
-              left: '89%',
-              'z-index': '10'
+              height: '60px',
+              width: '60px'
             });
           } else {
             $("#back-to-top").css({
