@@ -1027,7 +1027,7 @@ and (orientation: portrait) {
     margin-left: 20%;
   }
 
-  #image-break, #image-break-2 {
+  #image-break-2 {
     height: 400px;
     background-size: cover;
   }
@@ -1037,7 +1037,7 @@ and (orientation: portrait) {
   }
 
   #image-break {
-    background: url("./../mountain_mobile.jpg");
+    height: 0;
   }
 
   .technologies, .technologies-right {
@@ -1252,7 +1252,7 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: landscape) {
 
-  #image-break, #image-break-2 {
+  #image-break-2 {
     height: 400px;
     background-size: cover;
   }
@@ -1262,7 +1262,7 @@ and (orientation: landscape) {
   }
 
   #image-break {
-    background: url("./../mountain_mobile.jpg");
+    height: 0;
   }
 
   textarea {
@@ -1278,7 +1278,6 @@ and (orientation: landscape) {
     background-image: url("./../public/web_dev_landscape.jpg");
     background-attachment: none;
     background-size: 100%;
-    padding-top: 5%;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
@@ -1468,7 +1467,7 @@ and (orientation: portrait) {
     margin-left: 20%;
   }
 
-  #image-break, #image-break-2 {
+  #image-break-2 {
     height: 400px;
     background-size: cover;
   }
@@ -1478,7 +1477,7 @@ and (orientation: portrait) {
   }
 
   #image-break {
-    background: url("./../mountain_mobile.jpg");
+    height: 0;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -1692,7 +1691,7 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: landscape) {
 
-  #image-break, #image-break-2 {
+  #image-break-2 {
     height: 400px;
     background-size: cover;
   }
@@ -1702,7 +1701,7 @@ and (orientation: landscape) {
   }
 
   #image-break {
-    background: url("./../mountain_mobile.jpg");
+    height: 0;
   }
 
   textarea {
@@ -1718,7 +1717,6 @@ and (orientation: landscape) {
     background-image: url("./../public/web_dev_landscape.jpg");
     background-attachment: none;
     background-size: 100%;
-    padding-top: 5%;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
@@ -1908,7 +1906,7 @@ and (orientation: portrait) {
     margin-left: 20%;
   }
 
-  #image-break, #image-break-2 {
+  #image-break-2 {
     height: 400px;
     background-size: cover;
   }
@@ -1918,7 +1916,7 @@ and (orientation: portrait) {
   }
 
   #image-break {
-    background: url("./../mountain_mobile.jpg");
+    height: 0;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -2132,7 +2130,7 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: landscape) {
 
-  #image-break, #image-break-2 {
+  #image-break-2 {
     height: 400px;
     background-size: cover;
   }
@@ -2142,7 +2140,7 @@ and (orientation: landscape) {
   }
 
   #image-break {
-    background: url("./../mountain_mobile.jpg");
+    height: 0;
   }
 
   textarea {
@@ -2158,7 +2156,6 @@ and (orientation: landscape) {
     background-image: url("./../public/web_dev_landscape.jpg");
     background-attachment: none;
     background-size: 100%;
-    padding-top: 5%;
   }
 
   #scroll-one, #scroll-two, #scroll-three, #scroll-four {
