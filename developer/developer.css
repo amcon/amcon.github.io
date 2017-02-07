@@ -997,6 +997,7 @@ and (orientation: portrait) {
     margin-top: 30%;
     text-align: center;
     border: none;
+    padding: 0;
   }
 
   .brand p {
@@ -1039,8 +1040,8 @@ and (orientation: portrait) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: 600px 800px;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position: none;
   }
 
   .technologies, .technologies-right {
@@ -1225,7 +1226,8 @@ and (orientation: portrait) {
     height: 100px;
     border: 1px solid black;
     border-radius: .3em;
-    background-color: rgba(250, 250, 250, 0);
+    background-color: rgba(25
+      padding: 0;0, 250, 250, 0);
   }
 
   .input-box h4 {
@@ -1268,8 +1270,8 @@ and (orientation: landscape) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: 600px 800px;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position: none;
   }
 
   textarea {
@@ -1445,6 +1447,7 @@ and (orientation: portrait) {
     margin-top: 30%;
     text-align: center;
     border: none;
+    padding: 0;
   }
 
   .brand p {
@@ -1487,8 +1490,8 @@ and (orientation: portrait) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: 600px 800px;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position: none;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -1672,7 +1675,8 @@ and (orientation: portrait) {
     height: 100px;
     border: 1px solid black;
     border-radius: .3em;
-    background-color: rgba(250, 250, 250, 0);
+    background-color: rgba(25
+      padding: 0;0, 250, 250, 0);
   }
 
   .input-box h4 {
@@ -1715,8 +1719,8 @@ and (orientation: landscape) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: 600px 800px;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position: none;
   }
 
   textarea {
@@ -1892,6 +1896,7 @@ and (orientation: portrait) {
     margin-top: 30%;
     text-align: center;
     border: none;
+    padding: 0;
   }
 
   .brand p {
@@ -1934,8 +1939,8 @@ and (orientation: portrait) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: 600px 800px;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position: none;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -2119,7 +2124,8 @@ and (orientation: portrait) {
     height: 100px;
     border: 1px solid black;
     border-radius: .3em;
-    background-color: rgba(250, 250, 250, 0);
+    background-color: rgba(25
+      padding: 0;0, 250, 250, 0);
   }
 
   .input-box h4 {
@@ -2162,8 +2168,8 @@ and (orientation: landscape) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: 600px 800px;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position: none;
   }
 
   textarea {
