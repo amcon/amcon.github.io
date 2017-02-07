@@ -881,6 +881,13 @@ and (orientation: portrait) {
     background-color: black;
   }
 
+  #back-to-top {
+    top: 90.5%;
+    left: 90%;
+  }
+
+
+
   .hamburger-menu {
   height: 0px;
   width: 100%;
@@ -1300,6 +1307,11 @@ and (orientation: portrait) {
     background-color: black;
   }
 
+  #back-to-top {
+    top: 90.5%;
+    left: 90%;
+  }
+
   .hamburger-menu {
   height: 0px;
   width: 100%;
@@ -1715,6 +1727,11 @@ and (orientation: portrait) {
   body {
     margin: 0;
     background-color: black;
+  }
+
+  #back-to-top {
+    top: 90.5%;
+    left: 90%;
   }
 
   .hamburger-menu {
