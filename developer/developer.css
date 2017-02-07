@@ -1028,9 +1028,16 @@ and (orientation: portrait) {
   }
 
   #image-break, #image-break-2 {
-    height: 600px;
+    height: 400px;
     background-size: cover;
+  }
+
+  #image-break {
     background: url("./../public/trees_mobile.jpg");
+  }
+
+  #image-break-2 {
+    background: url("./../mountain.JPG");
   }
 
   .technologies, .technologies-right {
@@ -1246,9 +1253,16 @@ and (max-device-width : 736px)
 and (orientation: landscape) {
 
   #image-break, #image-break-2 {
-    height: 600px;
+    height: 400px;
     background-size: cover;
+  }
+
+  #image-break {
     background: url("./../public/trees_mobile.jpg");
+  }
+
+  #image-break-2 {
+    background: url("./../mountain.JPG");
   }
 
   textarea {
@@ -1455,9 +1469,16 @@ and (orientation: portrait) {
   }
 
   #image-break, #image-break-2 {
-    height: 600px;
+    height: 400px;
     background-size: cover;
+  }
+
+  #image-break {
     background: url("./../public/trees_mobile.jpg");
+  }
+
+  #image-break-2 {
+    background: url("./../mountain.JPG");
   }
   .technologies, .technologies-right {
     height: 0;
@@ -1672,9 +1693,16 @@ and (max-device-width : 667px)
 and (orientation: landscape) {
 
   #image-break, #image-break-2 {
-    height: 600px;
+    height: 400px;
     background-size: cover;
+  }
+
+  #image-break {
     background: url("./../public/trees_mobile.jpg");
+  }
+
+  #image-break-2 {
+    background: url("./../mountain.JPG");
   }
 
   textarea {
@@ -1881,9 +1909,16 @@ and (orientation: portrait) {
   }
 
   #image-break, #image-break-2 {
-    height: 600px;
+    height: 400px;
     background-size: cover;
+  }
+
+  #image-break {
     background: url("./../public/trees_mobile.jpg");
+  }
+
+  #image-break-2 {
+    background: url("./../mountain.JPG");
   }
   .technologies, .technologies-right {
     height: 0;
@@ -2098,9 +2133,16 @@ and (max-device-width : 568px)
 and (orientation: landscape) {
 
   #image-break, #image-break-2 {
-    height: 600px;
+    height: 400px;
     background-size: cover;
+  }
+
+  #image-break {
     background: url("./../public/trees_mobile.jpg");
+  }
+
+  #image-break-2 {
+    background: url("./../mountain.JPG");
   }
 
   textarea {
