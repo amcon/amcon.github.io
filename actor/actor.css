@@ -886,6 +886,10 @@ and (orientation: portrait) {
     left: 90%;
   }
 
+  .picture-box {
+    margin-left: 0;
+  }
+
 
 
   .hamburger-menu {
@@ -1314,6 +1318,10 @@ and (orientation: portrait) {
     left: 90%;
   }
 
+  .picture-box {
+    margin-left: 0;
+  }
+
   .hamburger-menu {
   height: 0px;
   width: 100%;
@@ -1736,6 +1744,10 @@ and (orientation: portrait) {
   #back-to-top {
     top: 90.5%;
     left: 90%;
+  }
+
+  .picture-box {
+    margin-left: 0;
   }
 
   .hamburger-menu {
