@@ -1302,13 +1302,13 @@ and (orientation: landscape) {
     background-color: lightgrey;
   }
 
-  /*#left-arrow, #right-arrow {
-    top: 140px;
+  #left-arrow, #right-arrow {
+    top: 340px;
   }
 
   #right-arrow {
     left: 30%;
-  }*/
+  }
 
   .container {
     padding-top: 5%;
@@ -1742,13 +1742,13 @@ and (orientation: landscape) {
     background-color: lightgrey;
   }
 
-  /*#left-arrow, #right-arrow {
-    top: 140px;
+  #left-arrow, #right-arrow {
+    top: 340px;
   }
 
   #right-arrow {
     left: 30%;
-  }*/
+  }
 
   .container {
     padding-top: 5%;
@@ -2182,13 +2182,13 @@ and (orientation: landscape) {
     background-color: lightgrey;
   }
 
-  /*#left-arrow, #right-arrow {
-    top: 140px;
+  #left-arrow, #right-arrow {
+    top: 340px;
   }
 
   #right-arrow {
     left: 30%;
-  }*/
+  }
 
   .container {
     padding-top: 5%;
