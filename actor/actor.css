@@ -1311,7 +1311,7 @@ and (orientation: landscape) {
   }
 
   .container {
-    height: 700px;
+    padding-top: 5%;
   }
 
 }
@@ -1751,7 +1751,7 @@ and (orientation: landscape) {
   }
 
   .container {
-    height: 700px;
+    padding-top: 5%;
   }
 
 }
@@ -2191,7 +2191,7 @@ and (orientation: landscape) {
   }
 
   .container {
-    height: 700px;
+    padding-top: 5%;
   }
 
 }
