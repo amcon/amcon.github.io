@@ -1039,7 +1039,7 @@ and (orientation: portrait) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
 
@@ -1268,7 +1268,7 @@ and (orientation: landscape) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
 
@@ -1487,7 +1487,7 @@ and (orientation: portrait) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
   .technologies, .technologies-right {
@@ -1715,7 +1715,7 @@ and (orientation: landscape) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
 
@@ -1934,7 +1934,7 @@ and (orientation: portrait) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
   .technologies, .technologies-right {
@@ -2162,7 +2162,7 @@ and (orientation: landscape) {
   #image-break {
     background-image: url("trees_mobile.jpg");
     background-attachment: none;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
 
