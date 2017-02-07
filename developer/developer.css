@@ -654,8 +654,8 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 8%;
-}
+/*  padding-left: 8%;
+*/}
 
 #image-break-2 h3 {
   display: block;
@@ -1026,7 +1026,7 @@ and (orientation: portrait) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 20%;
+    background-position: 200%;
   }
 
   .technologies, .technologies-right {
@@ -1243,7 +1243,7 @@ and (orientation: landscape) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 20%;
+    background-position: 200%;
   }
 
   textarea {
@@ -1449,7 +1449,7 @@ and (orientation: portrait) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 20%;
+    background-position: 200%;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -1665,7 +1665,7 @@ and (orientation: landscape) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 20%;
+    background-position: 200%;
   }
 
   textarea {
@@ -1871,7 +1871,7 @@ and (orientation: portrait) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 20%;
+    background-position: 200%;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -2087,7 +2087,7 @@ and (orientation: landscape) {
 
   #image-break, #image-break-2 {
     height: 600px;
-    background-position: 20%;
+    background-position: 200%;
   }
 
   textarea {
