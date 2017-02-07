@@ -1117,7 +1117,7 @@ and (orientation: portrait) {
     height: 0px;
   }
 
-  #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
+  #image-break h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
     font-size: 0;
     border: none;
@@ -1278,7 +1278,7 @@ and (orientation: landscape) {
     height: 0px;
   }
 
-  #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
+  #image-break h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
     font-size: 0;
     border: none;
@@ -1541,7 +1541,7 @@ and (orientation: portrait) {
     height: 0px;
   }
 
-  #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
+  #image-break h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
     font-size: 0;
     border: none;
@@ -1700,7 +1700,7 @@ and (orientation: landscape) {
     height: 0px;
   }
 
-  #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
+  #image-break h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
     font-size: 0;
     border: none;
@@ -1963,7 +1963,7 @@ and (orientation: portrait) {
     height: 0px;
   }
 
-  #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
+  #image-break h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
     font-size: 0;
     border: none;
@@ -2122,7 +2122,7 @@ and (orientation: landscape) {
     height: 0px;
   }
 
-  #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
+  #image-break h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
     font-size: 0;
     border: none;
