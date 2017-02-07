@@ -992,10 +992,11 @@ and (orientation: portrait) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1500px;
+    height: 1300px;
     width: 100%;
     margin-top: 30%;
     text-align: center;
+    border: none;
   }
 
   .brand p {
@@ -1427,10 +1428,11 @@ and (orientation: portrait) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1500px;
+    height: 1300px;
     width: 100%;
     margin-top: 30%;
     text-align: center;
+    border: none;
   }
 
   .brand p {
@@ -1861,10 +1863,11 @@ and (orientation: portrait) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1500px;
+    height: 1300px;
     width: 100%;
     margin-top: 30%;
     text-align: center;
+    border: none;
   }
 
   .brand p {
