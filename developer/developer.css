@@ -540,6 +540,25 @@ p {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#image-break h3 {
+  display: block;
+  height: 280px;
+  width: 500px;
+  box-sizing: border-box;
+  border: 5px solid white;
+  text-align: left;
+  color: white;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 0;
+  padding: 3%;
+  position: absolute;
+  margin-left: -10%;
 }
 
 .skills-education {
