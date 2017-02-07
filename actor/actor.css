@@ -1112,6 +1112,8 @@ and (orientation: portrait) {
 
   #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
+    font-size: 0;
+    border: none;
   }
 
   .news {
@@ -1271,6 +1273,8 @@ and (orientation: landscape) {
 
   #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
+    font-size: 0;
+    border: none;
   }
 
   textarea {
@@ -1527,6 +1531,8 @@ and (orientation: portrait) {
 
   #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
+    font-size: 0;
+    border: none;
   }
 
   .news {
@@ -1684,6 +1690,8 @@ and (orientation: landscape) {
 
   #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
+    font-size: 0;
+    border: none;
   }
 
   textarea {
@@ -1940,6 +1948,8 @@ and (orientation: portrait) {
 
   #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
+    font-size: 0;
+    border: none;
   }
 
   .news {
@@ -2097,6 +2107,8 @@ and (orientation: landscape) {
 
   #image-brake h3, #image-break-2 h3, #image-break-3 h3 {
     height: 0px;
+    font-size: 0;
+    border: none;
   }
 
   textarea {
