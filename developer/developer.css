@@ -1031,6 +1031,9 @@ and (orientation: portrait) {
 
   #image-break-2 {
     background-image: url("trees_mobile.jpg");
+    background-attachment: none;
+    background-size: cover;
+    background-position: 100%;
   }
 
   .technologies, .technologies-right {
@@ -1251,6 +1254,9 @@ and (orientation: landscape) {
 
   #image-break-2 {
     background-image: url("trees_mobile.jpg");
+    background-attachment: none;
+    background-size: cover;
+    background-position: 100%;
   }
 
   textarea {
@@ -1460,6 +1466,9 @@ and (orientation: portrait) {
 
   #image-break-2 {
     background-image: url("trees_mobile.jpg");
+    background-attachment: none;
+    background-size: cover;
+    background-position: 100%;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -1679,6 +1688,9 @@ and (orientation: landscape) {
 
   #image-break-2 {
     background-image: url("trees_mobile.jpg");
+    background-attachment: none;
+    background-size: cover;
+    background-position: 100%;
   }
 
   textarea {
@@ -1888,6 +1900,9 @@ and (orientation: portrait) {
 
   #image-break-2 {
     background-image: url("trees_mobile.jpg");
+    background-attachment: none;
+    background-size: cover;
+    background-position: 100%;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -2107,6 +2122,9 @@ and (orientation: landscape) {
 
   #image-break-2 {
     background-image: url("trees_mobile.jpg");
+    background-attachment: none;
+    background-size: cover;
+    background-position: 100%;
   }
 
   textarea {
