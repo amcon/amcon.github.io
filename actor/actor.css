@@ -1306,6 +1306,10 @@ and (orientation: landscape) {
     top: 150px;
   }
 
+  .container {
+    height: 700px;
+  }
+
 }
 
 @media only screen
@@ -1738,6 +1742,10 @@ and (orientation: landscape) {
     top: 150px;
   }
 
+  .container {
+    height: 700px;
+  }
+
 }
 
 @media only screen
@@ -2168,6 +2176,10 @@ and (orientation: landscape) {
 
   #left-arrow, #right-arrow {
     top: 150px;
+  }
+
+  .container {
+    height: 700px;
   }
 
 }
