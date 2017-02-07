@@ -1303,7 +1303,11 @@ and (orientation: landscape) {
   }
 
   #left-arrow, #right-arrow {
-    top: 150px;
+    top: 140px;
+  }
+
+  #right-arrow {
+    left: 30%;
   }
 
   .container {
@@ -1739,7 +1743,11 @@ and (orientation: landscape) {
   }
 
   #left-arrow, #right-arrow {
-    top: 150px;
+    top: 140px;
+  }
+
+  #right-arrow {
+    left: 30%;
   }
 
   .container {
@@ -2175,7 +2183,11 @@ and (orientation: landscape) {
   }
 
   #left-arrow, #right-arrow {
-    top: 150px;
+    top: 140px;
+  }
+
+  #right-arrow {
+    left: 30%;
   }
 
   .container {
