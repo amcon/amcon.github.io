@@ -1073,6 +1073,7 @@ and (orientation: portrait) {
   #image-break h3 {
     height: 0;
     font-size: 0;
+    border: none;
   }
 
   .technologies, .technologies-right {
@@ -1303,6 +1304,7 @@ and (orientation: landscape) {
   #image-break h3 {
     height: 0;
     font-size: 0;
+    border: none;
   }
 
   textarea {
@@ -1524,6 +1526,7 @@ and (orientation: portrait) {
   #image-break h3 {
     height: 0;
     font-size: 0;
+    border: none;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -1753,6 +1756,7 @@ and (orientation: landscape) {
   #image-break h3 {
     height: 0;
     font-size: 0;
+    border: none;
   }
 
   textarea {
@@ -1974,6 +1978,7 @@ and (orientation: portrait) {
   #image-break h3 {
     height: 0;
     font-size: 0;
+    border: none;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -2203,6 +2208,7 @@ and (orientation: landscape) {
   #image-break h3 {
     height: 0;
     font-size: 0;
+    border: none;
   }
 
   textarea {
