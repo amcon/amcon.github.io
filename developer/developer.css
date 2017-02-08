@@ -264,7 +264,7 @@ p {
   text-align: left;
 }
 
-.profile h3 {
+/*.profile h3 {
   margin-top: 0%;
   font-size: 25px;
   line-height: 30px;
@@ -273,7 +273,7 @@ p {
 .profile p {
   color: black;
   margin: 4%;
-}
+}*/
 
 /*.profile p {
   color: black;
@@ -1069,12 +1069,14 @@ and (orientation: portrait) {
 
   #image-break {
     height: 0;
+    justify-content: flex-start;
   }
 
   #image-break h3 {
     height: 0;
     font-size: 0;
     border: none;
+    margin-left: 0;
     left: 0;
   }
 
@@ -1304,12 +1306,14 @@ and (orientation: landscape) {
 
   #image-break {
     height: 0;
+    justify-content: flex-start;
   }
 
   #image-break h3 {
     height: 0;
     font-size: 0;
     border: none;
+    margin-left: 0;
   }
 
   textarea {
@@ -1526,12 +1530,14 @@ and (orientation: portrait) {
 
   #image-break {
     height: 0;
+    justify-content: flex-start;
   }
 
   #image-break h3 {
     height: 0;
     font-size: 0;
     border: none;
+    margin-left: 0;
     left: 0;
   }
   .technologies, .technologies-right {
@@ -1760,12 +1766,14 @@ and (orientation: landscape) {
 
   #image-break {
     height: 0;
+    justify-content: flex-start;
   }
 
   #image-break h3 {
     height: 0;
     font-size: 0;
     border: none;
+    margin-left: 0;
   }
 
   textarea {
@@ -1982,12 +1990,14 @@ and (orientation: portrait) {
 
   #image-break {
     height: 0;
+    justify-content: flex-start;
   }
 
   #image-break h3 {
     height: 0;
     font-size: 0;
     border: none;
+    margin-left: 0;
     left: 0;
   }
   .technologies, .technologies-right {
@@ -2216,12 +2226,14 @@ and (orientation: landscape) {
 
   #image-break {
     height: 0;
+    justify-content: flex-start;
   }
 
   #image-break h3 {
     height: 0;
     font-size: 0;
     border: none;
+    margin-left: 0;
   }
 
   textarea {
