@@ -1096,6 +1096,9 @@ and (orientation: portrait) {
     height: 94%;
   }
 
+  .profile {
+    padding-top: 10%;
+  }
 
   /*.profile {
     height: 1100px;
@@ -1548,6 +1551,9 @@ and (orientation: portrait) {
     height: 94%;
   }
 
+  .profile {
+    padding-top: 10%;
+  }
 
   /*.profile {
     height: 1100px;
@@ -2000,6 +2006,9 @@ and (orientation: portrait) {
     height: 94%;
   }
 
+  .profile {
+    padding-top: 10%;
+  }
 
   /*.profile {
     height: 1100px;
