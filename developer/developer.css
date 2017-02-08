@@ -1070,6 +1070,11 @@ and (orientation: portrait) {
     height: 0;
   }
 
+  #image-break h3 {
+    height: 0;
+    font-size: 0;
+  }
+
   .technologies, .technologies-right {
     height: 0;
     width: 0;
@@ -1295,6 +1300,11 @@ and (orientation: landscape) {
     height: 0;
   }
 
+  #image-break h3 {
+    height: 0;
+    font-size: 0;
+  }
+
   textarea {
     width: 91%;
   }
@@ -1509,6 +1519,11 @@ and (orientation: portrait) {
 
   #image-break {
     height: 0;
+  }
+
+  #image-break h3 {
+    height: 0;
+    font-size: 0;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -1735,6 +1750,11 @@ and (orientation: landscape) {
     height: 0;
   }
 
+  #image-break h3 {
+    height: 0;
+    font-size: 0;
+  }
+
   textarea {
     width: 91%;
   }
@@ -1949,6 +1969,11 @@ and (orientation: portrait) {
 
   #image-break {
     height: 0;
+  }
+
+  #image-break h3 {
+    height: 0;
+    font-size: 0;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -2173,6 +2198,11 @@ and (orientation: landscape) {
 
   #image-break {
     height: 0;
+  }
+
+  #image-break h3 {
+    height: 0;
+    font-size: 0;
   }
 
   textarea {

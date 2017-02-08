@@ -65,7 +65,7 @@ $(function(){
             height: '0px',
             width: '0px'
           });
-        } else if (scrollPos > 599 && scrollPos <= 1925) {
+        } else if (scrollPos > 599 && scrollPos <= 1725) {
           // console.log("i fire")
           $("#scroll-two").css('background-color', 'black');
           $("#scroll-one").css('background-color', 'transparent');
@@ -76,7 +76,7 @@ $(function(){
             height: '0px',
             width: '0px'
           });
-        } else if (scrollPos > 1925 && scrollPos <= 2290) {
+        } else if (scrollPos > 1725 && scrollPos <= 2200) {
           // console.log("i fire");
           $("#scroll-three").css('background-color', 'black');
           $(".p").css('color', 'black');
