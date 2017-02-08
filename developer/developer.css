@@ -1101,6 +1101,7 @@ and (orientation: portrait) {
     height: 1100px;
     padding-bottom: 10%;
     padding-top: -20%;
+    flex-direction: column;
   }
 
   .project-box {
@@ -1552,6 +1553,7 @@ and (orientation: portrait) {
     height: 1100px;
     padding-bottom: 10%;
     padding-top: -20%;
+    flex-direction: column;
   }
 
   .project-box {
@@ -2003,6 +2005,7 @@ and (orientation: portrait) {
     height: 1100px;
     padding-bottom: 10%;
     padding-top: -20%;
+    flex-direction: column;
   }
 
   .project-box {
