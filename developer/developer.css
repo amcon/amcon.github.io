@@ -1113,6 +1113,7 @@ and (orientation: portrait) {
 
   .profile h1 {
     font-size: 80px;
+    width: 90px;
   }
 
   #prof-h3 {
@@ -1126,7 +1127,6 @@ and (orientation: portrait) {
   .second p {
     font-size: 60px;
     margin-top: -5%;
-    font-family: 'Neucha', cursive;
   }
 
   #p1s {
@@ -1564,6 +1564,7 @@ and (orientation: portrait) {
 
   .profile h1 {
     font-size: 80px;
+    width: 90px;
   }
 
   #prof-h3 {
@@ -1577,7 +1578,6 @@ and (orientation: portrait) {
   .second p {
     font-size: 60px;
     margin-top: -5%;
-    font-family: 'Neucha', cursive;
   }
 
   #p1s {
@@ -2015,6 +2015,7 @@ and (orientation: portrait) {
 
   .profile h1 {
     font-size: 80px;
+    width: 90px;
   }
 
   #prof-h3 {
@@ -2028,7 +2029,6 @@ and (orientation: portrait) {
   .second p {
     font-size: 60px;
     margin-top: -5%;
-    font-family: 'Neucha', cursive;
   }
 
   #p1s {
