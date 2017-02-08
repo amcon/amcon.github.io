@@ -189,7 +189,7 @@ a {
 }
 
 .container h1 {
-  font-size: 60px;
+  font-size: 70px;
   margin-bottom: 3px;
   color: rgb(25, 25, 25);
 }
@@ -438,21 +438,23 @@ a {
 .media {
   height: 800px;
   width: 100%;
-  background-color: rgb(35, 35, 35);
+  background-color: #FAFAFA;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #FAFAFA;
-/*  padding-top: 10%;
-*//*  padding-left: 11%;
-*/  text-align: center;
+  text-align: center;
+  border-top: 1px dotted lightgrey;
 }
 
 .media h1 {
   margin: 0;
   font-size: 60px;
-  margin-bottom: 2%;
+  display: block;
+  padding: 2%;
+  margin-top: -5%;
+  color: black;
 }
 
 /*#big {
@@ -515,7 +517,7 @@ iframe {
 .news {
   height: 1800px;
   width: 100%;
-  background-color: lightgrey;
+  background-color: #FAFAFA;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -590,7 +592,7 @@ iframe {
 .education {
   height: 380px;
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #949e98;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -601,22 +603,27 @@ iframe {
 
 .education h1 {
   font-size: 50px;
+  color: white;
+  margin: 0;
+  line-height: 100px;
 }
 
 .education p {
   font-size: 22px;
+  line-height: 20px;
   margin: 0;
+  color: white;
 }
 
 .education button {
   height: 45px;
   width: 250px;
   border-style: none;
-  border-radius: .5em;
-  border: 1px solid grey;
-  background-color: #FAFAFA;
+  border: 3px solid white;
   font-size: 22px;
-  margin-top: 20px;
+  margin-top: 3%;
+  background: transparent;
+  color: white;
 }
 
 .theatre_resume:hover {

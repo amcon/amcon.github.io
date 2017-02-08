@@ -86,7 +86,7 @@ $(function(){
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
           $("#scroll-five").css('background-color', 'transparent');
-          $(".p").css('color', 'white');
+          $(".p").css('color', 'black');
           if (mq.matches) {
             $("#back-to-top").css({
               height: '60px',

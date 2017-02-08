@@ -238,10 +238,10 @@ p {
 
 .profile {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 800px;
+  height: 600px;
   width: 100%;
   /*background-color: #949e98;*/
   background-color: rgb(238, 238, 238);
@@ -251,8 +251,16 @@ p {
 
 .profile h1 {
   color: black;
-  margin-top: 4%;
   font-size: 70px;
+  line-height: 110px;
+  margin-top: 7%;
+  margin-right: 7%;
+  display: block;
+  height: 100px;
+  width: 160px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  text-align: left;
 }
 
 .profile h3 {
@@ -284,18 +292,18 @@ p {
   justify-content: center;
   align-items: center;
   height: 600px;
-  width: 100%;
+  width: 70%;
 }
 
-#line {
+/*#line {
   height: 1px;
   width: 40%;
   background-color: black;
   margin-top: -1%;
   margin-bottom: 2%;
-}
+}*/
 
-.description-box {
+/*.description-box {
   background-color: #162817;
   height: 95px;
   width: 40%;
@@ -309,10 +317,10 @@ p {
 
 .description-box p {
   color: #FAFAFA;
-}
+}*/
 
 .projects {
-  height: 290px;
+  height: 300px;
   width: 50%;
   display: flex;
   flex-direction: row;
@@ -320,7 +328,7 @@ p {
   align-items: center;
 }
 
-.technologies {
+/*.technologies {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -353,20 +361,21 @@ p {
 .technologies h3 {
   margin-bottom: 1%;
   margin-left: 3%;
-}
+}*/
 
 .project-one {
   position: relative;
   height: 95%;
 /*  box-sizing: border-box;
 */  /*border: 20px solid rgb(227, 201, 104);*/
-  width: 56.5%;
-  background-image: url("./../public/pokemon_run.png");
+  width: 90%;
+  background-image: url("./../public/pokemon-mac.jpg");
   background-size: cover;
   background-position: center;
   /*opacity: .8;*/
   /*border-radius: .3em;*/
-  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 20%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -394,13 +403,14 @@ p {
   height: 95%;
 /*  box-sizing: border-box;
 */  /*border: 20px solid rgb(102, 193, 152);*/
-  width: 56.5%;
-  background-image: url("./../public/songsterr.png");
+  width: 90%;
+  background-image: url("./../public/songsterr-mac.jpg");
   background-size: cover;
   background-position: center;
   /*opacity: .6;*/
   /*border-radius: .3em;*/
-  margin-right: 1.5%;
+  margin-left: 1.5%;
+  margin-top: 20%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -428,13 +438,14 @@ p {
   height: 95%;
 /*  box-sizing: border-box;
 */  /*border: 20px solid rgb(255, 157, 149);*/
-  width: 56.5%;
-  background-image: url("./../public/chairShare.png");
+  width: 90%;
+  background-image: url("./../public/chairshare-mac.jpg");
   background-size: cover;
   background-position: left;
   /*opacity: .8;*/
   /*border-radius: .3em;*/
   margin-left: 1.5%;
+  margin-top: 10%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -502,13 +513,14 @@ p {
   height: 95%;
 /*  box-sizing: border-box;
 */  /*border: 20px solid rgb(58, 69, 86);*/
-  width: 56.5%;
-  background-image: url("./../public/groupit.png");
+  width: 90%;
+  background-image: url("./../public/groupit-mac.jpg");
   background-size: cover;
   background-position: center;
   /*opacity: .8;*/
   /*border-radius: .3em;*/
   margin-right: 1.5%;
+  margin-top: 10%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -632,10 +644,9 @@ p {
 .resume button {
   height: 50px;
   width: 35%;
-  border-radius: .8em;
   background-color: #949e98;
   border-style: none;
-  border: 1px solid #FAFAFA;
+  border: 3px solid #FAFAFA;
   color: #FAFAFA;
   font-size: 20px;
 }
