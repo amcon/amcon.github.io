@@ -1306,11 +1306,14 @@ and (orientation: landscape) {
   }
 
   .education {
-    background-color: lightgrey;
+    background-color: #FAFAFA;
+    color: black;
   }
 
   .education button {
-    background-color: lightgrey;
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
   }
 
   #left-arrow, #right-arrow {
@@ -1761,11 +1764,14 @@ and (orientation: landscape) {
   }
 
   .education {
-    background-color: lightgrey;
+    background-color: #FAFAFA;
+    color: black;
   }
 
   .education button {
-    background-color: lightgrey;
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
   }
 
   #left-arrow, #right-arrow {
@@ -2216,11 +2222,14 @@ and (orientation: landscape) {
   }
 
   .education {
-    background-color: lightgrey;
+    background-color: #FAFAFA;
+    color: black;
   }
 
   .education button {
-    background-color: lightgrey;
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
   }
 
   #left-arrow, #right-arrow {
