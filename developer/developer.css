@@ -1075,6 +1075,7 @@ and (orientation: portrait) {
     height: 0;
     font-size: 0;
     border: none;
+    left: 0;
   }
 
   .technologies, .technologies-right {
@@ -1531,6 +1532,7 @@ and (orientation: portrait) {
     height: 0;
     font-size: 0;
     border: none;
+    left: 0;
   }
   .technologies, .technologies-right {
     height: 0;
@@ -1986,6 +1988,7 @@ and (orientation: portrait) {
     height: 0;
     font-size: 0;
     border: none;
+    left: 0;
   }
   .technologies, .technologies-right {
     height: 0;
