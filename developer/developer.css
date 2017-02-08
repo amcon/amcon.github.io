@@ -1097,7 +1097,7 @@ and (orientation: portrait) {
   }
 
 
-  .profile {
+  /*.profile {
     height: 1100px;
     padding-bottom: 10%;
     padding-top: -20%;
@@ -1115,7 +1115,7 @@ and (orientation: portrait) {
   .profile h1 {
     font-size: 80px;
     width: 200px;
-  }
+  }*/
 
   #prof-h3 {
     font-size: 40px;
@@ -1549,7 +1549,7 @@ and (orientation: portrait) {
   }
 
 
-  .profile {
+  /*.profile {
     height: 1100px;
     padding-bottom: 10%;
     padding-top: -20%;
@@ -1567,7 +1567,7 @@ and (orientation: portrait) {
   .profile h1 {
     font-size: 80px;
     width: 200px;
-  }
+  }*/
 
   #prof-h3 {
     font-size: 40px;
@@ -2001,7 +2001,7 @@ and (orientation: portrait) {
   }
 
 
-  .profile {
+  /*.profile {
     height: 1100px;
     padding-bottom: 10%;
     padding-top: -20%;
@@ -2019,7 +2019,7 @@ and (orientation: portrait) {
   .profile h1 {
     font-size: 80px;
     width: 200px;
-  }
+  }*/
 
   #prof-h3 {
     font-size: 40px;
