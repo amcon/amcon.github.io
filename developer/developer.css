@@ -1067,6 +1067,13 @@ and (orientation: portrait) {
     background: url("./../public/trees_mobile.jpg");
   }
 
+  #image-break-2 h3 {
+    height: 200px;
+    width: 350px;
+    font-size: 70px;
+    line-height: 200px;
+  }
+
   #image-break {
     height: 0;
     justify-content: flex-start;
@@ -1528,6 +1535,13 @@ and (orientation: portrait) {
     background: url("./../public/trees_mobile.jpg");
   }
 
+  #image-break-2 h3 {
+    height: 200px;
+    width: 350px;
+    font-size: 70px;
+    line-height: 200px;
+  }
+
   #image-break {
     height: 0;
     justify-content: flex-start;
@@ -1986,6 +2000,13 @@ and (orientation: portrait) {
 
   #image-break-2 {
     background: url("./../public/trees_mobile.jpg");
+  }
+
+  #image-break-2 h3 {
+    height: 200px;
+    width: 350px;
+    font-size: 70px;
+    line-height: 200px;
   }
 
   #image-break {
