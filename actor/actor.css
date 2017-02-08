@@ -1307,6 +1307,9 @@ and (orientation: landscape) {
 
   .education {
     background-color: #FAFAFA;
+  }
+
+  .education h1, .education p {
     color: black;
   }
 
@@ -1765,6 +1768,9 @@ and (orientation: landscape) {
 
   .education {
     background-color: #FAFAFA;
+  }
+
+  .education h1, .education p {
     color: black;
   }
 
@@ -2223,6 +2229,9 @@ and (orientation: landscape) {
 
   .education {
     background-color: #FAFAFA;
+  }
+
+  .education h1, .education p {
     color: black;
   }
 
