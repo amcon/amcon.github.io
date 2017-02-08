@@ -1067,7 +1067,7 @@ and (orientation: portrait) {
     background: url("./../public/trees_mobile.jpg");
   }
 
-  #image-break {
+ /* #image-break {
     height: 0;
     justify-content: flex-start;
   }
@@ -1078,7 +1078,7 @@ and (orientation: portrait) {
     border: none;
     margin-left: 0;
     left: 0;
-  }
+  }*/
 
   .technologies, .technologies-right {
     height: 0;
@@ -1304,7 +1304,7 @@ and (orientation: landscape) {
     background: url("./../public/trees_mobile.jpg");
   }
 
-  #image-break {
+  /*#image-break {
     height: 0;
     justify-content: flex-start;
   }
@@ -1314,7 +1314,7 @@ and (orientation: landscape) {
     font-size: 0;
     border: none;
     margin-left: 0;
-  }
+  }*/
 
   textarea {
     width: 91%;
@@ -1528,7 +1528,7 @@ and (orientation: portrait) {
     background: url("./../public/trees_mobile.jpg");
   }
 
-  #image-break {
+ /* #image-break {
     height: 0;
     justify-content: flex-start;
   }
@@ -1539,7 +1539,7 @@ and (orientation: portrait) {
     border: none;
     margin-left: 0;
     left: 0;
-  }
+  }*/
   .technologies, .technologies-right {
     height: 0;
     width: 0;
@@ -1764,7 +1764,7 @@ and (orientation: landscape) {
     background: url("./../public/trees_mobile.jpg");
   }
 
-  #image-break {
+  /*#image-break {
     height: 0;
     justify-content: flex-start;
   }
@@ -1774,7 +1774,7 @@ and (orientation: landscape) {
     font-size: 0;
     border: none;
     margin-left: 0;
-  }
+  }*/
 
   textarea {
     width: 91%;
@@ -1988,7 +1988,7 @@ and (orientation: portrait) {
     background: url("./../public/trees_mobile.jpg");
   }
 
-  #image-break {
+ /* #image-break {
     height: 0;
     justify-content: flex-start;
   }
@@ -1999,7 +1999,7 @@ and (orientation: portrait) {
     border: none;
     margin-left: 0;
     left: 0;
-  }
+  }*/
   .technologies, .technologies-right {
     height: 0;
     width: 0;
@@ -2224,7 +2224,7 @@ and (orientation: landscape) {
     background: url("./../public/trees_mobile.jpg");
   }
 
-  #image-break {
+  /*#image-break {
     height: 0;
     justify-content: flex-start;
   }
@@ -2234,7 +2234,7 @@ and (orientation: landscape) {
     font-size: 0;
     border: none;
     margin-left: 0;
-  }
+  }*/
 
   textarea {
     width: 91%;
