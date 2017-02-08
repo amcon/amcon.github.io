@@ -261,6 +261,7 @@ p {
   border-top: 3px solid black;
   border-bottom: 3px solid black;
   text-align: left;
+  overflow: hidden;
 }
 
 .profile h3 {
