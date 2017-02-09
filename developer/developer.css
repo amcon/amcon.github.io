@@ -554,7 +554,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
@@ -571,7 +571,7 @@ p {
   margin: 0;
   padding: 3%;
   position: absolute;
-  margin-left: -10%;
+  left: 50%;
 }
 
 .skills-education {
