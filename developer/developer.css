@@ -553,9 +553,6 @@ p {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #image-break h3 {
@@ -571,6 +568,7 @@ p {
   margin: 0;
   padding: 3%;
   position: absolute;
+  margin-top: 5%;
   left: 52.5%;
 }
 
