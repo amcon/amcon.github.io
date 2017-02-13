@@ -9,6 +9,31 @@ a {
   text-decoration: none;
 }
 
+.name {
+  height: 680px;
+  width: 100%;
+  background: url("./../public/desk.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(80%);
+}
+
+.name h1 {
+  margin-left: 35%;
+  color: white;
+  font-size: 50px;
+}
+
+.name p {
+  margin-left: 35%;
+  color: white;
+  font-size: 30px;
+}
+
 .hamburger-menu {
   height: 0;
 }
@@ -35,7 +60,7 @@ height: 0;
   align-items: center;
 }
 
-#scroll-one, #scroll-two, #scroll-three, #scroll-four {
+#scroll-one, #scroll-two, #scroll-three, #scroll-four, #scroll-first {
   height: 15px;
   width: 40%;
   border-radius: 100%;
@@ -49,7 +74,7 @@ height: 0;
   align-items: center;
 }
 
-#scroll-one {
+#scroll-first {
   background-color: black;
 }
 
@@ -63,6 +88,10 @@ height: 0;
   margin-top: -270%;
   text-decoration:none;
   color: white;
+}
+
+#scroll-first, .s1 {
+  transition: 0.5s;
 }
 
 #scroll-one, .s1 {
@@ -85,6 +114,10 @@ height: 0;
   margin-right: 1500%;
   height: 15px;
   width: 300%;
+}
+
+#scroll-first:hover .s1 {
+  margin-left: -2600%;
 }
 
 #scroll-one:hover .s1 {
@@ -116,8 +149,12 @@ height: 0;
   color: forestgreen;
 }
 
+#about {
+  margin-top: -30px;
+}
+
 .header-container {
-  height: 600px;
+  height: 700px;
   width: 100%;
   background-image: url("./../public/web_dev_landscape.jpg");
   background-attachment: fixed;
@@ -132,7 +169,7 @@ height: 0;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 25px;
+  height: 40px;
   width: 20%;
   position: absolute;
   top: 20px;
@@ -141,17 +178,18 @@ height: 0;
   transition: 0.5s;
 }
 
-.header a {
+.header p {
   color: #f7fff9;
-  margin: 0 40px 0 40px;
+  text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .container {
-  height: 600px;
+  height: 700px;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
  }
@@ -166,7 +204,7 @@ height: 0;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  height: 400px;
+  height: 550px;
   width: 80%;
   box-sizing: border-box;
   border: 3px solid white;
@@ -176,7 +214,7 @@ height: 0;
 .brand h1 {
   font-size: 60px;
   color: white;
-  margin: 0;
+  margin: 0 0 2% 0;
 }
 
 .brand p {
@@ -248,20 +286,19 @@ p {
   padding-bottom: 10%;
   padding-top: 3%;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
-.profile h1 {
-  color: black;
-  font-size: 70px;
-  line-height: 110px;
-  margin-top: 7%;
-  margin-right: 7%;
+.profile h3 {
   display: block;
-  height: 100px;
-  width: 160px;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  text-align: left;
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  font-size: 30px;
 }
 
 /*.profile h3 {
@@ -293,7 +330,7 @@ p {
   justify-content: center;
   align-items: center;
   height: 600px;
-  width: 70%;
+  width: 85%;
 }
 
 /*#line {
@@ -440,7 +477,7 @@ p {
 /*  box-sizing: border-box;
 */  /*border: 20px solid rgb(255, 157, 149);*/
   width: 90%;
-  background-image: url("./../public/chairshare-mac.jpg");
+  background: url("./../public/chairshare-mac.jpg");
   background-size: cover;
   background-position: left;
   /*opacity: .8;*/
@@ -454,6 +491,11 @@ p {
   filter: grayscale(30%);
   z-index: 1;
   overflow: hidden;
+}
+
+.project-three.clicked, .project-one.clicked, .project-two.clicked, .project-four.clicked {
+  opacity: 0;
+  transition: 1s;
 }
 
 .project-three span {
@@ -506,7 +548,7 @@ p {
 }
 
 .second p {
-  color: #FAFAFA;
+  color: rgb(238, 238, 238);
   font-size: 40px;
 }
 
@@ -545,8 +587,96 @@ p {
   margin-left: -250%;
 }
 
+
+.profile-more {
+  height: 762px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  position: absolute;
+  top: 1380px;
+  z-index: 0;
+}
+
+.profile-text {
+  height: 80%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: left;
+  padding-left: 10%;
+  opacity: 0;
+  transition: 1.5s;
+}
+
+.profile-img {
+  height: 80%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 1.5s;
+}
+
+#p1-big {
+  height: 60%;
+  width: 70%;
+  background-image: url("./../public/pokemon-mac.jpg");
+  background-size: 100% 100%;
+  margin-left: -10%;
+}
+
+#p2-big {
+  height: 60%;
+  width: 70%;
+  background-image: url("./../public/songsterr-mac.jpg");
+  background-size: 100% 100%;
+  margin-left: -10%;
+}
+
+#p3-big {
+  height: 60%;
+  width: 70%;
+  background-image: url("./../public/chairshare-mac.jpg");
+  background-size: 100% 100%;
+  margin-left: -10%;
+}
+
+#p4-big {
+  height: 60%;
+  width: 70%;
+  background-image: url("./../public/groupit-mac.jpg");
+  background-size: 100% 100%;
+  margin-left: -10%;
+}
+
+.reverse {
+  position: absolute;
+  margin-top: -17%;
+  left: 83%;
+}
+
+.reverse:hover {
+  color: forestgreen;
+  cursor: pointer;
+}
+
+#pokemon, #songsterr, #chairshare, #groupit {
+  text-decoration: none;
+  color: black;
+}
+
+#pokemon:hover, #songsterr:hover, #chairshare:hover, #groupit:hover {
+  color: forestgreen;
+}
+
 #image-break {
-  height: 400px;
+  height: 500px;
   width: 100%;
   background-image: url("./../public/mountain.JPG");
   background-attachment: fixed;
@@ -568,7 +698,7 @@ p {
   margin: 0;
   padding: 3%;
   position: absolute;
-  margin-top: 5%;
+  margin-top: 9%;
   left: 52.5%;
 }
 
@@ -580,9 +710,10 @@ p {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  height: 400px;
+  height: 450px;
   width: 100%;
   z-index: 1;
+  padding-bottom: 5%;
 }
 
 .skill-box {
@@ -593,6 +724,10 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.skill-box p {
+  font-size: 20px;
 }
 
 .skill-box p:hover {
@@ -634,7 +769,10 @@ p {
 .resume {
   height: 300px;
   width: 100%;
-  background-color: #949e98;
+  background: url("./../public/resume.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -643,7 +781,7 @@ p {
 .resume button {
   height: 50px;
   width: 35%;
-  background-color: #949e98;
+  background-color: transparent;
   border-style: none;
   border: 3px solid #FAFAFA;
   color: #FAFAFA;
@@ -672,14 +810,14 @@ p {
 }
 
 #image-break-2 {
-  height: 350px;
+  height: 450px;
   width: 100%;
   background-image: url("./../public/trees.jpg");
   background-attachment: fixed;
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: grayscale(60%);
+  filter: grayscale(80%);
   display: flex;
   justify-content: flex-start;
   align-items: center;

@@ -55,8 +55,9 @@ $(function(){
       let scrollPos = document.querySelector("body").scrollTop;
       console.log(scrollPos);
       if ($(".profile")) {
-        if (scrollPos <= 599) {
-          $("#scroll-one").css('background-color', 'black');
+        if (scrollPos <= 678) {
+          $("#scroll-first").css('background-color', 'black');
+          $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
@@ -65,24 +66,44 @@ $(function(){
             height: '0px',
             width: '0px'
           });
-        } else if (scrollPos > 599 && scrollPos <= 1725) {
+        } else if (scrollPos > 678 && scrollPos <= 1380) {
           // console.log("i fire")
-          $("#scroll-two").css('background-color', 'black');
-          $("#scroll-one").css('background-color', 'transparent');
+          $("#scroll-one").css('background-color', 'black');
+          $("#scroll-first").css('background-color', 'transparent');
+          $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
-          $(".p").css('color', 'black');
+          $(".p").css('color', 'white');
           $("#back-to-top").css({
             height: '0px',
             width: '0px'
           });
-        } else if (scrollPos > 1725 && scrollPos <= 2200) {
+        } else if (scrollPos > 1380 && scrollPos <= 2610) {
           // console.log("i fire");
-          $("#scroll-three").css('background-color', 'black');
+          $("#scroll-two").css('background-color', 'black');
           $(".p").css('color', 'black');
+          $("#scroll-first").css('background-color', 'transparent');
+          $("#scroll-one").css('background-color', 'transparent');
+          $("#scroll-three").css('background-color', 'transparent');
+          $("#scroll-four").css('background-color', 'transparent');
+          if (mq.matches) {
+            $("#back-to-top").css({
+              height: '60px',
+              width: '60px'
+            });
+          } else {
+            $("#back-to-top").css({
+              height: '60px',
+              width: '60px'
+            })
+          }
+        } else if (scrollPos > 2610 && scrollPos <= 3300) {
+          $("#scroll-three").css('background-color', 'black');
+          $("#scroll-first").css('background-color', 'transparent');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-four").css('background-color', 'transparent');
+          $(".p").css('color', 'black');
           if (mq.matches) {
             $("#back-to-top").css({
               height: '60px',
@@ -96,21 +117,11 @@ $(function(){
           }
         } else {
           $("#scroll-four").css('background-color', 'black');
+          $("#scroll-first").css('background-color', 'transparent');
           $("#scroll-one").css('background-color', 'transparent');
           $("#scroll-two").css('background-color', 'transparent');
           $("#scroll-three").css('background-color', 'transparent');
           $(".p").css('color', 'white');
-          if (mq.matches) {
-            $("#back-to-top").css({
-              height: '60px',
-              width: '60px'
-            });
-          } else {
-            $("#back-to-top").css({
-              height: '60px',
-              width: '60px'
-            })
-          }
         }
       }
     })
@@ -162,20 +173,84 @@ $(function(){
     counter = 0;
   });
 
+
   $(".project-one").click(function() {
-  go_to_pokemon();
+    $(this).toggleClass('clicked');
+    $(".project-two").toggleClass('clicked');
+    $(".project-three").toggleClass('clicked');
+    $(".project-four").toggleClass('clicked');
+
+    function modal() {
+        $(".profile-more").css('z-index', '2');
+        $(".profile-text").append('<p>This was my first project at General Assembly. <br><br> Pokemon Run is a web game built in HTML5, CSS/Flexbox, and Javascript/JQuery. <br><br> You run through the course, jumping and avoiding obstacles. Main obstacles included collision detection and completing the project in one week. <br><br>Click <a id="pokemon" href="https://amcon.github.io/GA_Project_1/">here</a> to view.</p>');
+        $(".profile-text").css('opacity', '1');
+        $(".profile-img").append('<div id="p1-big"></div>');
+        $(".profile-img").css('opacity', '1');
+    } setTimeout(modal, 1200);
   });
 
   $(".project-two").click(function() {
-    go_to_songsterr();
+    $(".project-one").toggleClass('clicked');
+    $(".project-three").toggleClass('clicked');
+    $(".project-four").toggleClass('clicked');
+    $(this).toggleClass('clicked');
+
+    function modal() {
+        $(".profile-more").css('z-index', '2');
+        $(".profile-text").append('<p>Songsterr Tab Collection is my first full stack web application. <br><br> I used Node/Express.js for the backend with a MongoDB database and JQuery, HTML5, and CSS/Flexbox in the front end. <br><br> Songsterr and iTunes API. <br><br> A user signs up for the service, searches for a song, and gets results. The results can be saved to a collection of favorites for later use. Built in under a week and looking to add iFrame for YouTube videos and an edit option for full CRUD. <br><br>Click <a id="songsterr" href="http://songsterr-tab-db.herokuapp.com/">here</a> to view.</p>');
+        $(".profile-text").css('opacity', '1');
+        $(".profile-img").append('<div id="p2-big"></div>');
+        $(".profile-img").css('opacity', '1');
+    };
+     setTimeout(modal, 1200);
   });
 
   $(".project-three").click(function(){
-    go_to_chairShare();
+    $(this).toggleClass('clicked');
+    $(".project-one").toggleClass('clicked');
+    $(".project-two").toggleClass('clicked');
+    $(".project-four").toggleClass('clicked');
+
+    function modal() {
+        $(".profile-more").css('z-index', '2');
+        $(".profile-text").append('<p>ChairShare is a full stack web application for high-end used or antique furniture sale. <br><br> This was a group project with Joey Pinhas and Sabrina Mesa. <br><br> I was the front end developer and GitHub Manager. <br><br> The technologies used were: React, PSQL, Node/Express.js, CSS, Cloudinary, React Dropzone, and JSON Web Token user authentication.<br><br>Click <a id="chairshare" href="http://chairshare.herokuapp.com/">here</a> to view.</p>');
+        $(".profile-text").css('opacity', '1');
+        $(".profile-img").append('<div id="p3-big"></div>');
+        $(".profile-img").css('opacity', '1');
+    };
+     setTimeout(modal, 1200);
   });
 
   $(".project-four").click(function(){
-    go_to_groupit();
+    $(this).toggleClass('clicked');
+    $(".project-one").toggleClass('clicked');
+    $(".project-two").toggleClass('clicked');
+    $(".project-three").toggleClass('clicked');
+
+    function modal() {
+        $(".profile-more").css('z-index', '2');
+        $(".profile-text").append('<p>GroupIt - Full Stack Social Media Web application.<br><br>This was my final project at General Assembly. Finished in one week. <br><br> A user joins GroupIt for private group content sharing. He can create a group with specific members, be a part of many groups, post content, delete content, and edit user information. <br><br> The application is built in React with a Node/Express and PSQL back end. <br><br>Click <a id="groupit" href="http://groupit-react.herokuapp.com/">here</a> to view.</p>');
+        $(".profile-text").css('opacity', '1');
+        $(".profile-img").append('<div id="p4-big"></div>');
+        $(".profile-img").css('opacity', '1');
+    };
+     setTimeout(modal, 1200);
+  })
+
+  $(".reverse").click(function(){
+    $(".profile-text").css('opacity', '0');
+    $(".profile-img").css('opacity', '0');
+
+    function modal() {
+      $(".project-one").toggleClass('clicked');
+      $(".project-two").toggleClass('clicked');
+      $(".project-three").toggleClass('clicked');
+      $(".project-four").toggleClass('clicked');
+      $(".profile-more").css('z-index', '0');
+      $(".profile-text").children('p').remove();
+      $(".profile-img").children('div').remove();
+    };
+    setTimeout(modal, 1400);
   })
 
   $(".resume").click(function(){
