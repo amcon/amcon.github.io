@@ -668,10 +668,6 @@ p {
 
 #pokemon, #songsterr, #chairshare, #groupit {
   text-decoration: none;
-  color: black;
-}
-
-#pokemon:hover, #songsterr:hover, #chairshare:hover, #groupit:hover {
   color: forestgreen;
 }
 
