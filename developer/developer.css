@@ -1598,6 +1598,12 @@ and (orientation: landscape) {
   opacity: 0;
 }
 
+.p {
+  font-size: 0;
+  color: black;
+  opacity: 0;
+}
+
 
 
 }
@@ -2171,6 +2177,12 @@ and (orientation: landscape) {
   opacity: 0;
 }
 
+.p {
+  font-size: 0;
+  color: black;
+  opacity: 0;
+}
+
 
 
 }
@@ -2741,6 +2753,12 @@ and (orientation: landscape) {
 }
 
 .ham-box {
+  opacity: 0;
+}
+
+.p {
+  font-size: 0;
+  color: black;
   opacity: 0;
 }
 
