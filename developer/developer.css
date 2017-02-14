@@ -1574,7 +1574,7 @@ and (orientation: landscape) {
 }
 
 .reverse {
-  margin-top: -20%;
+  margin-top: 0%;
   left: 82%;
 }
 
@@ -2130,7 +2130,7 @@ and (orientation: landscape) {
 }
 
 .reverse {
-  margin-top: -20%;
+  margin-top: 0%;
   left: 82%;
 }
 
@@ -2686,7 +2686,7 @@ and (orientation: landscape) {
 }
 
 .reverse {
-  margin-top: -20%;
+  margin-top: 0%;
   left: 82%;
 }
 
