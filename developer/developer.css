@@ -1588,9 +1588,9 @@ and (orientation: landscape) {
   font-size: 0px;
 }
 
-#p1s p, #p2s p, #p3s p, #p4s p {
-  font-size: 0px;
+.ham-text {
   color: black;
+  font-size: 0px;
 }
 
 
@@ -2156,9 +2156,9 @@ and (orientation: landscape) {
   font-size: 0px;
 }
 
-#p1s p, #p2s p, #p3s p, #p4s p {
-  font-size: 0px;
+.ham-text {
   color: black;
+  font-size: 0px;
 }
 
 
@@ -2724,9 +2724,9 @@ and (orientation: landscape) {
   font-size: 0px;
 }
 
-#p1s p, #p2s p, #p3s p, #p4s p {
-  font-size: 0px;
+.ham-text {
   color: black;
+  font-size: 0px;
 }
 
 
