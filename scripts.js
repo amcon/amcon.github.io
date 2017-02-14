@@ -186,6 +186,7 @@ $(function(){
         $(".profile-text").css('opacity', '1');
         $(".profile-img").append('<div id="p1-big"></div>');
         $(".profile-img").css('opacity', '1');
+        $(".reverse").css('opacity', '1');
     } setTimeout(modal, 1200);
   });
 
@@ -201,6 +202,7 @@ $(function(){
         $(".profile-text").css('opacity', '1');
         $(".profile-img").append('<div id="p2-big"></div>');
         $(".profile-img").css('opacity', '1');
+        $(".reverse").css('opacity', '1');
     };
      setTimeout(modal, 1200);
   });
@@ -217,6 +219,7 @@ $(function(){
         $(".profile-text").css('opacity', '1');
         $(".profile-img").append('<div id="p3-big"></div>');
         $(".profile-img").css('opacity', '1');
+        $(".reverse").css('opacity', '1');
     };
      setTimeout(modal, 1200);
   });
@@ -233,6 +236,7 @@ $(function(){
         $(".profile-text").css('opacity', '1');
         $(".profile-img").append('<div id="p4-big"></div>');
         $(".profile-img").css('opacity', '1');
+        $(".reverse").css('opacity', '1');
     };
      setTimeout(modal, 1200);
   })
