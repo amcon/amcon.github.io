@@ -1349,6 +1349,8 @@ and (orientation: portrait) {
   .skill-box {
     height: 500px;
     width: 80%;
+    position: relative;
+    z-index: 5;
   }
 
   .skill-box h1 {
@@ -1915,6 +1917,8 @@ and (orientation: portrait) {
   .skill-box {
     height: 500px;
     width: 80%;
+    position: relative;
+    z-index: 5;
   }
 
   .skill-box h1 {
@@ -2481,6 +2485,8 @@ and (orientation: portrait) {
   .skill-box {
     height: 500px;
     width: 80%;
+    position: relative;
+    z-index: 5;
   }
 
   .skill-box h1 {
