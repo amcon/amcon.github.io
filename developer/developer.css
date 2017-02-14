@@ -1582,6 +1582,10 @@ and (orientation: landscape) {
   margin-left: -50%;
 }
 
+.ham-text {
+  font-size: 0;
+}
+
 
 
 }
@@ -2138,6 +2142,10 @@ and (orientation: landscape) {
   margin-left: -50%;
 }
 
+.ham-text {
+  font-size: 0;
+}
+
 
 
 }
@@ -2692,6 +2700,10 @@ and (orientation: landscape) {
 
 .scroll {
   margin-left: -50%;
+}
+
+.ham-text {
+  font-size: 0;
 }
 
 
