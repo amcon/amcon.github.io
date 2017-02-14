@@ -1586,6 +1586,10 @@ and (orientation: landscape) {
   font-size: 0px;
 }
 
+.second p {
+  font-size: 25px;
+}
+
 
 
 }
@@ -2146,6 +2150,10 @@ and (orientation: landscape) {
   font-size: 0px;
 }
 
+.second p {
+  font-size: 25px;
+}
+
 
 
 }
@@ -2704,6 +2712,10 @@ and (orientation: landscape) {
 
 .ham-text {
   font-size: 0px;
+}
+
+.second p {
+  font-size: 25px;
 }
 
 
