@@ -1591,6 +1591,11 @@ and (orientation: landscape) {
 .ham-text {
   color: black;
   font-size: 0px;
+  opacity: 0;
+}
+
+.ham-box {
+  opacity: 0;
 }
 
 
@@ -2159,6 +2164,11 @@ and (orientation: landscape) {
 .ham-text {
   color: black;
   font-size: 0px;
+  opacity: 0;
+}
+
+.ham-box {
+  opacity: 0;
 }
 
 
@@ -2727,6 +2737,11 @@ and (orientation: landscape) {
 .ham-text {
   color: black;
   font-size: 0px;
+  opacity: 0;
+}
+
+.ham-box {
+  opacity: 0;
 }
 
 
