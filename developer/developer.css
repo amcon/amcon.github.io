@@ -1192,9 +1192,8 @@ and (orientation: portrait) {
   }
 
   .reverse {
-    margin-top: 0%;
-    left: 0%;
-    color: red;
+    margin-top: 10%;
+    left: 40%;
   }
 
   .profile-img {
@@ -1696,9 +1695,8 @@ and (orientation: portrait) {
   }
 
   .reverse {
-    margin-top: 0%;
-    left: 0%;
-    color: red;
+    margin-top: 10%;
+    left: 40%;
   }
 
   .profile-img {
@@ -2199,9 +2197,8 @@ and (orientation: portrait) {
   }
 
   .reverse {
-    margin-top: 0%;
-    left: 0%;
-    color: red;
+    margin-top: 10%;
+    left: 40%;
   }
 
   .profile-img {
