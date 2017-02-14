@@ -659,6 +659,7 @@ p {
   position: absolute;
   margin-top: -17%;
   left: 83%;
+  transition: 1.5s;
 }
 
 .reverse:hover {

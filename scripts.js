@@ -240,6 +240,7 @@ $(function(){
   $(".reverse").click(function(){
     $(".profile-text").css('opacity', '0');
     $(".profile-img").css('opacity', '0');
+    $(".reverse").css('opacity', '0');
 
     function modal() {
       $(".project-one").toggleClass('clicked');
