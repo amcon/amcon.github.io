@@ -1574,7 +1574,7 @@ and (orientation: landscape) {
 }
 
 .reverse {
-  margin-top: 15%;
+  margin-top: 13%;
   left: 82%;
 }
 
@@ -1583,7 +1583,7 @@ and (orientation: landscape) {
 }
 
 .ham-text {
-  font-size: 0;
+  font-size: 0px;
 }
 
 
@@ -2134,7 +2134,7 @@ and (orientation: landscape) {
 }
 
 .reverse {
-  margin-top: 15%;
+  margin-top: 13%;
   left: 82%;
 }
 
@@ -2143,7 +2143,7 @@ and (orientation: landscape) {
 }
 
 .ham-text {
-  font-size: 0;
+  font-size: 0px;
 }
 
 
@@ -2694,7 +2694,7 @@ and (orientation: landscape) {
 }
 
 .reverse {
-  margin-top: 15%;
+  margin-top: 13%;
   left: 82%;
 }
 
@@ -2703,7 +2703,7 @@ and (orientation: landscape) {
 }
 
 .ham-text {
-  font-size: 0;
+  font-size: 0px;
 }
 
 
