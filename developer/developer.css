@@ -1244,15 +1244,16 @@ and (orientation: portrait) {
   }
 
   #image-break {
-    height: 0;
+    height: 600px;
+    background-attachment: scroll;
     justify-content: flex-start;
   }
 
   #image-break h3 {
-    height: 0;
-    font-size: 0;
-    border: none;
-    margin-left: 0;
+    height: 400px;
+    font-size: 38px;
+    line-height: 40px;
+    margin-left: 40%;
     left: 0;
   }
 
@@ -1342,6 +1343,7 @@ and (orientation: portrait) {
     margin: 0 auto;
     height: 1200px;
     width: 100%;
+    padding-top: 5%;
   }
 
   .skill-box {
@@ -1745,15 +1747,16 @@ and (orientation: portrait) {
   }
 
   #image-break {
-    height: 0;
+    height: 600px;
+    background-attachment: scroll;
     justify-content: flex-start;
   }
 
   #image-break h3 {
-    height: 0;
-    font-size: 0;
-    border: none;
-    margin-left: 0;
+    height: 400px;
+    font-size: 38px;
+    line-height: 40px;
+    margin-left: 40%;
     left: 0;
   }
   .technologies, .technologies-right {
@@ -1842,6 +1845,7 @@ and (orientation: portrait) {
     margin: 0 auto;
     height: 1200px;
     width: 100%;
+    padding-top: 5%;
   }
 
   .skill-box {
@@ -2245,15 +2249,16 @@ and (orientation: portrait) {
   }
 
   #image-break {
-    height: 0;
+    height: 600px;
+    background-attachment: scroll;
     justify-content: flex-start;
   }
 
   #image-break h3 {
-    height: 0;
-    font-size: 0;
-    border: none;
-    margin-left: 0;
+    height: 400px;
+    font-size: 38px;
+    line-height: 40px;
+    margin-left: 40%;
     left: 0;
   }
   .technologies, .technologies-right {
@@ -2342,6 +2347,7 @@ and (orientation: portrait) {
     margin: 0 auto;
     height: 1200px;
     width: 100%;
+    padding-top: 5%;
   }
 
   .skill-box {
