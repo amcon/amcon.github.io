@@ -604,6 +604,7 @@ p {
   position: absolute;
   top: 1380px;
   z-index: 0;
+  overflow: hidden;
 }
 
 .profile-text {
@@ -634,6 +635,9 @@ p {
   background-image: url("public/pokemon-mac.jpg");
   background-size: 100% 100%;
   margin-left: -10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
 #p2-big {
@@ -642,6 +646,9 @@ p {
   background-image: url("public/songsterr-mac.jpg");
   background-size: 100% 100%;
   margin-left: -10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
 #p3-big {
@@ -650,6 +657,9 @@ p {
   background-image: url("public/chairshare-mac.jpg");
   background-size: 100% 100%;
   margin-left: -10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
 #p4-big {
@@ -658,18 +668,34 @@ p {
   background-image: url("public/groupit-mac.jpg");
   background-size: 100% 100%;
   margin-left: -10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
 .reverse {
-  position: absolute;
-  margin-top: -200px;
-  left: 83%;
-  transition: 1.5s;
+  color: white;
+  font-size: 30px;
+  margin-top: 1%;
+  margin-right: 2.5%;
+  z-index: 3;
+  display: block;
+  height: 30px;
+  width: 5.5%;
+  box-sizing: border-box;
+  border-radius: 200%;
+  border: 1px solid white;
+  background-color: rgba(35, 35, 35, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .reverse:hover {
-  color: forestgreen;
+  color: black;
   cursor: pointer;
+  border: 1px solid black;
+  background-color: transparent;
 }
 
 #pokemon, #songsterr, #chairshare, #groupit {
@@ -1191,10 +1217,10 @@ and (orientation: portrait) {
     height: 1000px;
   }
 
-  .reverse {
+  /*.reverse {
     margin-top: 80px;
     left: 80%;
-  }
+  }*/
 
   .profile-img {
     height: 60%;
@@ -1575,10 +1601,10 @@ and (orientation: landscape) {
   top: 1120px;
 }
 
-.reverse {
+/*.reverse {
   margin-top: 90px;
   left: 82%;
-}
+}*/
 
 .scroll {
   margin-left: -50%;
@@ -1770,10 +1796,10 @@ and (orientation: portrait) {
     height: 1000px;
   }
 
-  .reverse {
+  /*.reverse {
     margin-top: 80px;
     left: 80%;
-  }
+  }*/
 
   .profile-img {
     height: 60%;
@@ -2154,10 +2180,10 @@ and (orientation: landscape) {
   top: 1120px;
 }
 
-.reverse {
+/*.reverse {
   margin-top: 90px;
   left: 82%;
-}
+}*/
 
 .scroll {
   margin-left: -50%;
@@ -2349,10 +2375,10 @@ and (orientation: portrait) {
     height: 1000px;
   }
 
-  .reverse {
+  /*.reverse {
     margin-top: 80px;
     left: 80%;
-  }
+  }*/
 
   .profile-img {
     height: 60%;
@@ -2733,10 +2759,10 @@ and (orientation: landscape) {
   top: 1120px;
 }
 
-.reverse {
+/*.reverse {
   margin-top: 90px;
   left: 82%;
-}
+}*/
 
 .scroll {
   margin-left: -50%;
