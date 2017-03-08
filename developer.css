@@ -14,24 +14,26 @@ a {
   width: 100%;
   background: url("public/desk.jpg");
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   filter: grayscale(80%);
+  text-align: center;
 }
 
 .name h1 {
   margin-left: 35%;
-  color: white;
-  font-size: 50px;
+  color: black;
+  font-size: 60px;
 }
 
 .name p {
   margin-left: 35%;
-  color: white;
+  color: black;
   font-size: 30px;
+  line-height: 40px;
 }
 
 .hamburger-menu {
@@ -371,6 +373,12 @@ p {
   align-items: center;
 }
 
+.projects>div:hover {
+  cursor: pointer;
+}
+
+
+
 /*.technologies {
   width: 40%;
   display: flex;
@@ -597,7 +605,6 @@ p {
   height: 762px;
   width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: rgb(238, 238, 238);
@@ -607,20 +614,37 @@ p {
   overflow: hidden;
 }
 
+.border {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 3px solid black;
+}
+
+
 .profile-text {
   height: 80%;
   width: 30%;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   text-align: left;
   padding-left: 10%;
   opacity: 0;
   transition: 1.5s;
 }
 
+.profile-text p {
+  font-size: 20px;
+}
+
 .profile-img {
-  height: 80%;
+  height: 90%;
   width: 70%;
   display: flex;
   justify-content: center;
@@ -674,28 +698,26 @@ p {
 }
 
 .reverse {
-  color: white;
-  font-size: 30px;
-  margin-top: 1%;
-  margin-right: 2.5%;
+  color: black;
+  font-size: 28px;
+  font-weight: bolder;
+  margin: -120px -24% 0 0;
   z-index: 3;
   display: block;
   height: 30px;
-  width: 5.5%;
+  width: 30px;
   box-sizing: border-box;
   border-radius: 200%;
-  border: 1px solid white;
-  background-color: rgba(35, 35, 35, .5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: 2px solid black;
+  line-height: 25px;
+  text-align: center;
 }
 
 .reverse:hover {
-  color: black;
+  color: white;
   cursor: pointer;
-  border: 1px solid black;
-  background-color: transparent;
+  border: 1px solid white;
+  background-color: lightgrey;
 }
 
 #pokemon, #songsterr, #chairshare, #groupit {
@@ -1333,6 +1355,7 @@ and (orientation: portrait) {
 
   .first{
     margin-left: -250%;
+
   }
 
   .second p {
