@@ -139,6 +139,7 @@ $(function(){
       $(".header").css("top", "830px");
       $("#left-arrow").css('top', '1800px');
       $("#right-arrow").css('top', '1800px');
+      $(".profile-more").css('top', '4048px');
       counter = 1;
     } else if (counter === 1) {
       $(".hamburger-menu").css('height', '0px');
@@ -147,6 +148,7 @@ $(function(){
       $(".header").css("top", "30px");
       $("#left-arrow").css('top', '1000px');
       $("#right-arrow").css('top', '1000px');
+      $(".profile-more").css('top', '3248px');
       counter = 0;
     }
   });
@@ -184,15 +186,12 @@ $(function(){
         $(".profile-more").css('z-index', '2');
         // $(".reverse").css('z-index', '3');
         $(".profile-text").append('<h1 id="game">A Game...</h1><br><br><p>This was my first project at General Assembly. <br><br> Pokemon Run is a web game built in HTML5, CSS/Flexbox, and Javascript/JQuery. <br><br> You run through the course, jumping and avoiding obstacles. Main obstacles included collision detection and completing the project in one week. <br><br>Click <a id="pokemon" href="https://amcon.github.io/GA_Project_1/">here</a> to view.</p>');
-        $(".profile-text").css('opacity', '1');
+        $(".profile-more").css('opacity', '1');
         $(".profile-img").append('<div id="p1-big"><p class="reverse">x</p></div>');
-        $(".profile-img").css('opacity', '1');
-        $(".reverse").css('opacity', '1');
+
 
       $(".reverse").click(function(){
-          $(".profile-text").css('opacity', '0');
-          $(".profile-img").css('opacity', '0');
-          $(".reverse").css('opacity', '0');
+          $(".profile-more").css('opacity', '0');
 
           function modalR() {
             $(".project-one").toggleClass('clicked');
@@ -220,15 +219,12 @@ $(function(){
         $(".profile-more").css('z-index', '2');
         // $(".reverse").css('z-index', '3');
         $(".profile-text").append('<h1 id="collection">A Collection...</h1><br><br><p>Songsterr Tab Collection is my first full stack web application. <br><br> I used Node/Express.js for the backend with a MongoDB database and JQuery, HTML5, and CSS/Flexbox in the front end. <br><br> Songsterr and iTunes API. <br><br> A user signs up for the service, searches for a song, and gets results. The results can be saved to a collection of favorites for later use. Built in under a week and looking to add iFrame for YouTube videos and an edit option for full CRUD. <br><br>Click <a id="songsterr" href="http://songsterr-tab-db.herokuapp.com/">here</a> to view.</p>');
-        $(".profile-text").css('opacity', '1');
+        $(".profile-more").css('opacity', '1');
         $(".profile-img").append('<div id="p2-big"><p class="reverse">x</p></div>');
-        $(".profile-img").css('opacity', '1');
-        $(".reverse").css('opacity', '1');
 
         $(".reverse").click(function(){
-          $(".profile-text").css('opacity', '0');
-          $(".profile-img").css('opacity', '0');
-          $(".reverse").css('opacity', '0');
+          $(".profile-more").css('opacity', '0');
+
 
           function modalR() {
             $(".project-one").toggleClass('clicked');
@@ -257,15 +253,11 @@ $(function(){
         $(".profile-more").css('z-index', '2');
         // $(".reverse").css('z-index', '3');
         $(".profile-text").append('<h1 id="buy">Buy, Trade, or Sell Something</h1><br><br><p>ChairShare is a full stack web application for high-end used or antique furniture sale. <br><br> This was a group project with Joey Pinhas and Sabrina Mesa. <br><br> I was the front end developer and GitHub Manager. <br><br> The technologies used were: React, PSQL, Node/Express.js, CSS, Cloudinary, React Dropzone, and JSON Web Token user authentication.<br><br>Click <a id="chairshare" href="http://chairshare.herokuapp.com/">here</a> to view.</p>');
-        $(".profile-text").css('opacity', '1');
+        $(".profile-more").css('opacity', '1');
         $(".profile-img").append('<div id="p3-big"><p class="reverse">x</p></div>');
-        $(".profile-img").css('opacity', '1');
-        $(".reverse").css('opacity', '1');
 
         $(".reverse").click(function(){
-          $(".profile-text").css('opacity', '0');
-          $(".profile-img").css('opacity', '0');
-          $(".reverse").css('opacity', '0');
+          $(".profile-more").css('opacity', '0');
 
           function modalR() {
             $(".project-one").toggleClass('clicked');
@@ -294,15 +286,11 @@ $(function(){
         $(".profile-more").css('z-index', '2');
         // $(".reverse").css('z-index', '3');
         $(".profile-text").append('<h1 id="share">Share something</h1><br><br><p>GroupIt - Full Stack Social Media Web application.<br><br>This was my final project at General Assembly. Finished in one week. <br><br> A user joins GroupIt for private group content sharing. He can create a group with specific members, be a part of many groups, post content, delete content, and edit user information. <br><br> The application is built in React with a Node/Express and PSQL back end. <br><br>Click <a id="groupit" href="http://groupit-react.herokuapp.com/">here</a> to view.</p>');
-        $(".profile-text").css('opacity', '1');
+        $(".profile-more").css('opacity', '1');
         $(".profile-img").append('<div id="p4-big"><p class="reverse">x</p></div>');
-        $(".profile-img").css('opacity', '1');
-        $(".reverse").css('opacity', '1');
 
         $(".reverse").click(function(){
-          $(".profile-text").css('opacity', '0');
-          $(".profile-img").css('opacity', '0');
-          $(".reverse").css('opacity', '0');
+          $(".profile-more").css('opacity', '0');
 
           function modalR() {
             $(".project-one").toggleClass('clicked');
