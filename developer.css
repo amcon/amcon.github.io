@@ -25,17 +25,17 @@ a {
 
 .name h1 {
   margin-left: 35%;
-  color: black;
+  color: white;
   font-size: 60px;
-  text-shadow: 0 0 1em white;
+  text-shadow: 0 0 1em black;
 }
 
 .name p {
   margin-left: 35%;
-  color: black;
+  color: white;
   font-size: 30px;
   line-height: 40px;
-  text-shadow: 0 0 1em white;
+  text-shadow: 0 0 1em black;
   font-weight: bold;
 }
 
