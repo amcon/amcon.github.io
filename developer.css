@@ -1117,11 +1117,13 @@ and (orientation: portrait) {
   margin-left: 35%;
   font-size: 90px;
   margin-top: -13%;
+  font-weight: bolder;
 }
 
 .name p {
   margin-left: 35%;
   font-size: 50px;
+  font-weight: bolder;
 }
 
 #hamburger {
@@ -1693,11 +1695,13 @@ and (orientation: portrait) {
   margin-left: 35%;
   font-size: 90px;
   margin-top: -13%;
+  font-weight: bolder;
 }
 
 .name p {
   margin-left: 35%;
   font-size: 50px;
+  font-weight: bolder;
 }
 
 #hamburger {
@@ -2269,11 +2273,13 @@ and (orientation: portrait) {
   margin-left: 35%;
   font-size: 90px;
   margin-top: -13%;
+  font-weight: bolder;
 }
 
 .name p {
   margin-left: 35%;
   font-size: 50px;
+  font-weight: bolder;
 }
 
 #hamburger {
