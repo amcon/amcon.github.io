@@ -550,6 +550,16 @@ h1, h2, h3, p {
 
 
 
+
+
+
+
+
+
+
+
+
+
 @media only screen
 and (min-device-width : 414px)
 and (max-device-width : 736px)
@@ -558,6 +568,7 @@ and (orientation: portrait) {
 .title {
   background-size: 200% 100%;
   align-items: center;
+  background-attachment: scroll;
 }
 
         .title h1 {
@@ -577,6 +588,7 @@ and (orientation: portrait) {
 .bio {
   height: 80vh;
   background-size: 250% 100%;
+  background-attachment: scroll;
 }
 
         .bio h1 {
@@ -645,6 +657,7 @@ and (orientation: portrait) {
   height: 22vh;
   background-size: 300% 100%;
   background-position: bottom;
+  background-attachment: scroll;
 }
 
         .design h3 {
@@ -675,6 +688,7 @@ and (orientation: portrait) {
 
 .resume {
   height: 20vh;
+  background-attachment: scroll;
 }
 
         #resume {
@@ -690,8 +704,9 @@ and (orientation: portrait) {
 
 .contact {
   height: 30vh;
-  background-size: 100% 1%;
+  background-size: 100% 100%;
   background-position: bottom;
+  background-attachment: scroll;
 }
 
         .contact h1 {
@@ -722,6 +737,7 @@ and (orientation: portrait) {
 .title {
   background-size: 200% 100%;
   align-items: center;
+  background-attachment: scroll;
 }
 
         .title h1 {
@@ -741,6 +757,7 @@ and (orientation: portrait) {
 .bio {
   height: 80vh;
   background-size: 250% 100%;
+  background-attachment: scroll;
 }
 
         .bio h1 {
@@ -809,6 +826,7 @@ and (orientation: portrait) {
   height: 22vh;
   background-size: 300% 100%;
   background-position: bottom;
+  background-attachment: scroll;
 }
 
         .design h3 {
@@ -839,6 +857,7 @@ and (orientation: portrait) {
 
 .resume {
   height: 20vh;
+  background-attachment: scroll;
 }
 
         #resume {
@@ -854,8 +873,9 @@ and (orientation: portrait) {
 
 .contact {
   height: 30vh;
-  background-size: 100% 50%;
+  background-size: 100% 100%;
   background-position: bottom;
+  background-attachment: scroll;
 }
 
         .contact h1 {
@@ -886,6 +906,7 @@ and (orientation: portrait) {
 .title {
   background-size: 200% 100%;
   align-items: center;
+  background-attachment: scroll;
 }
 
         .title h1 {
@@ -905,6 +926,7 @@ and (orientation: portrait) {
 .bio {
   height: 80vh;
   background-size: 250% 100%;
+  background-attachment: scroll;
 }
 
         .bio h1 {
@@ -973,6 +995,7 @@ and (orientation: portrait) {
   height: 22vh;
   background-size: 300% 100%;
   background-position: bottom;
+  background-attachment: scroll;
 }
 
         .design h3 {
@@ -1003,6 +1026,7 @@ and (orientation: portrait) {
 
 .resume {
   height: 20vh;
+  background-attachment: scroll;
 }
 
         #resume {
@@ -1018,8 +1042,9 @@ and (orientation: portrait) {
 
 .contact {
   height: 30vh;
-  background-size: 100% 50%;
+  background-size: 100% 100%;
   background-position: bottom;
+  background-attachment: scroll;
 }
 
         .contact h1 {
