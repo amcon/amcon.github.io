@@ -596,11 +596,11 @@ h1 {
   align-items: center;
   background-color: #FAFAFA;
   opacity: 1;
-  transition: 0.5s;
 }
 
         .hamburger-menu.hamburger-active {
           height: 800px;
+          transition: 0.5s;
         }
 
         .portfolio-more.hamburger-position, .portfolio-background.hamburger-position {
@@ -964,11 +964,11 @@ h1 {
   align-items: center;
   background-color: #FAFAFA;
   opacity: 1;
-  transition: 0.5s;
 }
 
         .hamburger-menu.hamburger-active {
           height: 800px;
+          transition: 0.5s;
         }
 
         .portfolio-more.hamburger-position, .portfolio-background.hamburger-position {
@@ -1332,11 +1332,11 @@ h1 {
   align-items: center;
   background-color: #FAFAFA;
   opacity: 1;
-  transition: 0.5s;
 }
 
         .hamburger-menu.hamburger-active {
           height: 800px;
+          transition: 0.5s;
         }
 
         .portfolio-more.hamburger-position, .portfolio-background.hamburger-position {
