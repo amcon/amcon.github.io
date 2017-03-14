@@ -750,6 +750,105 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: landscape) {
 
+.title {
+  height: 550px;
+  background-attachment: initial;
+}
+
+.scroll {
+  opacity: 0;
+}
+
+.bio {
+  height: 600px;
+  background-attachment: initial;
+}
+
+        .bio-box {
+          width: 90%;
+          padding: 0 3%;
+        }
+
+        .bio h1 {
+          font-size: 45px;
+        }
+
+        .bio p {
+          font-size: 24px;
+        }
+
+.portfolio {
+  height: 550px;
+}
+
+        .project-box {
+          height: 550px;
+        }
+
+        .projects {
+          height: 275px;
+        }
+
+        .text-box h1 {
+          font-size: 35px;
+        }
+
+        .text-box p {
+          font-size: 18px;
+        }
+
+.portfolio-more, .portfolio-background {
+  top: 1150px;
+  height: 550px;
+}
+
+.design {
+  height: 300px;
+  background-attachment: initial;
+}
+
+        .design h3 {
+          height: 300px;
+        }
+
+.skills-education {
+  height: 400px;
+}
+
+        .skills {
+          width: 52%;
+        }
+
+        .education {
+          width: 48%;
+        }
+
+.resume {
+  height: 250px;
+  background-attachment: initial;
+}
+
+.contact {
+  height: 350px;
+  background-attachment: initial;
+}
+
+        .contact h1 {
+          width: 32%;
+        }
+
+.footer {
+  height: 100px;
+}
+
+        .footer img {
+          height: 35px;
+        }
+
+        #email {
+          height: 35px;
+        }
+
 }
 
 @media only screen
@@ -933,6 +1032,105 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: landscape) {
 
+.title {
+  height: 550px;
+  background-attachment: initial;
+}
+
+.scroll {
+  opacity: 0;
+}
+
+.bio {
+  height: 600px;
+  background-attachment: initial;
+}
+
+        .bio-box {
+          width: 90%;
+          padding: 0 3%;
+        }
+
+        .bio h1 {
+          font-size: 45px;
+        }
+
+        .bio p {
+          font-size: 24px;
+        }
+
+.portfolio {
+  height: 550px;
+}
+
+        .project-box {
+          height: 550px;
+        }
+
+        .projects {
+          height: 275px;
+        }
+
+        .text-box h1 {
+          font-size: 35px;
+        }
+
+        .text-box p {
+          font-size: 18px;
+        }
+
+.portfolio-more, .portfolio-background {
+  top: 1150px;
+  height: 550px;
+}
+
+.design {
+  height: 300px;
+  background-attachment: initial;
+}
+
+        .design h3 {
+          height: 300px;
+        }
+
+.skills-education {
+  height: 400px;
+}
+
+        .skills {
+          width: 52%;
+        }
+
+        .education {
+          width: 48%;
+        }
+
+.resume {
+  height: 250px;
+  background-attachment: initial;
+}
+
+.contact {
+  height: 350px;
+  background-attachment: initial;
+}
+
+        .contact h1 {
+          width: 32%;
+        }
+
+.footer {
+  height: 100px;
+}
+
+        .footer img {
+          height: 35px;
+        }
+
+        #email {
+          height: 35px;
+        }
+
 }
 
 @media only screen
@@ -1115,5 +1313,104 @@ h1 {
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: landscape) {
+
+.title {
+  height: 550px;
+  background-attachment: initial;
+}
+
+.scroll {
+  opacity: 0;
+}
+
+.bio {
+  height: 600px;
+  background-attachment: initial;
+}
+
+        .bio-box {
+          width: 90%;
+          padding: 0 3%;
+        }
+
+        .bio h1 {
+          font-size: 45px;
+        }
+
+        .bio p {
+          font-size: 24px;
+        }
+
+.portfolio {
+  height: 550px;
+}
+
+        .project-box {
+          height: 550px;
+        }
+
+        .projects {
+          height: 275px;
+        }
+
+        .text-box h1 {
+          font-size: 35px;
+        }
+
+        .text-box p {
+          font-size: 18px;
+        }
+
+.portfolio-more, .portfolio-background {
+  top: 1150px;
+  height: 550px;
+}
+
+.design {
+  height: 300px;
+  background-attachment: initial;
+}
+
+        .design h3 {
+          height: 300px;
+        }
+
+.skills-education {
+  height: 400px;
+}
+
+        .skills {
+          width: 52%;
+        }
+
+        .education {
+          width: 48%;
+        }
+
+.resume {
+  height: 250px;
+  background-attachment: initial;
+}
+
+.contact {
+  height: 350px;
+  background-attachment: initial;
+}
+
+        .contact h1 {
+          width: 32%;
+        }
+
+.footer {
+  height: 100px;
+}
+
+        .footer img {
+          height: 35px;
+        }
+
+        #email {
+          height: 35px;
+        }
 
 }
