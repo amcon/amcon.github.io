@@ -634,20 +634,20 @@ and (orientation: portrait) {
 
         .text-box {
           width: 70%;
-          height: 30vh;
+          height: 50%;
           align-items: center;
-          padding: 0 5%;
+          padding: 0 5% 5% 0;
           text-align: left;
         }
 
         .picture-box {
           width: 100%;
-          height: 25vh;
+          height: 40%;
           justify-content: center;
         }
 
         .picture-box img {
-          width: 70%;
+          width: 60%;
         }
 
         #back {
@@ -808,20 +808,20 @@ and (orientation: portrait) {
 
         .text-box {
           width: 70%;
-          height: 30vh;
+          height: 50%;
           align-items: center;
-          padding: 0 5%;
+          padding: 0 5% 5% 0;
           text-align: left;
         }
 
         .picture-box {
           width: 100%;
-          height: 25vh;
+          height: 40%;
           justify-content: center;
         }
 
         .picture-box img {
-          width: 70%;
+          width: 60%;
         }
 
         #back {
@@ -982,20 +982,20 @@ and (orientation: portrait) {
 
         .text-box {
           width: 70%;
-          height: 30vh;
+          height: 50%;
           align-items: center;
-          padding: 0 5%;
+          padding: 0 5% 5% 0;
           text-align: left;
         }
 
         .picture-box {
           width: 100%;
-          height: 25vh;
+          height: 40%;
           justify-content: center;
         }
 
         .picture-box img {
-          width: 70%;
+          width: 60%;
         }
 
         #back {
