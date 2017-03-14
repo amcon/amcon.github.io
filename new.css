@@ -8,6 +8,12 @@ h1, h2, h3, p {
   margin: 0;
 }
 
+.hamburger-menu {
+  opacity: 0;
+  height: 0;
+  background-color: #FAFAFA;
+}
+
 .title {
   height: 100vh;
   width: 100%;
@@ -19,6 +25,8 @@ h1, h2, h3, p {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  position: relative;
+  z-index: 1;
 }
 
         .title h1, .title h3 {
@@ -133,6 +141,8 @@ h1, h2, h3, p {
   background-image: url('./public/web_dev_landscape.jpg');
   background-size: 100%;
   background-attachment: fixed;
+  position: relative;
+  z-index: 1;
 }
 
         .bio-box {
@@ -578,9 +588,66 @@ h1 {
   font-weight: bolder;
 }
 
+.hamburger-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAFAFA;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+        .hamburger-menu.hamburger-active {
+          height: 800px;
+        }
+
+        .portfolio-more.hamburger-position, .portfolio-background.hamburger-position {
+          top: 3800px;
+        }
+
+        .ham-box {
+          height: 25%;
+          width: 100%;
+          text-align: center;
+          line-height: 200px;
+          background-color: #FAFAFA;
+          box-sizing: border-box;
+          border-top: 1px solid black;
+        }
+
+        #no-border {
+          border: 0;
+        }
+
+        .ham-box a {
+          font-size: 60px;
+          text-decoration: none;
+          color: black;
+        }
+
+        #hamburger {
+          height: 70px;
+          width: 70px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          position: absolute;
+          z-index: 1;
+          margin: -77% 0 0 44.5%;
+        }
+
+        #hamburger div {
+          height: 15%;
+          width: 100%;
+          background-color: black;
+        }
+
 .title {
   height: 1600px;
-  background-size: 200% 100%;
+  background-size: 250% 100%;
   align-items: center;
   background-attachment: initial;
 }
@@ -888,9 +955,66 @@ h1 {
   font-weight: bolder;
 }
 
+.hamburger-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAFAFA;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+        .hamburger-menu.hamburger-active {
+          height: 800px;
+        }
+
+        .portfolio-more.hamburger-position, .portfolio-background.hamburger-position {
+          top: 3800px;
+        }
+
+        .ham-box {
+          height: 25%;
+          width: 100%;
+          text-align: center;
+          line-height: 200px;
+          background-color: #FAFAFA;
+          box-sizing: border-box;
+          border-top: 1px solid black;
+        }
+
+        #no-border {
+          border: 0;
+        }
+
+        .ham-box a {
+          font-size: 60px;
+          text-decoration: none;
+          color: black;
+        }
+
+        #hamburger {
+          height: 70px;
+          width: 70px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          position: absolute;
+          z-index: 1;
+          margin: -77% 0 0 44.5%;
+        }
+
+        #hamburger div {
+          height: 15%;
+          width: 100%;
+          background-color: black;
+        }
+
 .title {
   height: 1600px;
-  background-size: 200% 100%;
+  background-size: 250% 100%;
   align-items: center;
   background-attachment: initial;
 }
@@ -1198,9 +1322,66 @@ h1 {
   font-weight: bolder;
 }
 
+.hamburger-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAFAFA;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+        .hamburger-menu.hamburger-active {
+          height: 800px;
+        }
+
+        .portfolio-more.hamburger-position, .portfolio-background.hamburger-position {
+          top: 3800px;
+        }
+
+        .ham-box {
+          height: 25%;
+          width: 100%;
+          text-align: center;
+          line-height: 200px;
+          background-color: #FAFAFA;
+          box-sizing: border-box;
+          border-top: 1px solid black;
+        }
+
+        #no-border {
+          border: 0;
+        }
+
+        .ham-box a {
+          font-size: 60px;
+          text-decoration: none;
+          color: black;
+        }
+
+        #hamburger {
+          height: 70px;
+          width: 70px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          position: absolute;
+          z-index: 1;
+          margin: -77% 0 0 44.5%;
+        }
+
+        #hamburger div {
+          height: 15%;
+          width: 100%;
+          background-color: black;
+        }
+
 .title {
   height: 1600px;
-  background-size: 200% 100%;
+  background-size: 250% 100%;
   align-items: center;
   background-attachment: initial;
 }

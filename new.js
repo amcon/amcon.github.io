@@ -25,6 +25,18 @@ $(function(){
   }
   scrolling();
 
+  $('#hamburger').click(function() {
+    $('.hamburger-menu').toggleClass('hamburger-active');
+    $('.portfolio-more').toggleClass('hamburger-position');
+    $('.portfolio-background').toggleClass('hamburger-position');
+  });
+
+  $('.ham-text').click(function() {
+    $('.hamburger-menu').removeClass('hamburger-active');
+    $('.portfolio-more').removeClass('hamburger-position');
+    $('.portfolio-background').removeClass('hamburger-position');
+  });
+
   $('#doggieDate').click(function() {
     $('.portfolio').toggleClass('clicked');
     function doggieModal(){
