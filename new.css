@@ -568,7 +568,7 @@ and (orientation: portrait) {
 .title {
   background-size: 200% 100%;
   align-items: center;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .title h1 {
@@ -588,7 +588,7 @@ and (orientation: portrait) {
 .bio {
   height: 80vh;
   background-size: 250% 100%;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .bio h1 {
@@ -657,7 +657,7 @@ and (orientation: portrait) {
   height: 22vh;
   background-size: 300% 100%;
   background-position: bottom;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .design h3 {
@@ -666,6 +666,7 @@ and (orientation: portrait) {
 
 .skills-education {
   flex-direction: column;
+  justify-content: space-between;
 }
 
         .skills-education h1 {
@@ -673,22 +674,24 @@ and (orientation: portrait) {
         }
 
         .skills-education p {
-          font-size: 38px;
+          font-size: 36px;
         }
 
         .skills {
-          height: 36vh;
+          height: 34vh;
           width: 100%;
+          justify-content: flex-end;
         }
 
         .education {
           height: 24vh;
           width: 100%;
+          justify-content: flex-start;
         }
 
 .resume {
   height: 20vh;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         #resume {
@@ -706,7 +709,7 @@ and (orientation: portrait) {
   height: 30vh;
   background-size: 100% 100%;
   background-position: bottom;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .contact h1 {
@@ -737,7 +740,7 @@ and (orientation: portrait) {
 .title {
   background-size: 200% 100%;
   align-items: center;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .title h1 {
@@ -757,7 +760,7 @@ and (orientation: portrait) {
 .bio {
   height: 80vh;
   background-size: 250% 100%;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .bio h1 {
@@ -826,7 +829,7 @@ and (orientation: portrait) {
   height: 22vh;
   background-size: 300% 100%;
   background-position: bottom;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .design h3 {
@@ -835,6 +838,7 @@ and (orientation: portrait) {
 
 .skills-education {
   flex-direction: column;
+  justify-content: space-between;
 }
 
         .skills-education h1 {
@@ -842,22 +846,24 @@ and (orientation: portrait) {
         }
 
         .skills-education p {
-          font-size: 38px;
+          font-size: 36px;
         }
 
         .skills {
-          height: 36vh;
+          height: 34vh;
           width: 100%;
+          justify-content: flex-end;
         }
 
         .education {
           height: 24vh;
           width: 100%;
+          justify-content: flex-start;
         }
 
 .resume {
   height: 20vh;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         #resume {
@@ -875,7 +881,7 @@ and (orientation: portrait) {
   height: 30vh;
   background-size: 100% 100%;
   background-position: bottom;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .contact h1 {
@@ -906,7 +912,7 @@ and (orientation: portrait) {
 .title {
   background-size: 200% 100%;
   align-items: center;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .title h1 {
@@ -926,7 +932,7 @@ and (orientation: portrait) {
 .bio {
   height: 80vh;
   background-size: 250% 100%;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .bio h1 {
@@ -995,7 +1001,7 @@ and (orientation: portrait) {
   height: 22vh;
   background-size: 300% 100%;
   background-position: bottom;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .design h3 {
@@ -1004,6 +1010,7 @@ and (orientation: portrait) {
 
 .skills-education {
   flex-direction: column;
+  justify-content: space-between;
 }
 
         .skills-education h1 {
@@ -1011,22 +1018,24 @@ and (orientation: portrait) {
         }
 
         .skills-education p {
-          font-size: 38px;
+          font-size: 36px;
         }
 
         .skills {
-          height: 36vh;
+          height: 34vh;
           width: 100%;
+          justify-content: flex-end;
         }
 
         .education {
           height: 24vh;
           width: 100%;
+          justify-content: flex-start;
         }
 
 .resume {
   height: 20vh;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         #resume {
@@ -1044,7 +1053,7 @@ and (orientation: portrait) {
   height: 30vh;
   background-size: 100% 100%;
   background-position: bottom;
-  background-attachment: scroll;
+  background-attachment: initial;
 }
 
         .contact h1 {
