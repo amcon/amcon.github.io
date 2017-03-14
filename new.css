@@ -681,6 +681,7 @@ h1 {
 
         .design h3 {
           height: 350px;
+          font-size: 28px;
         }
 
 .skills-education {
@@ -813,6 +814,10 @@ and (orientation: landscape) {
           height: 480px;
         }
 
+        #back {
+          margin: -400px -6% 0 0;
+        }
+
 .design {
   height: 300px;
   background-attachment: initial;
@@ -820,6 +825,7 @@ and (orientation: landscape) {
 
         .design h3 {
           height: 350px;
+          font-size: 28px;
         }
 
 .skills-education {
@@ -839,6 +845,11 @@ and (orientation: landscape) {
   background-attachment: initial;
 }
 
+        #resume {
+          height: 50px;
+          line-height: 50px;
+        }
+
 .contact {
   height: 350px;
   background-attachment: initial;
@@ -846,6 +857,8 @@ and (orientation: landscape) {
 
         .contact h1 {
           width: 32%;
+          height: 80px;
+          line-height: 80px;
         }
 
 .footer {
@@ -974,6 +987,7 @@ h1 {
 
         .design h3 {
           height: 350px;
+          font-size: 28px;
         }
 
 .skills-education {
@@ -1106,6 +1120,10 @@ and (orientation: landscape) {
           height: 480px;
         }
 
+        #back {
+          margin: -400px -6% 0 0;
+        }
+
 .design {
   height: 300px;
   background-attachment: initial;
@@ -1113,6 +1131,7 @@ and (orientation: landscape) {
 
         .design h3 {
           height: 350px;
+          font-size: 28px;
         }
 
 .skills-education {
@@ -1132,6 +1151,11 @@ and (orientation: landscape) {
   background-attachment: initial;
 }
 
+        #resume {
+          height: 50px;
+          line-height: 50px;
+        }
+
 .contact {
   height: 350px;
   background-attachment: initial;
@@ -1139,6 +1163,8 @@ and (orientation: landscape) {
 
         .contact h1 {
           width: 32%;
+          height: 80px;
+          line-height: 80px;
         }
 
 .footer {
@@ -1267,6 +1293,7 @@ h1 {
 
         .design h3 {
           height: 350px;
+          font-size: 28px;
         }
 
 .skills-education {
@@ -1399,6 +1426,10 @@ and (orientation: landscape) {
           height: 480px;
         }
 
+        #back {
+          margin: -400px -6% 0 0;
+        }
+
 .design {
   height: 300px;
   background-attachment: initial;
@@ -1406,6 +1437,7 @@ and (orientation: landscape) {
 
         .design h3 {
           height: 350px;
+          font-size: 28px;
         }
 
 .skills-education {
@@ -1425,6 +1457,11 @@ and (orientation: landscape) {
   background-attachment: initial;
 }
 
+        #resume {
+          height: 50px;
+          line-height: 50px;
+        }
+
 .contact {
   height: 350px;
   background-attachment: initial;
@@ -1432,6 +1469,8 @@ and (orientation: landscape) {
 
         .contact h1 {
           width: 32%;
+          height: 80px;
+          line-height: 80px;
         }
 
 .footer {
