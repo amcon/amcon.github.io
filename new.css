@@ -1,0 +1,428 @@
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: black;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+.title {
+  height: 100vh;
+  width: 100%;
+  background-image: url('./public/stock-office.jpeg');
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+        .title h1, .title h3 {
+          display: block;
+          width: 30%;
+          text-align: center;
+          text-shadow: 0 0 1em black;
+          color: white;
+        }
+
+        .title h1 {
+          font-size: 60px;
+          margin: 2% 18% 1% 0;
+        }
+
+        .title h3 {
+          font-size: 30px;
+          margin: 0 18% 0 0;
+        }
+
+.scroll {
+  position: fixed;
+  top: 10vh;
+  left: 97%;
+  height: 20vh;
+  width: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+        .scroll-dot {
+          text-decoration: none;
+          color: white;
+          height: 8px;
+          width: 8px;
+          box-sizing: border-box;
+          border-radius: 100%;
+          border: 1px solid white;
+          background-color: transparent;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .scroll-dot:hover {
+          cursor: pointer;
+          background-color: white;
+        }
+
+                .scroll-dot, .s1 {
+                  transition: 0.5s;
+                }
+
+                .s1 {
+                  height: 8px;
+                  width: 8px;
+                  margin-right: 220px;
+                }
+
+                .s2 {
+                  height: 8px;
+                  width: 8px;
+                  line-height: 8px;
+                }
+
+                #scroll-one:hover .s1 {
+                  margin-left: -300px;
+                }
+
+                #scroll-two:hover .s1 {
+                  margin-left: -330px;
+                }
+
+                #scroll-three:hover .s1 {
+                  margin-left: -330px;
+                }
+
+                #scroll-four:hover .s1 {
+                  margin-left: -450px;
+                }
+
+                #scroll-five:hover .s1 {
+                  margin-left: -355px;
+                }
+
+.bio {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./public/web_dev_landscape.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+        .bio-box {
+          height: 80%;
+          width: 80%;
+          padding: 0 8%;
+          box-sizing: border-box;
+          border: 2px solid white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          color: white;
+        }
+
+        .bio-box h1 {
+          font-size: 60px;
+          margin: 0 0 2% 0;
+        }
+
+        .bio-box p {
+          font-size: 25px;
+        }
+
+.portfolio {
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #FAFAFA;
+}
+
+        .portfolio h1 {
+          display: block;
+          height: 15vh;
+          width: 18%;
+          margin: 2% 3.5%;
+          text-align: left;
+          line-height: 18vh;
+          font-size: 60px;
+          color: black;
+          position: absolute;
+        }
+
+        .project-box {
+          height: 103vh;
+          width: 95%;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          align-items: flex-start;
+          margin: 12% 0 0 3.5%;
+        }
+
+                .projects {
+                  height: 48vh;
+                  width: 31.3%;
+                  overflow: hidden;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin: 0 2% 0 0;
+                }
+
+                .projects:hover {
+                  cursor: pointer;
+                }
+
+                #doggieDate {
+                  background-image: url('./public/iphone_doggieDate.jpg');
+                  background-size: 100%;
+                }
+
+                #paige {
+                  background-image: url('./public/paige.jpg');
+                  background-size: 100%;
+                }
+
+                #chairShare {
+                  background-image: url('./public/chairshare-mac.jpg');
+                  background-size: 100%;
+                }
+
+                #groupIt {
+                  background-image: url('./public/groupit-mac.jpg');
+                  background-size: 100%;
+                }
+
+                #songsterr {
+                  background-image: url('./public/songsterr-mac.jpg');
+                  background-size: 100%;
+                }
+
+                #pokemonRun {
+                  background-image: url('./public/pokemon-mac.jpg');
+                  background-size: 100%;
+                }
+
+                        .projects span {
+                          color: white;
+                          text-align: center;
+                          display: block;
+                          line-height: 48vh;
+                          height: 48vh;
+                          width: 110%;
+                        }
+
+                        .projects, .first {
+                          transition: 0.5s;
+                        }
+
+                        .projects:hover .first {
+                          margin-left: -250%;
+                        }
+
+                        .first {
+                          margin-right: 150%;
+                        }
+
+                        .second p {
+                          font-size: 32px;
+                        }
+
+                        #DD {
+                          background-color: rgba(74, 153, 143, .6);
+                        }
+
+                        #PB {
+                          background-color: rgba(242, 205, 157, .8);
+                        }
+
+                        #CS {
+                          background-color: rgba(225, 157, 149, .8);
+                        }
+
+                        #GI {
+                          background-color: rgba(58, 69, 86, .5);
+                        }
+
+                        #ST {
+                          background-color: rgba(102, 193, 152, .7);
+                        }
+
+                        #PR {
+                          background-color: rgba(71, 158, 190, .7);
+                        }
+
+.design {
+  height: 35vh;
+  width: 80%;
+  background-image: url('./public/mountain.JPG');
+  background-size: 100%;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10%;
+}
+
+        .design h3 {
+          display: block;
+          height: 40vh;
+          width: 50%;
+          box-sizing: border-box;
+          border: 5px solid white;
+          text-align: left;
+          padding: 3%;
+          color: white;
+          font-size: 27px;
+        }
+
+.skills-education {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAFAFA;
+}
+
+        .skills-education h1 {
+          font-size: 50px;
+          margin: 0 0 1% 0;
+        }
+
+        .skills-education p {
+          font-size: 25px;
+          margin: 2% 0;
+        }
+
+        .skills-education a {
+          text-decoration: none;
+          color: black;
+        }
+
+        .skills {
+          height: 100%;
+          width: 40%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .education {
+          height: 100%;
+          width: 60%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+.resume {
+  height: 40vh;
+  width: 100%;
+  background-image: url('./public/resume.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+        .resume h1 {
+          font-size: 60px;
+          color: white;
+          margin: 0 0 1% 0;
+        }
+
+        #resume {
+          height: 8vh;
+          width: 15%;
+          border: 2px solid white;
+          background-color: transparent;
+          color: white;
+          font-size: 25px;
+          line-height: 8vh;
+          font-family: 'Josefin Sans', sans-serif;
+        }
+
+        #resume:hover {
+          background-color: white;
+          color: black;
+        }
+
+.contact {
+  height: 60vh;
+  width: 90%;
+  background-image: url('./public/trees.jpg');
+  filter: grayscale(80%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 0 10%;
+}
+
+        .contact h1 {
+          display: block;
+          height: 15vh;
+          width: 20%;
+          text-align: center;
+          font-size: 40px;
+          line-height: 15vh;
+          box-sizing: border-box;
+          border: 3px solid white;
+          color: white;
+        }
+
+.footer {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+          .footer-box {
+            height: 100%;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+          }
+
+          .footer-box img {
+            height: 50px;
+          }
+
+          .footer-box img:hover {
+            cursor: pointer;
+          }
+
+          #email {
+            height: 50px;
+          }
+

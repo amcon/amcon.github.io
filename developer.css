@@ -701,7 +701,7 @@ p {
 
 .reverse {
   color: black;
-  font-size: 28px;
+  font-size: 38px;
   font-weight: bolder;
   margin: -120px -24% 0 0;
   z-index: 3;
@@ -711,7 +711,7 @@ p {
   box-sizing: border-box;
   border-radius: 200%;
   border: 2px solid black;
-  line-height: 25px;
+  line-height: 24px;
   text-align: center;
 }
 
