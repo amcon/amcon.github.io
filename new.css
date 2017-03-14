@@ -574,6 +574,10 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: portrait) {
 
+h1 {
+  font-weight: bold;
+}
+
 .title {
   height: 1600px;
   background-size: 200% 100%;
@@ -731,7 +735,7 @@ and (orientation: portrait) {
         .contact h1 {
           height: 7.5vh;
           line-height: 7.5vh;
-          width: 30%;
+          width: 35%;
           font-size: 50px;
         }
 
@@ -753,6 +757,10 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: portrait) {
 
+h1 {
+  font-weight: bold;
+}
+
 .title {
   height: 1600px;
   background-size: 200% 100%;
@@ -910,7 +918,7 @@ and (orientation: portrait) {
         .contact h1 {
           height: 7.5vh;
           line-height: 7.5vh;
-          width: 30%;
+          width: 35%;
           font-size: 50px;
         }
 
@@ -932,6 +940,10 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: portrait) {
 
+h1 {
+  font-weight: bold;
+}
+
 .title {
   height: 1600px;
   background-size: 200% 100%;
@@ -1089,7 +1101,7 @@ and (orientation: portrait) {
         .contact h1 {
           height: 7.5vh;
           line-height: 7.5vh;
-          width: 30%;
+          width: 35%;
           font-size: 50px;
         }
 
