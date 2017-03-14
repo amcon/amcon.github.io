@@ -3,7 +3,7 @@ $(function(){
   function scrolling(){
     $(window).scroll(function(){
       let scrollTop = document.querySelector("body").scrollTop;
-      console.log(scrollTop);
+      // console.log(scrollTop);
       if (scrollTop < 680) {
         $('.scroll-dot').removeClass('selected');
         $('#scroll-one').addClass('selected');
@@ -102,25 +102,25 @@ $(function(){
 
   function appendChairShare(){
     $('.text-box').append('<h1>Something to Buy, Trade, or Sell...</h1>');
-    $('.text-box').append('<p>ChairShare is a full stack web application for high-end used or antique furniture sale. <br><br> This was a group project with Joey Pinhas and Sabrina Mesa. <br><br> I was the front end developer and GitHub Manager. <br><br> The technologies used were: React, PSQL, Node/Express.js, CSS, Cloudinary, React Dropzone, and JSON Web Token user authentication.<br><br>Click <a id="chairshare" href="http://chairshare.herokuapp.com/">here</a> to view.</p>')
+    $('.text-box').append('<p>ChairShare is a full stack web application for high-end used or antique furniture sale. <br><br> This was a group project with Joey Pinhas and Sabrina Mesa. <br><br> I was the front end developer and GitHub Manager. <br><br> The technologies used were: React, PSQL, Node/Express.js, CSS, Cloudinary, React Dropzone, and JSON Web Token user authentication.<br><br>Click <a id="chairshare" href="http://chairshare.herokuapp.com/" target="_blank">here</a> to view.</p>')
     $('.picture-box').prepend('<img class="project-large" src="./public/chairshare-mac.jpg">');
   };
 
   function appendGroupIt(){
     $('.text-box').append('<h1>Something to Share...</h1>');
-    $('.text-box').append('<p>GroupIt - Full Stack Social Media Web application.<br><br>This was my final project at General Assembly. Finished in one week. <br><br> A user joins GroupIt for private group content sharing. He can create a group with specific members, be a part of many groups, post content, delete content, and edit user information. <br><br> The application is built in React with a Node/Express and PSQL back end. <br><br>Click <a id="groupit" href="http://groupit-react.herokuapp.com/">here</a> to view.</p>')
+    $('.text-box').append('<p>GroupIt - Full Stack Social Media Web application.<br><br>This was my final project at General Assembly. Finished in one week. <br><br> A user joins GroupIt for private group content sharing. He can create a group with specific members, be a part of many groups, post content, delete content, and edit user information. <br><br> The application is built in React with a Node/Express and PSQL back end. <br><br>Click <a id="groupit" href="http://groupit-react.herokuapp.com/" target="_blank">here</a> to view.</p>')
     $('.picture-box').prepend('<img class="project-large" src="./public/groupit-mac.jpg">');
   };
 
   function appendSongsterr(){
     $('.text-box').append('<h1>A Collection...</h1>');
-    $('.text-box').append('<p>Songsterr Tab Collection is my first full stack web application. <br><br> I used Node/Express.js for the backend with a MongoDB database and JQuery, HTML5, and CSS/Flexbox in the front end. <br><br> Songsterr and iTunes API. <br><br> A user signs up for the service, searches for a song, and gets results. The results can be saved to a collection of favorites for later use. Built in under a week and looking to add iFrame for YouTube videos and an edit option for full CRUD. <br><br>Click <a href="http://songsterr-tab-db.herokuapp.com/">here</a> to view.</p>')
+    $('.text-box').append('<p>Songsterr Tab Collection is my first full stack web application. <br><br> I used Node/Express.js for the backend with a MongoDB database and JQuery, HTML5, and CSS/Flexbox in the front end. <br><br> Songsterr and iTunes API. <br><br> A user signs up for the service, searches for a song, and gets results. The results can be saved to a collection of favorites for later use. Built in under a week and looking to add iFrame for YouTube videos and an edit option for full CRUD. <br><br>Click <a href="http://songsterr-tab-db.herokuapp.com/" target="_blank">here</a> to view.</p>')
     $('.picture-box').prepend('<img class="project-large" src="./public/songsterr-mac.jpg">');
   };
 
   function appendPokemon(){
     $('.text-box').append('<h1>A Game...</h1>');
-    $('.text-box').append('<p>This was my first project at General Assembly. <br><br> Pokemon Run is a web game built in HTML5, CSS/Flexbox, and Javascript/JQuery. <br><br> You run through the course, jumping and avoiding obstacles. Main obstacles included collision detection and completing the project in one week. <br><br>Click <a id="pokemon" href="https://amcon.github.io/GA_Project_1/">here</a> to view.</p>')
+    $('.text-box').append('<p>This was my first project at General Assembly. <br><br> Pokemon Run is a web game built in HTML5, CSS/Flexbox, and Javascript/JQuery. <br><br> You run through the course, jumping and avoiding obstacles. Main obstacles included collision detection and completing the project in one week. <br><br>Click <a id="pokemon" href="https://amcon.github.io/GA_Project_1/" target="_blank">here</a> to view.</p>')
     $('.picture-box').prepend('<img class="project-large" src="./public/pokemon-mac.jpg">');
   };
 
@@ -137,7 +137,7 @@ $(function(){
   });
 
   $('#scroll-four').click(function() {
-    $("html, body").animate({ scrollTop: 2600 }, "slow");
+    $("html, body").animate({ scrollTop: 2535 }, "slow");
   });
 
   $('#scroll-five').click(function() {
