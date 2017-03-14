@@ -575,7 +575,7 @@ and (max-device-width : 736px)
 and (orientation: portrait) {
 
 h1 {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .title {
@@ -758,7 +758,7 @@ and (max-device-width : 667px)
 and (orientation: portrait) {
 
 h1 {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .title {
@@ -941,7 +941,7 @@ and (max-device-width : 568px)
 and (orientation: portrait) {
 
 h1 {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .title {
