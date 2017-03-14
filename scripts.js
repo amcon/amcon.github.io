@@ -321,7 +321,7 @@ $(function(){
   //     $(".project-four").toggleClass('clicked');
   //     $(".profile-more").css('z-index', '0');
   //     $(".profile-text").children('p').remove();
-  $(".profile-text").children('h1').remove();
+  // $(".profile-text").children('h1').remove();
   //     $(".profile-img").children('div').remove();
   //   };
   //   setTimeout(modal, 1400);
