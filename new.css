@@ -566,7 +566,7 @@ and (max-device-width : 736px)
 and (orientation: portrait) {
 
 .title {
-  height: 1500px;
+  height: 1600px;
   background-size: 200% 100%;
   align-items: center;
   background-attachment: initial;
@@ -622,7 +622,7 @@ and (orientation: portrait) {
 
 .portfolio-more {
   height: 1200px;
-  top: 2900px;
+  top: 3000px;
 }
 
         .project-more {
@@ -740,7 +740,7 @@ and (max-device-width : 667px)
 and (orientation: portrait) {
 
 .title {
-  height: 1500px;
+  height: 1600px;
   background-size: 200% 100%;
   align-items: center;
   background-attachment: initial;
@@ -796,7 +796,7 @@ and (orientation: portrait) {
 
 .portfolio-more {
   height: 1200px;
-  top: 2900px;
+  top: 3000px;
 }
 
         .project-more {
@@ -914,7 +914,7 @@ and (max-device-width : 568px)
 and (orientation: portrait) {
 
 .title {
-  height: 1500px;
+  height: 1600px;
   background-size: 200% 100%;
   align-items: center;
   background-attachment: initial;
@@ -970,7 +970,7 @@ and (orientation: portrait) {
 
 .portfolio-more {
   height: 1200px;
-  top: 2900px;
+  top: 3000px;
 }
 
         .project-more {
