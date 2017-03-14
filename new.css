@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #FAFAFA;
+  background-color: black;
 }
 
 h1, h2, h3, p {
@@ -372,6 +372,15 @@ h1, h2, h3, p {
           width: 90%;
         }
 
+.portfolio-background {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 200vh;
+  z-index: 0.5;
+  background-color: #FAFAFA;
+}
+
 .design {
   height: 35vh;
   width: 80%;
@@ -625,6 +634,11 @@ and (orientation: portrait) {
   top: 3000px;
 }
 
+.portfolio-background {
+  height: 1200px;
+  top: 3000px;
+}
+
         .project-more {
           height: 1000px;
           flex-direction: column;
@@ -799,6 +813,11 @@ and (orientation: portrait) {
   top: 3000px;
 }
 
+.portfolio-background {
+  height: 1200px;
+  top: 3000px;
+}
+
         .project-more {
           height: 1000px;
           flex-direction: column;
@@ -969,6 +988,11 @@ and (orientation: portrait) {
         }
 
 .portfolio-more {
+  height: 1200px;
+  top: 3000px;
+}
+
+.portfolio-background {
   height: 1200px;
   top: 3000px;
 }
