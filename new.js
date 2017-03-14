@@ -102,25 +102,25 @@ $(function(){
 
   function appendDoggieDate(){
     $('.text-box').append('<h1>Something in the works...</h1>');
-    $('.text-box').append('<p>Ill say something here, i promise...</p>')
+    $('.text-box').append('<p>DoggieDate is a full stack application for dog-owners who are looking to set up play dates for their dogs.<br><br>I am working with Matt Bedell on this project.<br><br>We’re using a Node/Express.js and PSQL backend and a React Redux front end. We’re utilizing React Router, JSON Web Token, Webpack, React Dropzone, Amazon Web Services, and more.<br><br>Check out our repo <a href="https://github.com/DoggieDate/DoggieDate" target="_blank">here.</a></p>')
     $('.picture-box').prepend('<img class="project-large" src="./public/iphone_doggieDate.jpg">');
   };
 
   function appendPaige(){
     $('.text-box').append('<h1>Something Simple...</h1>');
-    $('.text-box').append('<p>Ill say something here, i promise...</p>')
+    $('.text-box').append('<p>This portfolio site is a freelance project I did for Paige Barr, an actress who was looking to update her site, and change her brand. <br><br>The app was built with simple front end code: HTML, CSS, and Javascript. It is a single-page application, and utilizes pushState to manipulate the URL and allow the user to hit the back button.<br><br>Click <a href="https://amcon.github.io/Paige_Barr_Personal" target="_blank">here</a> to view.</p>')
     $('.picture-box').prepend('<img class="project-large" src="./public/paige.jpg">');
   };
 
   function appendChairShare(){
     $('.text-box').append('<h1>Something to Buy, Trade, or Sell...</h1>');
-    $('.text-box').append('<p>ChairShare is a full stack web application for high-end used or antique furniture sale. <br><br> This was a group project with Joey Pinhas and Sabrina Mesa. <br><br> I was the front end developer and GitHub Manager. <br><br> The technologies used were: React, PSQL, Node/Express.js, CSS, Cloudinary, React Dropzone, and JSON Web Token user authentication.<br><br>Click <a id="chairshare" href="http://chairshare.herokuapp.com/" target="_blank">here</a> to view.</p>')
+    $('.text-box').append('<p>ChairShare is a full stack web application for high-end used or antique furniture sale. <br><br> This was a group project with Joey Pinhas and Sabrina Mesa. <br><br> I was the front end developer and GitHub Manager. <br><br> The technologies used were: React, PSQL, Node/Express.js, CSS, Cloudinary, React Dropzone, and JSON Web Token user authentication.<br><br>Click <a href="http://chairshare.herokuapp.com/" target="_blank">here</a> to view.</p>')
     $('.picture-box').prepend('<img class="project-large" src="./public/chairshare-mac.jpg">');
   };
 
   function appendGroupIt(){
     $('.text-box').append('<h1>Something to Share...</h1>');
-    $('.text-box').append('<p>GroupIt - Full Stack Social Media Web application.<br><br>This was my final project at General Assembly. Finished in one week. <br><br> A user joins GroupIt for private group content sharing. He can create a group with specific members, be a part of many groups, post content, delete content, and edit user information. <br><br> The application is built in React with a Node/Express and PSQL back end. <br><br>Click <a id="groupit" href="http://groupit-react.herokuapp.com/" target="_blank">here</a> to view.</p>')
+    $('.text-box').append('<p>GroupIt - Full Stack Social Media Web application.<br><br>This was my final project at General Assembly. Finished in one week. <br><br> A user joins GroupIt for private group content sharing. He can create a group with specific members, be a part of many groups, post content, delete content, and edit user information. <br><br> The application is built in React with a Node/Express and PSQL back end. <br><br>Click <a href="http://groupit-react.herokuapp.com/" target="_blank">here</a> to view.</p>')
     $('.picture-box').prepend('<img class="project-large" src="./public/groupit-mac.jpg">');
   };
 
