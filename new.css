@@ -417,7 +417,7 @@ h1, h2, h3, p {
         }
 
 .skills-education {
-  height: 60vh;
+  height: 70vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -447,7 +447,7 @@ h1, h2, h3, p {
 
         .skills {
           height: 100%;
-          width: 40%;
+          width: 50%;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -456,7 +456,7 @@ h1, h2, h3, p {
 
         .education {
           height: 100%;
-          width: 60%;
+          width: 48%;
           display: flex;
           flex-direction: column;
           justify-content: center;
