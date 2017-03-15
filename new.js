@@ -1,5 +1,10 @@
 $(function(){
 
+  // In lieu of a nav bar, I decided to add fixed scroll buttons to the right side
+  // of the application. This function checks the scroll position on the browser, and
+  // changes the properties of the buttons to show which section the visitor is on by
+  // filling in the background color. It also changes the color so it can be viewed on
+  // the white background.
   function scrolling(){
     $(window).scroll(function(){
       let scrollTop = document.querySelector("body").scrollTop;
@@ -25,6 +30,10 @@ $(function(){
   }
   scrolling();
 
+
+  // These event handlers activate the hamburger menu on the portrait mobile
+  // view of the site. When clicked, the menu opens. When the visitor chooses
+  // a section, it closes the menu and navigates to the desired section.
   $('#hamburger').click(function() {
     $('.hamburger-menu').toggleClass('hamburger-active');
     $('.portfolio-more').toggleClass('hamburger-position');
@@ -37,6 +46,13 @@ $(function(){
     $('.portfolio-background').removeClass('hamburger-position');
   });
 
+
+  // This set of functions handles the CSS transition to change the view of the
+  // portfolio section. Each section has different material that is appended to
+  // the div. It also handles the back button, which reverses the effect (allowing)
+  // the visitor to see more information of different portfolio pieces. The setTimeout
+  // is key in ensuring the animation has clear separation and doesn't make the new dom
+  // elements append too soon.
   $('#doggieDate').click(function() {
     $('.portfolio').toggleClass('clicked');
     function doggieModal(){
@@ -93,6 +109,11 @@ $(function(){
     }; setTimeout(comeBack, 1400);
   });
 
+
+  // for separation of concerns, these append/remove functions handle
+  // which content will be inside the specific portfolio view and then
+  // removes the content when they click back. They also provide links
+  // that open a new browser tab to open each hosted project.
   function removeElements(){
     $('.text-box').children('h1').remove();
     $('.text-box').children('br').remove();
@@ -136,6 +157,8 @@ $(function(){
     $('.picture-box').prepend('<img class="project-large" src="./public/pokemon-mac.jpg">');
   };
 
+  // These event handlers handle scroll animation for the scroll bar. When
+  // a section is clicked, it slowly scrolls to that position.
   $('#scroll-one').click(function() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
   });
@@ -156,6 +179,9 @@ $(function(){
     $("html, body").animate({ scrollTop: 3200 }, "slow");
   });
 
+
+  // These event handlers open a new browser tab to navigate to my resume,
+  // social media and github repositories.
   $('#resume').click(function() {
     window.open("https://docs.google.com/document/d/1LpTiBCLK383Y_5p1KJXEKBAvt10UfUC6e6PG5cZJo_o/edit?usp=sharing", "_blank");
   });
